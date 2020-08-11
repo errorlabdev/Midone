@@ -1,0 +1,1827 @@
+<!DOCTYPE html>
+<!--
+Template Name: Midone - HTML Admin Dashboard Template
+Author: Left4code
+Website: http://www.left4code.com/
+Contact: muhammadrizki@left4code.com
+Purchase: https://themeforest.net/user/left4code/portfolio
+Renew Support: https://themeforest.net/user/left4code/portfolio
+License: You must have a valid license purchased only from themeforest(the above link) in order to legally use the theme for your project.
+-->
+<html lang="en">
+    <!-- BEGIN: Head -->
+    <head>
+        <meta charset="utf-8">
+        <link href="dist/images/logo.svg" rel="shortcut icon">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Midone admin is super flexible, powerful, clean & modern responsive tailwind admin template with unlimited possibilities.">
+        <meta name="keywords" content="admin template, Midone admin template, dashboard template, flat admin template, responsive admin template, web app">
+        <meta name="author" content="LEFT4CODE">
+        <title>Profile - Midone - Tailwind HTML Admin Template</title>
+        <!-- BEGIN: CSS Assets-->
+        <link rel="stylesheet" href="dist/css/app.css" />
+        <!-- END: CSS Assets-->
+    </head>
+    <!-- END: Head -->
+    <body class="app">
+        <!-- BEGIN: Mobile Menu -->
+        <div class="mobile-menu md:hidden">
+            <div class="mobile-menu-bar">
+                <a href="" class="flex mr-auto">
+                    <img alt="Midone Tailwind HTML Admin Template" class="w-6" src="dist/images/logo.svg">
+                </a>
+                <a href="javascript:;" id="mobile-menu-toggler"> <i data-feather="bar-chart-2" class="w-8 h-8 text-white transform -rotate-90"></i> </a>
+            </div>
+            <ul class="border-t border-theme-24 py-5 hidden">
+                <li>
+                    <a href="index.html" class="menu">
+                        <div class="menu__icon"> <i data-feather="home"></i> </div>
+                        <div class="menu__title"> Dashboard </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;" class="menu">
+                        <div class="menu__icon"> <i data-feather="box"></i> </div>
+                        <div class="menu__title"> Menu Layout <i data-feather="chevron-down" class="menu__sub-icon"></i> </div>
+                    </a>
+                    <ul class="">
+                        <li>
+                            <a href="index.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Side Menu </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="simple-menu-dashboard.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Simple Menu </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="top-menu-dashboard.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Top Menu </div>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="side-menu-inbox.html" class="menu">
+                        <div class="menu__icon"> <i data-feather="inbox"></i> </div>
+                        <div class="menu__title"> Inbox </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="side-menu-file-manager.html" class="menu">
+                        <div class="menu__icon"> <i data-feather="hard-drive"></i> </div>
+                        <div class="menu__title"> File Manager </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="side-menu-point-of-sale.html" class="menu">
+                        <div class="menu__icon"> <i data-feather="credit-card"></i> </div>
+                        <div class="menu__title"> Point of Sale </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="side-menu-chat.html" class="menu">
+                        <div class="menu__icon"> <i data-feather="message-square"></i> </div>
+                        <div class="menu__title"> Chat </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="side-menu-post.html" class="menu">
+                        <div class="menu__icon"> <i data-feather="file-text"></i> </div>
+                        <div class="menu__title"> Post </div>
+                    </a>
+                </li>
+                <li class="menu__devider my-6"></li>
+                <li>
+                    <a href="javascript:;" class="menu">
+                        <div class="menu__icon"> <i data-feather="edit"></i> </div>
+                        <div class="menu__title"> Crud <i data-feather="chevron-down" class="menu__sub-icon"></i> </div>
+                    </a>
+                    <ul class="">
+                        <li>
+                            <a href="side-menu-crud-data-list.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Data List </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="side-menu-crud-form.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Form </div>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript:;" class="menu">
+                        <div class="menu__icon"> <i data-feather="users"></i> </div>
+                        <div class="menu__title"> Users <i data-feather="chevron-down" class="menu__sub-icon"></i> </div>
+                    </a>
+                    <ul class="">
+                        <li>
+                            <a href="side-menu-users-layout-1.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Layout 1 </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="side-menu-users-layout-2.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Layout 2 </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="side-menu-users-layout-3.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Layout 3 </div>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript:;.html" class="menu menu--active">
+                        <div class="menu__icon"> <i data-feather="trello"></i> </div>
+                        <div class="menu__title"> Profile <i data-feather="chevron-down" class="menu__sub-icon"></i> </div>
+                    </a>
+                    <ul class="menu__sub-open">
+                        <li>
+                            <a href="side-menu-profile-overview-1.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Overview 1 </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="side-menu-profile-overview-2.html" class="menu menu--active">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Overview 2 </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="side-menu-profile-overview-3.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Overview 3 </div>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript:;" class="menu">
+                        <div class="menu__icon"> <i data-feather="layout"></i> </div>
+                        <div class="menu__title"> Pages <i data-feather="chevron-down" class="menu__sub-icon"></i> </div>
+                    </a>
+                    <ul class="">
+                        <li>
+                            <a href="javascript:;" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Wizards <i data-feather="chevron-down" class="menu__sub-icon"></i> </div>
+                            </a>
+                            <ul class="">
+                                <li>
+                                    <a href="side-menu-wizard-layout-1.html" class="menu">
+                                        <div class="menu__icon"> <i data-feather="zap"></i> </div>
+                                        <div class="menu__title">Layout 1</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="side-menu-wizard-layout-2.html" class="menu">
+                                        <div class="menu__icon"> <i data-feather="zap"></i> </div>
+                                        <div class="menu__title">Layout 2</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="side-menu-wizard-layout-3.html" class="menu">
+                                        <div class="menu__icon"> <i data-feather="zap"></i> </div>
+                                        <div class="menu__title">Layout 3</div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript:;" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Blog <i data-feather="chevron-down" class="menu__sub-icon"></i> </div>
+                            </a>
+                            <ul class="">
+                                <li>
+                                    <a href="side-menu-blog-layout-1.html" class="menu">
+                                        <div class="menu__icon"> <i data-feather="zap"></i> </div>
+                                        <div class="menu__title">Layout 1</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="side-menu-blog-layout-2.html" class="menu">
+                                        <div class="menu__icon"> <i data-feather="zap"></i> </div>
+                                        <div class="menu__title">Layout 2</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="side-menu-blog-layout-3.html" class="menu">
+                                        <div class="menu__icon"> <i data-feather="zap"></i> </div>
+                                        <div class="menu__title">Layout 3</div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript:;" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Pricing <i data-feather="chevron-down" class="menu__sub-icon"></i> </div>
+                            </a>
+                            <ul class="">
+                                <li>
+                                    <a href="side-menu-pricing-layout-1.html" class="menu">
+                                        <div class="menu__icon"> <i data-feather="zap"></i> </div>
+                                        <div class="menu__title">Layout 1</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="side-menu-pricing-layout-2.html" class="menu">
+                                        <div class="menu__icon"> <i data-feather="zap"></i> </div>
+                                        <div class="menu__title">Layout 2</div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript:;" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Invoice <i data-feather="chevron-down" class="menu__sub-icon"></i> </div>
+                            </a>
+                            <ul class="">
+                                <li>
+                                    <a href="side-menu-invoice-layout-1.html" class="menu">
+                                        <div class="menu__icon"> <i data-feather="zap"></i> </div>
+                                        <div class="menu__title">Layout 1</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="side-menu-invoice-layout-2.html" class="menu">
+                                        <div class="menu__icon"> <i data-feather="zap"></i> </div>
+                                        <div class="menu__title">Layout 2</div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript:;" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> FAQ <i data-feather="chevron-down" class="menu__sub-icon"></i> </div>
+                            </a>
+                            <ul class="">
+                                <li>
+                                    <a href="side-menu-faq-layout-1.html" class="menu">
+                                        <div class="menu__icon"> <i data-feather="zap"></i> </div>
+                                        <div class="menu__title">Layout 1</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="side-menu-faq-layout-2.html" class="menu">
+                                        <div class="menu__icon"> <i data-feather="zap"></i> </div>
+                                        <div class="menu__title">Layout 2</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="side-menu-faq-layout-3.html" class="menu">
+                                        <div class="menu__icon"> <i data-feather="zap"></i> </div>
+                                        <div class="menu__title">Layout 3</div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="login-login.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Login </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="login-register.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Register </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="main-error-page.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Error Page </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="side-menu-update-profile.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Update profile </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="side-menu-change-password.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Change Password </div>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="menu__devider my-6"></li>
+                <li>
+                    <a href="javascript:;" class="menu">
+                        <div class="menu__icon"> <i data-feather="inbox"></i> </div>
+                        <div class="menu__title"> Components <i data-feather="chevron-down" class="menu__sub-icon"></i> </div>
+                    </a>
+                    <ul class="">
+                        <li>
+                            <a href="javascript:;" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Grid <i data-feather="chevron-down" class="menu__sub-icon"></i> </div>
+                            </a>
+                            <ul class="">
+                                <li>
+                                    <a href="side-menu-regular-table.html" class="menu">
+                                        <div class="menu__icon"> <i data-feather="zap"></i> </div>
+                                        <div class="menu__title">Regular Table</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="side-menu-datatable.html" class="menu">
+                                        <div class="menu__icon"> <i data-feather="zap"></i> </div>
+                                        <div class="menu__title">Datatable</div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="side-menu-accordion.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Accordion </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="side-menu-button.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Button </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="side-menu-modal.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Modal </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="side-menu-alert.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Alert </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="side-menu-progress-bar.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Progress Bar </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="side-menu-tooltip.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Tooltip </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="side-menu-dropdown.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Dropdown </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="side-menu-toast.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Toast </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="side-menu-typography.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Typography </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="side-menu-icon.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Icon </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="side-menu-loading-icon.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Loading Icon </div>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript:;" class="menu">
+                        <div class="menu__icon"> <i data-feather="sidebar"></i> </div>
+                        <div class="menu__title"> Forms <i data-feather="chevron-down" class="menu__sub-icon"></i> </div>
+                    </a>
+                    <ul class="">
+                        <li>
+                            <a href="side-menu-regular-form.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Regular Form </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="side-menu-datepicker.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Datepicker </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="side-menu-select2.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Select2 </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="side-menu-file-upload.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> File Upload </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="side-menu-wysiwyg-editor.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Wysiwyg Editor </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="side-menu-validation.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Validation </div>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript:;" class="menu">
+                        <div class="menu__icon"> <i data-feather="hard-drive"></i> </div>
+                        <div class="menu__title"> Widgets <i data-feather="chevron-down" class="menu__sub-icon"></i> </div>
+                    </a>
+                    <ul class="">
+                        <li>
+                            <a href="side-menu-chart.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Chart </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="side-menu-slider.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Slider </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="side-menu-image-zoom.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Image Zoom </div>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <!-- END: Mobile Menu -->
+        <div class="flex">
+            <!-- BEGIN: Simple Menu -->
+            <nav class="side-nav side-nav--simple">
+                <a href="" class="intro-x flex items-center pl-5 pt-4">
+                    <img alt="Midone Tailwind HTML Admin Template" class="w-6" src="dist/images/logo.svg">
+                </a>
+                <div class="side-nav__devider my-6"></div>
+                <ul>
+                    <li>
+                        <a href="simple-menu-dashboard.html" class="side-menu">
+                            <div class="side-menu__icon"> <i data-feather="home"></i> </div>
+                            <div class="side-menu__title"> Dashboard </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;" class="side-menu">
+                            <div class="side-menu__icon"> <i data-feather="box"></i> </div>
+                            <div class="side-menu__title"> Menu Layout <i data-feather="chevron-down" class="side-menu__sub-icon"></i> </div>
+                        </a>
+                        <ul class="">
+                            <li>
+                                <a href="index.html" class="side-menu">
+                                    <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                    <div class="side-menu__title"> Side Menu </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="simple-menu-dashboard.html" class="side-menu">
+                                    <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                    <div class="side-menu__title"> Simple Menu </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="top-menu-dashboard.html" class="side-menu">
+                                    <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                    <div class="side-menu__title"> Top Menu </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="simple-menu-inbox.html" class="side-menu">
+                            <div class="side-menu__icon"> <i data-feather="inbox"></i> </div>
+                            <div class="side-menu__title"> Inbox </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="simple-menu-file-manager.html" class="side-menu">
+                            <div class="side-menu__icon"> <i data-feather="hard-drive"></i> </div>
+                            <div class="side-menu__title"> File Manager </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="simple-menu-point-of-sale.html" class="side-menu">
+                            <div class="side-menu__icon"> <i data-feather="credit-card"></i> </div>
+                            <div class="side-menu__title"> Point of Sale </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="simple-menu-chat.html" class="side-menu">
+                            <div class="side-menu__icon"> <i data-feather="message-square"></i> </div>
+                            <div class="side-menu__title"> Chat </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="simple-menu-post.html" class="side-menu">
+                            <div class="side-menu__icon"> <i data-feather="file-text"></i> </div>
+                            <div class="side-menu__title"> Post </div>
+                        </a>
+                    </li>
+                    <li class="side-nav__devider my-6"></li>
+                    <li>
+                        <a href="javascript:;" class="side-menu">
+                            <div class="side-menu__icon"> <i data-feather="edit"></i> </div>
+                            <div class="side-menu__title"> Crud <i data-feather="chevron-down" class="side-menu__sub-icon"></i> </div>
+                        </a>
+                        <ul class="">
+                            <li>
+                                <a href="side-menu-crud-data-list.html" class="side-menu">
+                                    <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                    <div class="side-menu__title"> Data List </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="side-menu-crud-form.html" class="side-menu">
+                                    <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                    <div class="side-menu__title"> Form </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:;" class="side-menu">
+                            <div class="side-menu__icon"> <i data-feather="users"></i> </div>
+                            <div class="side-menu__title"> Users <i data-feather="chevron-down" class="side-menu__sub-icon"></i> </div>
+                        </a>
+                        <ul class="">
+                            <li>
+                                <a href="simple-menu-users-layout-1.html" class="side-menu">
+                                    <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                    <div class="side-menu__title"> Layout 1 </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="simple-menu-users-layout-2.html" class="side-menu">
+                                    <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                    <div class="side-menu__title"> Layout 2 </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="simple-menu-users-layout-3.html" class="side-menu">
+                                    <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                    <div class="side-menu__title"> Layout 3 </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:;.html" class="side-menu side-menu--active">
+                            <div class="side-menu__icon"> <i data-feather="trello"></i> </div>
+                            <div class="side-menu__title"> Profile <i data-feather="chevron-down" class="side-menu__sub-icon"></i> </div>
+                        </a>
+                        <ul class="side-menu__sub-open">
+                            <li>
+                                <a href="simple-menu-profile-overview-1.html" class="side-menu">
+                                    <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                    <div class="side-menu__title"> Overview 1 </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="simple-menu-profile-overview-2.html" class="side-menu side-menu--active">
+                                    <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                    <div class="side-menu__title"> Overview 2 </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="simple-menu-profile-overview-3.html" class="side-menu">
+                                    <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                    <div class="side-menu__title"> Overview 3 </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:;" class="side-menu">
+                            <div class="side-menu__icon"> <i data-feather="layout"></i> </div>
+                            <div class="side-menu__title"> Pages <i data-feather="chevron-down" class="side-menu__sub-icon"></i> </div>
+                        </a>
+                        <ul class="">
+                            <li>
+                                <a href="javascript:;" class="side-menu">
+                                    <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                    <div class="side-menu__title"> Wizards <i data-feather="chevron-down" class="side-menu__sub-icon"></i> </div>
+                                </a>
+                                <ul class="">
+                                    <li>
+                                        <a href="simple-menu-wizard-layout-1.html" class="side-menu">
+                                            <div class="side-menu__icon"> <i data-feather="zap"></i> </div>
+                                            <div class="side-menu__title">Layout 1</div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="simple-menu-wizard-layout-2.html" class="side-menu">
+                                            <div class="side-menu__icon"> <i data-feather="zap"></i> </div>
+                                            <div class="side-menu__title">Layout 2</div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="simple-menu-wizard-layout-3.html" class="side-menu">
+                                            <div class="side-menu__icon"> <i data-feather="zap"></i> </div>
+                                            <div class="side-menu__title">Layout 3</div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="javascript:;" class="side-menu">
+                                    <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                    <div class="side-menu__title"> Blog <i data-feather="chevron-down" class="side-menu__sub-icon"></i> </div>
+                                </a>
+                                <ul class="">
+                                    <li>
+                                        <a href="simple-menu-blog-layout-1.html" class="side-menu">
+                                            <div class="side-menu__icon"> <i data-feather="zap"></i> </div>
+                                            <div class="side-menu__title">Layout 1</div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="simple-menu-blog-layout-2.html" class="side-menu">
+                                            <div class="side-menu__icon"> <i data-feather="zap"></i> </div>
+                                            <div class="side-menu__title">Layout 2</div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="simple-menu-blog-layout-3.html" class="side-menu">
+                                            <div class="side-menu__icon"> <i data-feather="zap"></i> </div>
+                                            <div class="side-menu__title">Layout 3</div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="javascript:;" class="side-menu">
+                                    <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                    <div class="side-menu__title"> Pricing <i data-feather="chevron-down" class="side-menu__sub-icon"></i> </div>
+                                </a>
+                                <ul class="">
+                                    <li>
+                                        <a href="simple-menu-pricing-layout-1.html" class="side-menu">
+                                            <div class="side-menu__icon"> <i data-feather="zap"></i> </div>
+                                            <div class="side-menu__title">Layout 1</div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="simple-menu-pricing-layout-2.html" class="side-menu">
+                                            <div class="side-menu__icon"> <i data-feather="zap"></i> </div>
+                                            <div class="side-menu__title">Layout 2</div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="javascript:;" class="side-menu">
+                                    <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                    <div class="side-menu__title"> Invoice <i data-feather="chevron-down" class="side-menu__sub-icon"></i> </div>
+                                </a>
+                                <ul class="">
+                                    <li>
+                                        <a href="simple-menu-invoice-layout-1.html" class="side-menu">
+                                            <div class="side-menu__icon"> <i data-feather="zap"></i> </div>
+                                            <div class="side-menu__title">Layout 1</div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="simple-menu-invoice-layout-2.html" class="side-menu">
+                                            <div class="side-menu__icon"> <i data-feather="zap"></i> </div>
+                                            <div class="side-menu__title">Layout 2</div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="javascript:;" class="side-menu">
+                                    <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                    <div class="side-menu__title"> FAQ <i data-feather="chevron-down" class="side-menu__sub-icon"></i> </div>
+                                </a>
+                                <ul class="">
+                                    <li>
+                                        <a href="simple-menu-faq-layout-1.html" class="side-menu">
+                                            <div class="side-menu__icon"> <i data-feather="zap"></i> </div>
+                                            <div class="side-menu__title">Layout 1</div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="simple-menu-faq-layout-2.html" class="side-menu">
+                                            <div class="side-menu__icon"> <i data-feather="zap"></i> </div>
+                                            <div class="side-menu__title">Layout 2</div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="simple-menu-faq-layout-3.html" class="side-menu">
+                                            <div class="side-menu__icon"> <i data-feather="zap"></i> </div>
+                                            <div class="side-menu__title">Layout 3</div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="login-login.html" class="side-menu">
+                                    <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                    <div class="side-menu__title"> Login </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="login-register.html" class="side-menu">
+                                    <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                    <div class="side-menu__title"> Register </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="main-error-page.html" class="side-menu">
+                                    <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                    <div class="side-menu__title"> Error Page </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="simple-menu-update-profile.html" class="side-menu">
+                                    <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                    <div class="side-menu__title"> Update profile </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="simple-menu-change-password.html" class="side-menu">
+                                    <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                    <div class="side-menu__title"> Change Password </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="side-nav__devider my-6"></li>
+                    <li>
+                        <a href="javascript:;" class="side-menu">
+                            <div class="side-menu__icon"> <i data-feather="inbox"></i> </div>
+                            <div class="side-menu__title"> Components <i data-feather="chevron-down" class="side-menu__sub-icon"></i> </div>
+                        </a>
+                        <ul class="">
+                            <li>
+                                <a href="javascript:;" class="side-menu">
+                                    <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                    <div class="side-menu__title"> Grid <i data-feather="chevron-down" class="side-menu__sub-icon"></i> </div>
+                                </a>
+                                <ul class="">
+                                    <li>
+                                        <a href="simple-menu-regular-table.html" class="side-menu">
+                                            <div class="side-menu__icon"> <i data-feather="zap"></i> </div>
+                                            <div class="side-menu__title">Regular Table</div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="simple-menu-datatable.html" class="side-menu">
+                                            <div class="side-menu__icon"> <i data-feather="zap"></i> </div>
+                                            <div class="side-menu__title">Datatable</div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="simple-menu-accordion.html" class="side-menu">
+                                    <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                    <div class="side-menu__title"> Accordion </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="simple-menu-button.html" class="side-menu">
+                                    <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                    <div class="side-menu__title"> Button </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="simple-menu-modal.html" class="side-menu">
+                                    <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                    <div class="side-menu__title"> Modal </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="simple-menu-alert.html" class="side-menu">
+                                    <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                    <div class="side-menu__title"> Alert </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="simple-menu-progress-bar.html" class="side-menu">
+                                    <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                    <div class="side-menu__title"> Progress Bar </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="simple-menu-tooltip.html" class="side-menu">
+                                    <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                    <div class="side-menu__title"> Tooltip </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="simple-menu-dropdown.html" class="side-menu">
+                                    <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                    <div class="side-menu__title"> Dropdown </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="simple-menu-toast.html" class="side-menu">
+                                    <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                    <div class="side-menu__title"> Toast </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="simple-menu-typography.html" class="side-menu">
+                                    <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                    <div class="side-menu__title"> Typography </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="simple-menu-icon.html" class="side-menu">
+                                    <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                    <div class="side-menu__title"> Icon </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="side-menu-loading-icon.html" class="side-menu">
+                                    <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                    <div class="side-menu__title"> Loading Icon </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:;" class="side-menu">
+                            <div class="side-menu__icon"> <i data-feather="sidebar"></i> </div>
+                            <div class="side-menu__title"> Forms <i data-feather="chevron-down" class="side-menu__sub-icon"></i> </div>
+                        </a>
+                        <ul class="">
+                            <li>
+                                <a href="simple-menu-regular-form.html" class="side-menu">
+                                    <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                    <div class="side-menu__title"> Regular Form </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="simple-menu-datepicker.html" class="side-menu">
+                                    <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                    <div class="side-menu__title"> Datepicker </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="simple-menu-select2.html" class="side-menu">
+                                    <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                    <div class="side-menu__title"> Select2 </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="simple-menu-file-upload.html" class="side-menu">
+                                    <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                    <div class="side-menu__title"> File Upload </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="simple-menu-wysiwyg-editor.html" class="side-menu">
+                                    <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                    <div class="side-menu__title"> Wysiwyg Editor </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="simple-menu-validation.html" class="side-menu">
+                                    <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                    <div class="side-menu__title"> Validation </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:;" class="side-menu">
+                            <div class="side-menu__icon"> <i data-feather="hard-drive"></i> </div>
+                            <div class="side-menu__title"> Widgets <i data-feather="chevron-down" class="side-menu__sub-icon"></i> </div>
+                        </a>
+                        <ul class="">
+                            <li>
+                                <a href="simple-menu-chart.html" class="side-menu">
+                                    <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                    <div class="side-menu__title"> Chart </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="simple-menu-slider.html" class="side-menu">
+                                    <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                    <div class="side-menu__title"> Slider </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="simple-menu-image-zoom.html" class="side-menu">
+                                    <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                    <div class="side-menu__title"> Image Zoom </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <!-- END: Simple Menu -->
+            <!-- BEGIN: Content -->
+            <div class="content">
+                <!-- BEGIN: Top Bar -->
+                <div class="top-bar">
+                    <!-- BEGIN: Breadcrumb -->
+                    <div class="-intro-x breadcrumb mr-auto hidden sm:flex"> <a href="" class="">Application</a> <i data-feather="chevron-right" class="breadcrumb__icon"></i> <a href="" class="breadcrumb--active">Dashboard</a> </div>
+                    <!-- END: Breadcrumb -->
+                    <!-- BEGIN: Search -->
+                    <div class="intro-x relative mr-3 sm:mr-6">
+                        <div class="search hidden sm:block">
+                            <input type="text" class="search__input input placeholder-theme-13" placeholder="Search...">
+                            <i data-feather="search" class="search__icon"></i> 
+                        </div>
+                        <a class="notification sm:hidden" href=""> <i data-feather="search" class="notification__icon"></i> </a>
+                        <div class="search-result">
+                            <div class="search-result__content">
+                                <div class="search-result__content__title">Pages</div>
+                                <div class="mb-5">
+                                    <a href="" class="flex items-center">
+                                        <div class="w-8 h-8 bg-theme-18 text-theme-9 flex items-center justify-center rounded-full"> <i class="w-4 h-4" data-feather="inbox"></i> </div>
+                                        <div class="ml-3">Mail Settings</div>
+                                    </a>
+                                    <a href="" class="flex items-center mt-2">
+                                        <div class="w-8 h-8 bg-theme-17 text-theme-11 flex items-center justify-center rounded-full"> <i class="w-4 h-4" data-feather="users"></i> </div>
+                                        <div class="ml-3">Users & Permissions</div>
+                                    </a>
+                                    <a href="" class="flex items-center mt-2">
+                                        <div class="w-8 h-8 bg-theme-14 text-theme-10 flex items-center justify-center rounded-full"> <i class="w-4 h-4" data-feather="credit-card"></i> </div>
+                                        <div class="ml-3">Transactions Report</div>
+                                    </a>
+                                </div>
+                                <div class="search-result__content__title">Users</div>
+                                <div class="mb-5">
+                                    <a href="" class="flex items-center mt-2">
+                                        <div class="w-8 h-8 image-fit">
+                                            <img alt="Midone Tailwind HTML Admin Template" class="rounded-full" src="dist/images/profile-5.jpg">
+                                        </div>
+                                        <div class="ml-3">Kate Winslet</div>
+                                        <div class="ml-auto w-48 truncate text-gray-600 text-xs text-right">katewinslet@left4code.com</div>
+                                    </a>
+                                    <a href="" class="flex items-center mt-2">
+                                        <div class="w-8 h-8 image-fit">
+                                            <img alt="Midone Tailwind HTML Admin Template" class="rounded-full" src="dist/images/profile-14.jpg">
+                                        </div>
+                                        <div class="ml-3">Johnny Depp</div>
+                                        <div class="ml-auto w-48 truncate text-gray-600 text-xs text-right">johnnydepp@left4code.com</div>
+                                    </a>
+                                    <a href="" class="flex items-center mt-2">
+                                        <div class="w-8 h-8 image-fit">
+                                            <img alt="Midone Tailwind HTML Admin Template" class="rounded-full" src="dist/images/profile-13.jpg">
+                                        </div>
+                                        <div class="ml-3">Al Pacino</div>
+                                        <div class="ml-auto w-48 truncate text-gray-600 text-xs text-right">alpacino@left4code.com</div>
+                                    </a>
+                                    <a href="" class="flex items-center mt-2">
+                                        <div class="w-8 h-8 image-fit">
+                                            <img alt="Midone Tailwind HTML Admin Template" class="rounded-full" src="dist/images/profile-11.jpg">
+                                        </div>
+                                        <div class="ml-3">Brad Pitt</div>
+                                        <div class="ml-auto w-48 truncate text-gray-600 text-xs text-right">bradpitt@left4code.com</div>
+                                    </a>
+                                </div>
+                                <div class="search-result__content__title">Products</div>
+                                <a href="" class="flex items-center mt-2">
+                                    <div class="w-8 h-8 image-fit">
+                                        <img alt="Midone Tailwind HTML Admin Template" class="rounded-full" src="dist/images/preview-10.jpg">
+                                    </div>
+                                    <div class="ml-3">Apple MacBook Pro 13</div>
+                                    <div class="ml-auto w-48 truncate text-gray-600 text-xs text-right">PC &amp; Laptop</div>
+                                </a>
+                                <a href="" class="flex items-center mt-2">
+                                    <div class="w-8 h-8 image-fit">
+                                        <img alt="Midone Tailwind HTML Admin Template" class="rounded-full" src="dist/images/preview-11.jpg">
+                                    </div>
+                                    <div class="ml-3">Dell XPS 13</div>
+                                    <div class="ml-auto w-48 truncate text-gray-600 text-xs text-right">PC &amp; Laptop</div>
+                                </a>
+                                <a href="" class="flex items-center mt-2">
+                                    <div class="w-8 h-8 image-fit">
+                                        <img alt="Midone Tailwind HTML Admin Template" class="rounded-full" src="dist/images/preview-15.jpg">
+                                    </div>
+                                    <div class="ml-3">Samsung Q90 QLED TV</div>
+                                    <div class="ml-auto w-48 truncate text-gray-600 text-xs text-right">Electronic</div>
+                                </a>
+                                <a href="" class="flex items-center mt-2">
+                                    <div class="w-8 h-8 image-fit">
+                                        <img alt="Midone Tailwind HTML Admin Template" class="rounded-full" src="dist/images/preview-1.jpg">
+                                    </div>
+                                    <div class="ml-3">Samsung Galaxy S20 Ultra</div>
+                                    <div class="ml-auto w-48 truncate text-gray-600 text-xs text-right">Smartphone &amp; Tablet</div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END: Search -->
+                    <!-- BEGIN: Notifications -->
+                    <div class="intro-x dropdown relative mr-auto sm:mr-6">
+                        <div class="dropdown-toggle notification notification--bullet cursor-pointer"> <i data-feather="bell" class="notification__icon"></i> </div>
+                        <div class="notification-content dropdown-box mt-8 absolute top-0 left-0 sm:left-auto sm:right-0 z-20 -ml-10 sm:ml-0">
+                            <div class="notification-content__box dropdown-box__content box">
+                                <div class="notification-content__title">Notifications</div>
+                                <div class="cursor-pointer relative flex items-center ">
+                                    <div class="w-12 h-12 flex-none image-fit mr-1">
+                                        <img alt="Midone Tailwind HTML Admin Template" class="rounded-full" src="dist/images/profile-5.jpg">
+                                        <div class="w-3 h-3 bg-theme-9 absolute right-0 bottom-0 rounded-full border-2 border-white"></div>
+                                    </div>
+                                    <div class="ml-2 overflow-hidden">
+                                        <div class="flex items-center">
+                                            <a href="javascript:;" class="font-medium truncate mr-5">Kate Winslet</a> 
+                                            <div class="text-xs text-gray-500 ml-auto whitespace-no-wrap">05:09 AM</div>
+                                        </div>
+                                        <div class="w-full truncate text-gray-600">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#039;s standard dummy text ever since the 1500</div>
+                                    </div>
+                                </div>
+                                <div class="cursor-pointer relative flex items-center mt-5">
+                                    <div class="w-12 h-12 flex-none image-fit mr-1">
+                                        <img alt="Midone Tailwind HTML Admin Template" class="rounded-full" src="dist/images/profile-14.jpg">
+                                        <div class="w-3 h-3 bg-theme-9 absolute right-0 bottom-0 rounded-full border-2 border-white"></div>
+                                    </div>
+                                    <div class="ml-2 overflow-hidden">
+                                        <div class="flex items-center">
+                                            <a href="javascript:;" class="font-medium truncate mr-5">Johnny Depp</a> 
+                                            <div class="text-xs text-gray-500 ml-auto whitespace-no-wrap">06:05 AM</div>
+                                        </div>
+                                        <div class="w-full truncate text-gray-600">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 20</div>
+                                    </div>
+                                </div>
+                                <div class="cursor-pointer relative flex items-center mt-5">
+                                    <div class="w-12 h-12 flex-none image-fit mr-1">
+                                        <img alt="Midone Tailwind HTML Admin Template" class="rounded-full" src="dist/images/profile-13.jpg">
+                                        <div class="w-3 h-3 bg-theme-9 absolute right-0 bottom-0 rounded-full border-2 border-white"></div>
+                                    </div>
+                                    <div class="ml-2 overflow-hidden">
+                                        <div class="flex items-center">
+                                            <a href="javascript:;" class="font-medium truncate mr-5">Al Pacino</a> 
+                                            <div class="text-xs text-gray-500 ml-auto whitespace-no-wrap">01:10 PM</div>
+                                        </div>
+                                        <div class="w-full truncate text-gray-600">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 20</div>
+                                    </div>
+                                </div>
+                                <div class="cursor-pointer relative flex items-center mt-5">
+                                    <div class="w-12 h-12 flex-none image-fit mr-1">
+                                        <img alt="Midone Tailwind HTML Admin Template" class="rounded-full" src="dist/images/profile-11.jpg">
+                                        <div class="w-3 h-3 bg-theme-9 absolute right-0 bottom-0 rounded-full border-2 border-white"></div>
+                                    </div>
+                                    <div class="ml-2 overflow-hidden">
+                                        <div class="flex items-center">
+                                            <a href="javascript:;" class="font-medium truncate mr-5">Brad Pitt</a> 
+                                            <div class="text-xs text-gray-500 ml-auto whitespace-no-wrap">05:09 AM</div>
+                                        </div>
+                                        <div class="w-full truncate text-gray-600">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#039;s standard dummy text ever since the 1500</div>
+                                    </div>
+                                </div>
+                                <div class="cursor-pointer relative flex items-center mt-5">
+                                    <div class="w-12 h-12 flex-none image-fit mr-1">
+                                        <img alt="Midone Tailwind HTML Admin Template" class="rounded-full" src="dist/images/profile-8.jpg">
+                                        <div class="w-3 h-3 bg-theme-9 absolute right-0 bottom-0 rounded-full border-2 border-white"></div>
+                                    </div>
+                                    <div class="ml-2 overflow-hidden">
+                                        <div class="flex items-center">
+                                            <a href="javascript:;" class="font-medium truncate mr-5">Kevin Spacey</a> 
+                                            <div class="text-xs text-gray-500 ml-auto whitespace-no-wrap">01:10 PM</div>
+                                        </div>
+                                        <div class="w-full truncate text-gray-600">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END: Notifications -->
+                    <!-- BEGIN: Account Menu -->
+                    <div class="intro-x dropdown w-8 h-8 relative">
+                        <div class="dropdown-toggle w-8 h-8 rounded-full overflow-hidden shadow-lg image-fit zoom-in">
+                            <img alt="Midone Tailwind HTML Admin Template" src="dist/images/profile-8.jpg">
+                        </div>
+                        <div class="dropdown-box mt-10 absolute w-56 top-0 right-0 z-20">
+                            <div class="dropdown-box__content box bg-theme-38 text-white">
+                                <div class="p-4 border-b border-theme-40">
+                                    <div class="font-medium">Kate Winslet</div>
+                                    <div class="text-xs text-theme-41">DevOps Engineer</div>
+                                </div>
+                                <div class="p-2">
+                                    <a href="" class="flex items-center block p-2 transition duration-300 ease-in-out hover:bg-theme-1 rounded-md"> <i data-feather="user" class="w-4 h-4 mr-2"></i> Profile </a>
+                                    <a href="" class="flex items-center block p-2 transition duration-300 ease-in-out hover:bg-theme-1 rounded-md"> <i data-feather="edit" class="w-4 h-4 mr-2"></i> Add Account </a>
+                                    <a href="" class="flex items-center block p-2 transition duration-300 ease-in-out hover:bg-theme-1 rounded-md"> <i data-feather="lock" class="w-4 h-4 mr-2"></i> Reset Password </a>
+                                    <a href="" class="flex items-center block p-2 transition duration-300 ease-in-out hover:bg-theme-1 rounded-md"> <i data-feather="help-circle" class="w-4 h-4 mr-2"></i> Help </a>
+                                </div>
+                                <div class="p-2 border-t border-theme-40">
+                                    <a href="" class="flex items-center block p-2 transition duration-300 ease-in-out hover:bg-theme-1 rounded-md"> <i data-feather="toggle-right" class="w-4 h-4 mr-2"></i> Logout </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END: Account Menu -->
+                </div>
+                <!-- END: Top Bar -->
+                <div class="intro-y flex items-center mt-8">
+                    <h2 class="text-lg font-medium mr-auto">
+                        Profile Layout
+                    </h2>
+                </div>
+                <!-- BEGIN: Profile Info -->
+                <div class="intro-y box px-5 pt-5 mt-5">
+                    <div class="flex flex-col lg:flex-row border-b border-gray-200 pb-5 -mx-5">
+                        <div class="flex flex-1 px-5 items-center justify-center lg:justify-start">
+                            <div class="w-20 h-20 sm:w-24 sm:h-24 flex-none lg:w-32 lg:h-32 image-fit relative">
+                                <img alt="Midone Tailwind HTML Admin Template" class="rounded-full" src="dist/images/profile-9.jpg">
+                            </div>
+                            <div class="ml-5">
+                                <div class="w-24 sm:w-40 truncate sm:whitespace-normal font-medium text-lg">Tom Cruise</div>
+                                <div class="text-gray-600">Software Engineer</div>
+                            </div>
+                        </div>
+                        <div class="flex mt-6 lg:mt-0 items-center lg:items-start flex-1 flex-col justify-center text-gray-600 px-5 border-l border-r border-gray-200 border-t lg:border-t-0 pt-5 lg:pt-0">
+                            <div class="truncate sm:whitespace-normal flex items-center"> <i data-feather="mail" class="w-4 h-4 mr-2"></i> tomcruise@left4code.com </div>
+                            <div class="truncate sm:whitespace-normal flex items-center mt-3"> <i data-feather="instagram" class="w-4 h-4 mr-2"></i> Instagram Tom Cruise </div>
+                            <div class="truncate sm:whitespace-normal flex items-center mt-3"> <i data-feather="twitter" class="w-4 h-4 mr-2"></i> Twitter Tom Cruise </div>
+                        </div>
+                        <div class="mt-6 lg:mt-0 flex-1 flex items-center justify-center px-5 border-t lg:border-0 border-gray-200 pt-5 lg:pt-0">
+                            <div class="text-center rounded-md w-20 py-3">
+                                <div class="font-semibold text-theme-1 text-lg">201</div>
+                                <div class="text-gray-600">Orders</div>
+                            </div>
+                            <div class="text-center rounded-md w-20 py-3">
+                                <div class="font-semibold text-theme-1 text-lg">1k</div>
+                                <div class="text-gray-600">Purchases</div>
+                            </div>
+                            <div class="text-center rounded-md w-20 py-3">
+                                <div class="font-semibold text-theme-1 text-lg">492</div>
+                                <div class="text-gray-600">Reviews</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nav-tabs flex flex-col sm:flex-row justify-center lg:justify-start">
+                        <a data-toggle="tab" data-target="#profile" href="javascript:;" class="py-4 sm:mr-8 flex items-center active"> <i class="w-4 h-4 mr-2" data-feather="user"></i> Profile </a>
+                        <a data-toggle="tab" data-target="#account" href="javascript:;" class="py-4 sm:mr-8 flex items-center"> <i class="w-4 h-4 mr-2" data-feather="shield"></i> Account </a>
+                        <a data-toggle="tab" data-target="#change-password" href="javascript:;" class="py-4 sm:mr-8 flex items-center"> <i class="w-4 h-4 mr-2" data-feather="lock"></i> Change Password </a>
+                        <a data-toggle="tab" data-target="#settings" href="javascript:;" class="py-4 sm:mr-8 flex items-center"> <i class="w-4 h-4 mr-2" data-feather="settings"></i> Settings </a>
+                    </div>
+                </div>
+                <!-- END: Profile Info -->
+                <div class="tab-content mt-5">
+                    <div class="tab-content__pane active" id="profile">
+                        <div class="grid grid-cols-12 gap-6">
+                            <!-- BEGIN: Latest Uploads -->
+                            <div class="intro-y box col-span-12 lg:col-span-6">
+                                <div class="flex items-center px-5 py-5 sm:py-3 border-b border-gray-200">
+                                    <h2 class="font-medium text-base mr-auto">
+                                        Latest Uploads
+                                    </h2>
+                                    <div class="dropdown relative ml-auto sm:hidden">
+                                        <a class="dropdown-toggle w-5 h-5 block" href="javascript:;"> <i data-feather="more-horizontal" class="w-5 h-5 text-gray-700"></i> </a>
+                                        <div class="dropdown-box mt-5 absolute w-40 top-0 right-0 z-10">
+                                            <div class="dropdown-box__content box p-2"> <a href="javascript:;" class="block p-2 transition duration-300 ease-in-out bg-white hover:bg-gray-200 rounded-md">All Files</a> </div>
+                                        </div>
+                                    </div>
+                                    <button class="button border text-gray-700 hidden sm:flex">All Files</button>
+                                </div>
+                                <div class="p-5">
+                                    <div class="flex items-center">
+                                        <div class="file"> <a href="" class="w-12 file__icon file__icon--directory"></a> </div>
+                                        <div class="ml-4">
+                                            <a class="font-medium" href="">Documentation</a> 
+                                            <div class="text-gray-600 text-xs">40 KB</div>
+                                        </div>
+                                        <div class="dropdown relative ml-auto">
+                                            <a class="dropdown-toggle w-5 h-5 block" href="javascript:;"> <i data-feather="more-horizontal" class="w-5 h-5 text-gray-700"></i> </a>
+                                            <div class="dropdown-box mt-5 absolute w-40 top-0 right-0 z-20">
+                                                <div class="dropdown-box__content box p-2">
+                                                    <a href="" class="flex items-center block p-2 transition duration-300 ease-in-out bg-white hover:bg-gray-200 rounded-md"> <i data-feather="users" class="w-4 h-4 mr-2"></i> Share File </a>
+                                                    <a href="" class="flex items-center block p-2 transition duration-300 ease-in-out bg-white hover:bg-gray-200 rounded-md"> <i data-feather="trash" class="w-4 h-4 mr-2"></i> Delete </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="flex items-center mt-5">
+                                        <div class="file">
+                                            <a href="" class="w-12 file__icon file__icon--file">
+                                                <div class="file__icon__file-name text-xs">MP3</div>
+                                            </a>
+                                        </div>
+                                        <div class="ml-4">
+                                            <a class="font-medium" href="">Celine Dion - Ashes</a> 
+                                            <div class="text-gray-600 text-xs">40 KB</div>
+                                        </div>
+                                        <div class="dropdown relative ml-auto">
+                                            <a class="dropdown-toggle w-5 h-5 block" href="javascript:;"> <i data-feather="more-horizontal" class="w-5 h-5 text-gray-700"></i> </a>
+                                            <div class="dropdown-box mt-5 absolute w-40 top-0 right-0 z-20">
+                                                <div class="dropdown-box__content box p-2">
+                                                    <a href="" class="flex items-center block p-2 transition duration-300 ease-in-out bg-white hover:bg-gray-200 rounded-md"> <i data-feather="users" class="w-4 h-4 mr-2"></i> Share File </a>
+                                                    <a href="" class="flex items-center block p-2 transition duration-300 ease-in-out bg-white hover:bg-gray-200 rounded-md"> <i data-feather="trash" class="w-4 h-4 mr-2"></i> Delete </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="flex items-center mt-5">
+                                        <div class="file"> <a href="" class="w-12 file__icon file__icon--empty-directory"></a> </div>
+                                        <div class="ml-4">
+                                            <a class="font-medium" href="">Resources</a> 
+                                            <div class="text-gray-600 text-xs">0 KB</div>
+                                        </div>
+                                        <div class="dropdown relative ml-auto">
+                                            <a class="dropdown-toggle w-5 h-5 block" href="javascript:;"> <i data-feather="more-horizontal" class="w-5 h-5 text-gray-700"></i> </a>
+                                            <div class="dropdown-box mt-5 absolute w-40 top-0 right-0 z-20">
+                                                <div class="dropdown-box__content box p-2">
+                                                    <a href="" class="flex items-center block p-2 transition duration-300 ease-in-out bg-white hover:bg-gray-200 rounded-md"> <i data-feather="users" class="w-4 h-4 mr-2"></i> Share File </a>
+                                                    <a href="" class="flex items-center block p-2 transition duration-300 ease-in-out bg-white hover:bg-gray-200 rounded-md"> <i data-feather="trash" class="w-4 h-4 mr-2"></i> Delete </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- END: Latest Uploads -->
+                            <!-- BEGIN: Work In Progress -->
+                            <div class="intro-y box col-span-12 lg:col-span-6">
+                                <div class="flex items-center px-5 py-5 sm:py-0 border-b border-gray-200">
+                                    <h2 class="font-medium text-base mr-auto">
+                                        Work In Progress
+                                    </h2>
+                                    <div class="dropdown relative ml-auto sm:hidden">
+                                        <a class="dropdown-toggle w-5 h-5 block" href="javascript:;"> <i data-feather="more-horizontal" class="w-5 h-5 text-gray-700"></i> </a>
+                                        <div class="nav-tabs dropdown-box mt-5 absolute w-40 top-0 right-0 z-20">
+                                            <div class="dropdown-box__content box p-2"> <a href="javascript:;" data-toggle="tab" data-target="#new" class="block p-2 transition duration-300 ease-in-out bg-white hover:bg-gray-200 rounded-md">New</a> <a href="javascript:;" data-toggle="tab" data-target="#last-week" class="block p-2 transition duration-300 ease-in-out bg-white hover:bg-gray-200 rounded-md">Last Week</a> </div>
+                                        </div>
+                                    </div>
+                                    <div class="nav-tabs ml-auto hidden sm:flex"> <a data-toggle="tab" data-target="#work-in-progress-new" href="javascript:;" class="py-5 ml-6 active">New</a> <a data-toggle="tab" data-target="#work-in-progress-last-week" href="javascript:;" class="py-5 ml-6">Last Week</a> </div>
+                                </div>
+                                <div class="p-5">
+                                    <div class="tab-content">
+                                        <div class="tab-content__pane active" id="work-in-progress-new">
+                                            <div>
+                                                <div class="flex">
+                                                    <div class="text-gray-700 mr-auto">Pending Tasks</div>
+                                                    <div class="font-medium">20%</div>
+                                                </div>
+                                                <div class="w-full h-1 mt-2 bg-gray-400 rounded-full">
+                                                    <div class="w-1/2 h-full bg-theme-1 rounded-full"></div>
+                                                </div>
+                                            </div>
+                                            <div class="mt-5">
+                                                <div class="flex">
+                                                    <div class="text-gray-700 mr-auto">Completed Tasks</div>
+                                                    <div class="font-medium">2 / <span class="text-gray-600">20</span></div>
+                                                </div>
+                                                <div class="w-full h-1 mt-2 bg-gray-400 rounded-full">
+                                                    <div class="w-1/4 h-full bg-theme-1 rounded-full"></div>
+                                                </div>
+                                            </div>
+                                            <div class="mt-5">
+                                                <div class="flex">
+                                                    <div class="text-gray-700 mr-auto">Tasks In Progress</div>
+                                                    <div class="font-medium">42</div>
+                                                </div>
+                                                <div class="w-full h-1 mt-2 bg-gray-400 rounded-full">
+                                                    <div class="w-3/4 h-full bg-theme-1 rounded-full"></div>
+                                                </div>
+                                            </div>
+                                            <a href="" class="button w-40 mx-auto justify-center block bg-gray-200 text-gray-600 mt-5">View More Details</a> 
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- END: Work In Progress -->
+                            <!-- BEGIN: Daily Sales -->
+                            <div class="intro-y box col-span-12 lg:col-span-6">
+                                <div class="flex items-center px-5 py-5 sm:py-3 border-b border-gray-200">
+                                    <h2 class="font-medium text-base mr-auto">
+                                        Daily Sales
+                                    </h2>
+                                    <div class="dropdown relative ml-auto sm:hidden">
+                                        <a class="dropdown-toggle w-5 h-5 block" href="javascript:;"> <i data-feather="more-horizontal" class="w-5 h-5 text-gray-700"></i> </a>
+                                        <div class="dropdown-box mt-5 absolute w-40 top-0 right-0 z-20">
+                                            <div class="dropdown-box__content box p-2">
+                                                <a href="javascript:;" class="flex items-center p-2 transition duration-300 ease-in-out bg-white hover:bg-gray-200 rounded-md"> <i data-feather="file" class="w-4 h-4 mr-2"></i> Download Excel </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="button border relative flex items-center text-gray-700 hidden sm:flex"> <i data-feather="file" class="w-4 h-4 mr-2"></i> Download Excel </button>
+                                </div>
+                                <div class="p-5">
+                                    <div class="relative flex items-center">
+                                        <div class="w-12 h-12 flex-none image-fit">
+                                            <img alt="Midone Tailwind HTML Admin Template" class="rounded-full" src="dist/images/profile-9.jpg">
+                                        </div>
+                                        <div class="ml-4 mr-auto">
+                                            <a href="" class="font-medium">Tom Cruise</a> 
+                                            <div class="text-gray-600 mr-5 sm:mr-5">Bootstrap 4 HTML Admin Template</div>
+                                        </div>
+                                        <div class="font-medium text-gray-700">+$19</div>
+                                    </div>
+                                    <div class="relative flex items-center mt-5">
+                                        <div class="w-12 h-12 flex-none image-fit">
+                                            <img alt="Midone Tailwind HTML Admin Template" class="rounded-full" src="dist/images/profile-14.jpg">
+                                        </div>
+                                        <div class="ml-4 mr-auto">
+                                            <a href="" class="font-medium">Kevin Spacey</a> 
+                                            <div class="text-gray-600 mr-5 sm:mr-5">Tailwind HTML Admin Template</div>
+                                        </div>
+                                        <div class="font-medium text-gray-700">+$25</div>
+                                    </div>
+                                    <div class="relative flex items-center mt-5">
+                                        <div class="w-12 h-12 flex-none image-fit">
+                                            <img alt="Midone Tailwind HTML Admin Template" class="rounded-full" src="dist/images/profile-7.jpg">
+                                        </div>
+                                        <div class="ml-4 mr-auto">
+                                            <a href="" class="font-medium">Leonardo DiCaprio</a> 
+                                            <div class="text-gray-600 mr-5 sm:mr-5">Vuejs HTML Admin Template</div>
+                                        </div>
+                                        <div class="font-medium text-gray-700">+$21</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- END: Daily Sales -->
+                            <!-- BEGIN: Latest Tasks -->
+                            <div class="intro-y box col-span-12 lg:col-span-6">
+                                <div class="flex items-center px-5 py-5 sm:py-0 border-b border-gray-200">
+                                    <h2 class="font-medium text-base mr-auto">
+                                        Latest Tasks
+                                    </h2>
+                                    <div class="dropdown relative ml-auto sm:hidden">
+                                        <a class="dropdown-toggle w-5 h-5 block" href="javascript:;"> <i data-feather="more-horizontal" class="w-5 h-5 text-gray-700"></i> </a>
+                                        <div class="nav-tabs dropdown-box mt-5 absolute w-40 top-0 right-0 z-20">
+                                            <div class="dropdown-box__content box p-2"> <a href="javascript:;" data-toggle="tab" data-target="#new" class="block p-2 transition duration-300 ease-in-out bg-white hover:bg-gray-200 rounded-md">New</a> <a href="javascript:;" data-toggle="tab" data-target="#last-week" class="block p-2 transition duration-300 ease-in-out bg-white hover:bg-gray-200 rounded-md">Last Week</a> </div>
+                                        </div>
+                                    </div>
+                                    <div class="nav-tabs ml-auto hidden sm:flex"> <a data-toggle="tab" data-target="#latest-tasks-new" href="javascript:;" class="py-5 ml-6 active">New</a> <a data-toggle="tab" data-target="#latest-tasks-last-week" href="javascript:;" class="py-5 ml-6">Last Week</a> </div>
+                                </div>
+                                <div class="p-5">
+                                    <div class="tab-content">
+                                        <div class="tab-content__pane active" id="latest-tasks-new">
+                                            <div class="flex items-center">
+                                                <div class="border-l-2 border-theme-1 pl-4">
+                                                    <a href="" class="font-medium">Create New Campaign</a> 
+                                                    <div class="text-gray-600">10:00 AM</div>
+                                                </div>
+                                                <input class="input input--switch ml-auto border" type="checkbox">
+                                            </div>
+                                            <div class="flex items-center mt-5">
+                                                <div class="border-l-2 border-theme-1 pl-4">
+                                                    <a href="" class="font-medium">Meeting With Client</a> 
+                                                    <div class="text-gray-600">02:00 PM</div>
+                                                </div>
+                                                <input class="input input--switch ml-auto border" type="checkbox">
+                                            </div>
+                                            <div class="flex items-center mt-5">
+                                                <div class="border-l-2 border-theme-1 pl-4">
+                                                    <a href="" class="font-medium">Create New Repository</a> 
+                                                    <div class="text-gray-600">04:00 PM</div>
+                                                </div>
+                                                <input class="input input--switch ml-auto border" type="checkbox">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- END: Latest Tasks -->
+                            <!-- BEGIN: New Products -->
+                            <div class="intro-y box col-span-12">
+                                <div class="flex items-center px-5 py-3 border-b border-gray-200">
+                                    <h2 class="font-medium text-base mr-auto">
+                                        New Products
+                                    </h2>
+                                    <button data-carousel="new-products" data-target="prev" class="slick-navigator button px-2 border text-white relative flex items-center text-gray-700 mr-2"> <i data-feather="chevron-left" class="w-4 h-4"></i> </button>
+                                    <button data-carousel="new-products" data-target="next" class="slick-navigator button px-2 border text-white relative flex items-center text-gray-700"> <i data-feather="chevron-right" class="w-4 h-4"></i> </button>
+                                </div>
+                                <div class="slick-carousel py-5" id="new-products">
+                                    <div class="px-5">
+                                        <div class="flex flex-col lg:flex-row items-center pb-5">
+                                            <div class="flex flex-col sm:flex-row items-center pr-5 lg:border-r border-gray-200">
+                                                <div class="sm:mr-5">
+                                                    <div class="w-20 h-20 image-fit">
+                                                        <img alt="Midone Tailwind HTML Admin Template" class="rounded-full" src="dist/images/preview-9.jpg">
+                                                    </div>
+                                                </div>
+                                                <div class="mr-auto text-center sm:text-left mt-3 sm:mt-0">
+                                                    <a href="" class="font-medium text-lg">Nikon Z6</a> 
+                                                    <div class="text-gray-600 mt-1 sm:mt-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#039;s standard dummy text ever since the 1500</div>
+                                                </div>
+                                            </div>
+                                            <div class="w-full lg:w-auto mt-6 lg:mt-0 pt-4 lg:pt-0 flex-1 flex items-center justify-center px-5 border-t lg:border-t-0 border-gray-200">
+                                                <div class="text-center rounded-md w-20 py-3">
+                                                    <div class="font-semibold text-theme-1 text-lg">26</div>
+                                                    <div class="text-gray-600">Orders</div>
+                                                </div>
+                                                <div class="text-center rounded-md w-20 py-3">
+                                                    <div class="font-semibold text-theme-1 text-lg">33k</div>
+                                                    <div class="text-gray-600">Purchases</div>
+                                                </div>
+                                                <div class="text-center rounded-md w-20 py-3">
+                                                    <div class="font-semibold text-theme-1 text-lg">26</div>
+                                                    <div class="text-gray-600">Reviews</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="flex flex-col sm:flex-row items-center border-t border-gray-200 pt-5">
+                                            <div class="w-full sm:w-auto flex justify-center sm:justify-start items-center border-b sm:border-b-0 border-gray-200 pb-5 sm:pb-0">
+                                                <div class="px-3 py-2 bg-theme-14 text-theme-10 rounded font-medium mr-3">30 November 2021</div>
+                                                <div class="text-gray-600">Date of Release</div>
+                                            </div>
+                                            <div class="flex sm:ml-auto mt-5 sm:mt-0">
+                                                <button class="button w-20 justify-center block bg-gray-200 text-gray-600 ml-auto">Preview</button>
+                                                <button class="button w-20 justify-center block bg-gray-200 text-gray-600 ml-2">Details</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="px-5">
+                                        <div class="flex flex-col lg:flex-row items-center pb-5">
+                                            <div class="flex flex-col sm:flex-row items-center pr-5 lg:border-r border-gray-200">
+                                                <div class="sm:mr-5">
+                                                    <div class="w-20 h-20 image-fit">
+                                                        <img alt="Midone Tailwind HTML Admin Template" class="rounded-full" src="dist/images/preview-15.jpg">
+                                                    </div>
+                                                </div>
+                                                <div class="mr-auto text-center sm:text-left mt-3 sm:mt-0">
+                                                    <a href="" class="font-medium text-lg">Sony Master Series A9G</a> 
+                                                    <div class="text-gray-600 mt-1 sm:mt-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#039;s standard dummy text ever since the 1500</div>
+                                                </div>
+                                            </div>
+                                            <div class="w-full lg:w-auto mt-6 lg:mt-0 pt-4 lg:pt-0 flex-1 flex items-center justify-center px-5 border-t lg:border-t-0 border-gray-200">
+                                                <div class="text-center rounded-md w-20 py-3">
+                                                    <div class="font-semibold text-theme-1 text-lg">23</div>
+                                                    <div class="text-gray-600">Orders</div>
+                                                </div>
+                                                <div class="text-center rounded-md w-20 py-3">
+                                                    <div class="font-semibold text-theme-1 text-lg">162k</div>
+                                                    <div class="text-gray-600">Purchases</div>
+                                                </div>
+                                                <div class="text-center rounded-md w-20 py-3">
+                                                    <div class="font-semibold text-theme-1 text-lg">23</div>
+                                                    <div class="text-gray-600">Reviews</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="flex flex-col sm:flex-row items-center border-t border-gray-200 pt-5">
+                                            <div class="w-full sm:w-auto flex justify-center sm:justify-start items-center border-b sm:border-b-0 border-gray-200 pb-5 sm:pb-0">
+                                                <div class="px-3 py-2 bg-theme-14 text-theme-10 rounded font-medium mr-3">5 September 2021</div>
+                                                <div class="text-gray-600">Date of Release</div>
+                                            </div>
+                                            <div class="flex sm:ml-auto mt-5 sm:mt-0">
+                                                <button class="button w-20 justify-center block bg-gray-200 text-gray-600 ml-auto">Preview</button>
+                                                <button class="button w-20 justify-center block bg-gray-200 text-gray-600 ml-2">Details</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="px-5">
+                                        <div class="flex flex-col lg:flex-row items-center pb-5">
+                                            <div class="flex flex-col sm:flex-row items-center pr-5 lg:border-r border-gray-200">
+                                                <div class="sm:mr-5">
+                                                    <div class="w-20 h-20 image-fit">
+                                                        <img alt="Midone Tailwind HTML Admin Template" class="rounded-full" src="dist/images/preview-5.jpg">
+                                                    </div>
+                                                </div>
+                                                <div class="mr-auto text-center sm:text-left mt-3 sm:mt-0">
+                                                    <a href="" class="font-medium text-lg">Samsung Galaxy S20 Ultra</a> 
+                                                    <div class="text-gray-600 mt-1 sm:mt-0">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem </div>
+                                                </div>
+                                            </div>
+                                            <div class="w-full lg:w-auto mt-6 lg:mt-0 pt-4 lg:pt-0 flex-1 flex items-center justify-center px-5 border-t lg:border-t-0 border-gray-200">
+                                                <div class="text-center rounded-md w-20 py-3">
+                                                    <div class="font-semibold text-theme-1 text-lg">109</div>
+                                                    <div class="text-gray-600">Orders</div>
+                                                </div>
+                                                <div class="text-center rounded-md w-20 py-3">
+                                                    <div class="font-semibold text-theme-1 text-lg">40k</div>
+                                                    <div class="text-gray-600">Purchases</div>
+                                                </div>
+                                                <div class="text-center rounded-md w-20 py-3">
+                                                    <div class="font-semibold text-theme-1 text-lg">109</div>
+                                                    <div class="text-gray-600">Reviews</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="flex flex-col sm:flex-row items-center border-t border-gray-200 pt-5">
+                                            <div class="w-full sm:w-auto flex justify-center sm:justify-start items-center border-b sm:border-b-0 border-gray-200 pb-5 sm:pb-0">
+                                                <div class="px-3 py-2 bg-theme-14 text-theme-10 rounded font-medium mr-3">27 May 2021</div>
+                                                <div class="text-gray-600">Date of Release</div>
+                                            </div>
+                                            <div class="flex sm:ml-auto mt-5 sm:mt-0">
+                                                <button class="button w-20 justify-center block bg-gray-200 text-gray-600 ml-auto">Preview</button>
+                                                <button class="button w-20 justify-center block bg-gray-200 text-gray-600 ml-2">Details</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="px-5">
+                                        <div class="flex flex-col lg:flex-row items-center pb-5">
+                                            <div class="flex flex-col sm:flex-row items-center pr-5 lg:border-r border-gray-200">
+                                                <div class="sm:mr-5">
+                                                    <div class="w-20 h-20 image-fit">
+                                                        <img alt="Midone Tailwind HTML Admin Template" class="rounded-full" src="dist/images/preview-9.jpg">
+                                                    </div>
+                                                </div>
+                                                <div class="mr-auto text-center sm:text-left mt-3 sm:mt-0">
+                                                    <a href="" class="font-medium text-lg">Oppo Find X2 Pro</a> 
+                                                    <div class="text-gray-600 mt-1 sm:mt-0">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomi</div>
+                                                </div>
+                                            </div>
+                                            <div class="w-full lg:w-auto mt-6 lg:mt-0 pt-4 lg:pt-0 flex-1 flex items-center justify-center px-5 border-t lg:border-t-0 border-gray-200">
+                                                <div class="text-center rounded-md w-20 py-3">
+                                                    <div class="font-semibold text-theme-1 text-lg">120</div>
+                                                    <div class="text-gray-600">Orders</div>
+                                                </div>
+                                                <div class="text-center rounded-md w-20 py-3">
+                                                    <div class="font-semibold text-theme-1 text-lg">54k</div>
+                                                    <div class="text-gray-600">Purchases</div>
+                                                </div>
+                                                <div class="text-center rounded-md w-20 py-3">
+                                                    <div class="font-semibold text-theme-1 text-lg">120</div>
+                                                    <div class="text-gray-600">Reviews</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="flex flex-col sm:flex-row items-center border-t border-gray-200 pt-5">
+                                            <div class="w-full sm:w-auto flex justify-center sm:justify-start items-center border-b sm:border-b-0 border-gray-200 pb-5 sm:pb-0">
+                                                <div class="px-3 py-2 bg-theme-14 text-theme-10 rounded font-medium mr-3">1 October 2022</div>
+                                                <div class="text-gray-600">Date of Release</div>
+                                            </div>
+                                            <div class="flex sm:ml-auto mt-5 sm:mt-0">
+                                                <button class="button w-20 justify-center block bg-gray-200 text-gray-600 ml-auto">Preview</button>
+                                                <button class="button w-20 justify-center block bg-gray-200 text-gray-600 ml-2">Details</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="px-5">
+                                        <div class="flex flex-col lg:flex-row items-center pb-5">
+                                            <div class="flex flex-col sm:flex-row items-center pr-5 lg:border-r border-gray-200">
+                                                <div class="sm:mr-5">
+                                                    <div class="w-20 h-20 image-fit">
+                                                        <img alt="Midone Tailwind HTML Admin Template" class="rounded-full" src="dist/images/preview-11.jpg">
+                                                    </div>
+                                                </div>
+                                                <div class="mr-auto text-center sm:text-left mt-3 sm:mt-0">
+                                                    <a href="" class="font-medium text-lg">Sony A7 III</a> 
+                                                    <div class="text-gray-600 mt-1 sm:mt-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#039;s standard dummy text ever since the 1500</div>
+                                                </div>
+                                            </div>
+                                            <div class="w-full lg:w-auto mt-6 lg:mt-0 pt-4 lg:pt-0 flex-1 flex items-center justify-center px-5 border-t lg:border-t-0 border-gray-200">
+                                                <div class="text-center rounded-md w-20 py-3">
+                                                    <div class="font-semibold text-theme-1 text-lg">42</div>
+                                                    <div class="text-gray-600">Orders</div>
+                                                </div>
+                                                <div class="text-center rounded-md w-20 py-3">
+                                                    <div class="font-semibold text-theme-1 text-lg">218k</div>
+                                                    <div class="text-gray-600">Purchases</div>
+                                                </div>
+                                                <div class="text-center rounded-md w-20 py-3">
+                                                    <div class="font-semibold text-theme-1 text-lg">42</div>
+                                                    <div class="text-gray-600">Reviews</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="flex flex-col sm:flex-row items-center border-t border-gray-200 pt-5">
+                                            <div class="w-full sm:w-auto flex justify-center sm:justify-start items-center border-b sm:border-b-0 border-gray-200 pb-5 sm:pb-0">
+                                                <div class="px-3 py-2 bg-theme-14 text-theme-10 rounded font-medium mr-3">24 May 2022</div>
+                                                <div class="text-gray-600">Date of Release</div>
+                                            </div>
+                                            <div class="flex sm:ml-auto mt-5 sm:mt-0">
+                                                <button class="button w-20 justify-center block bg-gray-200 text-gray-600 ml-auto">Preview</button>
+                                                <button class="button w-20 justify-center block bg-gray-200 text-gray-600 ml-2">Details</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- END: New Products -->
+                            <!-- BEGIN: New Authors -->
+                            <div class="intro-y box col-span-12">
+                                <div class="flex items-center px-5 py-3 border-b border-gray-200">
+                                    <h2 class="font-medium text-base mr-auto">
+                                        New Authors
+                                    </h2>
+                                    <button data-carousel="new-authors" data-target="prev" class="slick-navigator button px-2 border text-white relative flex items-center text-gray-700 mr-2"> <i data-feather="chevron-left" class="w-4 h-4"></i> </button>
+                                    <button data-carousel="new-authors" data-target="next" class="slick-navigator button px-2 border text-white relative flex items-center text-gray-700"> <i data-feather="chevron-right" class="w-4 h-4"></i> </button>
+                                </div>
+                                <div class="slick-carousel py-5" id="new-authors">
+                                    <div class="px-5">
+                                        <div class="flex flex-col lg:flex-row items-center pb-5">
+                                            <div class="flex-1 flex flex-col sm:flex-row items-center pr-5 lg:border-r border-gray-200">
+                                                <div class="sm:mr-5">
+                                                    <div class="w-20 h-20 image-fit">
+                                                        <img alt="Midone Tailwind HTML Admin Template" class="rounded-full" src="dist/images/profile-9.jpg">
+                                                    </div>
+                                                </div>
+                                                <div class="mr-auto text-center sm:text-left mt-3 sm:mt-0">
+                                                    <a href="" class="font-medium text-lg">Tom Cruise</a> 
+                                                    <div class="text-gray-600 mt-1 sm:mt-0">Software Engineer</div>
+                                                </div>
+                                            </div>
+                                            <div class="w-full lg:w-auto mt-6 lg:mt-0 pt-4 lg:pt-0 flex-1 flex flex-col justify-center items-center lg:items-start px-5 border-t lg:border-t-0 border-gray-200">
+                                                <div class="flex items-center">
+                                                    <a href="" class="w-8 h-8 rounded-full flex items-center justify-center border mr-2 text-gray-500"> <i class="w-3 h-3 fill-current" data-feather="facebook"></i> </a>
+                                                    tomcruise@left4code.com 
+                                                </div>
+                                                <div class="flex items-center mt-2">
+                                                    <a href="" class="w-8 h-8 rounded-full flex items-center justify-center border mr-2 text-gray-500"> <i class="w-3 h-3 fill-current" data-feather="twitter"></i> </a>
+                                                    Tom Cruise 
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="flex flex-col sm:flex-row items-center border-t border-gray-200 pt-5">
+                                            <div class="w-full sm:w-auto flex justify-center sm:justify-start items-center border-b sm:border-b-0 border-gray-200 pb-5 sm:pb-0">
+                                                <div class="px-3 py-2 bg-theme-14 text-theme-10 rounded font-medium mr-3">30 November 2021</div>
+                                                <div class="text-gray-600">Joined Date</div>
+                                            </div>
+                                            <div class="flex sm:ml-auto mt-5 sm:mt-0">
+                                                <button class="button w-20 justify-center block bg-gray-200 text-gray-600 ml-auto">Message</button>
+                                                <button class="button w-20 justify-center block bg-gray-200 text-gray-600 ml-2">Profile</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="px-5">
+                                        <div class="flex flex-col lg:flex-row items-center pb-5">
+                                            <div class="flex-1 flex flex-col sm:flex-row items-center pr-5 lg:border-r border-gray-200">
+                                                <div class="sm:mr-5">
+                                                    <div class="w-20 h-20 image-fit">
+                                                        <img alt="Midone Tailwind HTML Admin Template" class="rounded-full" src="dist/images/profile-14.jpg">
+                                                    </div>
+                                                </div>
+                                                <div class="mr-auto text-center sm:text-left mt-3 sm:mt-0">
+                                                    <a href="" class="font-medium text-lg">Kevin Spacey</a> 
+                                                    <div class="text-gray-600 mt-1 sm:mt-0">Frontend Engineer</div>
+                                                </div>
+                                            </div>
+                                            <div class="w-full lg:w-auto mt-6 lg:mt-0 pt-4 lg:pt-0 flex-1 flex flex-col justify-center items-center lg:items-start px-5 border-t lg:border-t-0 border-gray-200">
+                                                <div class="flex items-center">
+                                                    <a href="" class="w-8 h-8 rounded-full flex items-center justify-center border mr-2 text-gray-500"> <i class="w-3 h-3 fill-current" data-feather="facebook"></i> </a>
+                                                    kevinspacey@left4code.com 
+                                                </div>
+                                                <div class="flex items-center mt-2">
+                                                    <a href="" class="w-8 h-8 rounded-full flex items-center justify-center border mr-2 text-gray-500"> <i class="w-3 h-3 fill-current" data-feather="twitter"></i> </a>
+                                                    Kevin Spacey 
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="flex flex-col sm:flex-row items-center border-t border-gray-200 pt-5">
+                                            <div class="w-full sm:w-auto flex justify-center sm:justify-start items-center border-b sm:border-b-0 border-gray-200 pb-5 sm:pb-0">
+                                                <div class="px-3 py-2 bg-theme-14 text-theme-10 rounded font-medium mr-3">5 September 2021</div>
+                                                <div class="text-gray-600">Joined Date</div>
+                                            </div>
+                                            <div class="flex sm:ml-auto mt-5 sm:mt-0">
+                                                <button class="button w-20 justify-center block bg-gray-200 text-gray-600 ml-auto">Message</button>
+                                                <button class="button w-20 justify-center block bg-gray-200 text-gray-600 ml-2">Profile</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="px-5">
+                                        <div class="flex flex-col lg:flex-row items-center pb-5">
+                                            <div class="flex-1 flex flex-col sm:flex-row items-center pr-5 lg:border-r border-gray-200">
+                                                <div class="sm:mr-5">
+                                                    <div class="w-20 h-20 image-fit">
+                                                        <img alt="Midone Tailwind HTML Admin Template" class="rounded-full" src="dist/images/profile-7.jpg">
+                                                    </div>
+                                                </div>
+                                                <div class="mr-auto text-center sm:text-left mt-3 sm:mt-0">
+                                                    <a href="" class="font-medium text-lg">Leonardo DiCaprio</a> 
+                                                    <div class="text-gray-600 mt-1 sm:mt-0">Backend Engineer</div>
+                                                </div>
+                                            </div>
+                                            <div class="w-full lg:w-auto mt-6 lg:mt-0 pt-4 lg:pt-0 flex-1 flex flex-col justify-center items-center lg:items-start px-5 border-t lg:border-t-0 border-gray-200">
+                                                <div class="flex items-center">
+                                                    <a href="" class="w-8 h-8 rounded-full flex items-center justify-center border mr-2 text-gray-500"> <i class="w-3 h-3 fill-current" data-feather="facebook"></i> </a>
+                                                    leonardodicaprio@left4code.com 
+                                                </div>
+                                                <div class="flex items-center mt-2">
+                                                    <a href="" class="w-8 h-8 rounded-full flex items-center justify-center border mr-2 text-gray-500"> <i class="w-3 h-3 fill-current" data-feather="twitter"></i> </a>
+                                                    Leonardo DiCaprio 
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="flex flex-col sm:flex-row items-center border-t border-gray-200 pt-5">
+                                            <div class="w-full sm:w-auto flex justify-center sm:justify-start items-center border-b sm:border-b-0 border-gray-200 pb-5 sm:pb-0">
+                                                <div class="px-3 py-2 bg-theme-14 text-theme-10 rounded font-medium mr-3">27 May 2021</div>
+                                                <div class="text-gray-600">Joined Date</div>
+                                            </div>
+                                            <div class="flex sm:ml-auto mt-5 sm:mt-0">
+                                                <button class="button w-20 justify-center block bg-gray-200 text-gray-600 ml-auto">Message</button>
+                                                <button class="button w-20 justify-center block bg-gray-200 text-gray-600 ml-2">Profile</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="px-5">
+                                        <div class="flex flex-col lg:flex-row items-center pb-5">
+                                            <div class="flex-1 flex flex-col sm:flex-row items-center pr-5 lg:border-r border-gray-200">
+                                                <div class="sm:mr-5">
+                                                    <div class="w-20 h-20 image-fit">
+                                                        <img alt="Midone Tailwind HTML Admin Template" class="rounded-full" src="dist/images/profile-15.jpg">
+                                                    </div>
+                                                </div>
+                                                <div class="mr-auto text-center sm:text-left mt-3 sm:mt-0">
+                                                    <a href="" class="font-medium text-lg">John Travolta</a> 
+                                                    <div class="text-gray-600 mt-1 sm:mt-0">DevOps Engineer</div>
+                                                </div>
+                                            </div>
+                                            <div class="w-full lg:w-auto mt-6 lg:mt-0 pt-4 lg:pt-0 flex-1 flex flex-col justify-center items-center lg:items-start px-5 border-t lg:border-t-0 border-gray-200">
+                                                <div class="flex items-center">
+                                                    <a href="" class="w-8 h-8 rounded-full flex items-center justify-center border mr-2 text-gray-500"> <i class="w-3 h-3 fill-current" data-feather="facebook"></i> </a>
+                                                    johntravolta@left4code.com 
+                                                </div>
+                                                <div class="flex items-center mt-2">
+                                                    <a href="" class="w-8 h-8 rounded-full flex items-center justify-center border mr-2 text-gray-500"> <i class="w-3 h-3 fill-current" data-feather="twitter"></i> </a>
+                                                    John Travolta 
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="flex flex-col sm:flex-row items-center border-t border-gray-200 pt-5">
+                                            <div class="w-full sm:w-auto flex justify-center sm:justify-start items-center border-b sm:border-b-0 border-gray-200 pb-5 sm:pb-0">
+                                                <div class="px-3 py-2 bg-theme-14 text-theme-10 rounded font-medium mr-3">1 October 2022</div>
+                                                <div class="text-gray-600">Joined Date</div>
+                                            </div>
+                                            <div class="flex sm:ml-auto mt-5 sm:mt-0">
+                                                <button class="button w-20 justify-center block bg-gray-200 text-gray-600 ml-auto">Message</button>
+                                                <button class="button w-20 justify-center block bg-gray-200 text-gray-600 ml-2">Profile</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="px-5">
+                                        <div class="flex flex-col lg:flex-row items-center pb-5">
+                                            <div class="flex-1 flex flex-col sm:flex-row items-center pr-5 lg:border-r border-gray-200">
+                                                <div class="sm:mr-5">
+                                                    <div class="w-20 h-20 image-fit">
+                                                        <img alt="Midone Tailwind HTML Admin Template" class="rounded-full" src="dist/images/profile-11.jpg">
+                                                    </div>
+                                                </div>
+                                                <div class="mr-auto text-center sm:text-left mt-3 sm:mt-0">
+                                                    <a href="" class="font-medium text-lg">Al Pacino</a> 
+                                                    <div class="text-gray-600 mt-1 sm:mt-0">Software Engineer</div>
+                                                </div>
+                                            </div>
+                                            <div class="w-full lg:w-auto mt-6 lg:mt-0 pt-4 lg:pt-0 flex-1 flex flex-col justify-center items-center lg:items-start px-5 border-t lg:border-t-0 border-gray-200">
+                                                <div class="flex items-center">
+                                                    <a href="" class="w-8 h-8 rounded-full flex items-center justify-center border mr-2 text-gray-500"> <i class="w-3 h-3 fill-current" data-feather="facebook"></i> </a>
+                                                    alpacino@left4code.com 
+                                                </div>
+                                                <div class="flex items-center mt-2">
+                                                    <a href="" class="w-8 h-8 rounded-full flex items-center justify-center border mr-2 text-gray-500"> <i class="w-3 h-3 fill-current" data-feather="twitter"></i> </a>
+                                                    Al Pacino 
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="flex flex-col sm:flex-row items-center border-t border-gray-200 pt-5">
+                                            <div class="w-full sm:w-auto flex justify-center sm:justify-start items-center border-b sm:border-b-0 border-gray-200 pb-5 sm:pb-0">
+                                                <div class="px-3 py-2 bg-theme-14 text-theme-10 rounded font-medium mr-3">24 May 2022</div>
+                                                <div class="text-gray-600">Joined Date</div>
+                                            </div>
+                                            <div class="flex sm:ml-auto mt-5 sm:mt-0">
+                                                <button class="button w-20 justify-center block bg-gray-200 text-gray-600 ml-auto">Message</button>
+                                                <button class="button w-20 justify-center block bg-gray-200 text-gray-600 ml-2">Profile</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- END: New Authors -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- END: Content -->
+        </div>
+        <!-- BEGIN: JS Assets-->
+        <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=["your-google-map-api"]&libraries=places"></script>
+        <script src="dist/js/app.js"></script>
+        <!-- END: JS Assets-->
+    </body>
+</html>

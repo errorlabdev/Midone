@@ -1,0 +1,39 @@
+.modal {
+    margin-top: -10000px;
+    margin-left: -10000px;
+    background: #00000080;
+    transition: visibility 0s linear 0.2s, opacity 0.2s 0s;
+    @apply invisible opacity-0 w-screen h-screen fixed left-0 top-0;
+    &.modal__overlap {
+        background: #000000a6;
+    }
+    &.show {
+        transition: visibility 0s linear 0s, opacity 0.2s 0s;
+        @apply visible opacity-100;
+        > .modal__content {
+            @apply mt-16;
+        }
+    }
+    .modal__content {
+        width: 90%;
+        transition: margin-top 0.2s;
+        @apply -mt-16 mb-16 mx-auto bg-white rounded shadow-md;
+        @screen sm {
+            width: 460px;
+            &.modal__content--sm {
+                width: 300px;
+            }
+            &.modal__content--lg {
+                width: 600px;
+            }
+            &.modal__content--xl {
+                width: 600px;
+            }
+        }
+        @screen lg {
+            &.modal__content--xl {
+                width: 900px;
+            }
+        }
+    }
+}

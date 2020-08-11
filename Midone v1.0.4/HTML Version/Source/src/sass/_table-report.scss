@@ -1,0 +1,26 @@
+.table-report {
+    &:not(.table-report--bordered) {
+        border-spacing: 0 10px;
+        @apply border-separate;
+        td {
+            @apply bg-white;
+            box-shadow: 20px 3px 20px #0000000b;
+            &:first-child {
+                @apply rounded-l-md;
+            }
+            &:last-child {
+                @apply rounded-r-md;
+            }
+            &.table-report__action {
+                @apply py-0 relative;
+                &:before {
+                    content: "";
+                    @apply w-px h-8 bg-gray-200 absolute left-0 inset-y-0 my-auto;
+                }
+            }
+        }
+    }
+    img {
+        box-shadow: 0px 0px 0px 2px #fff, 1px 1px 5px rgba(0, 0, 0, 0.32);
+    }
+}

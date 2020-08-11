@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<!--
+Template Name: Midone - Laravel Admin Dashboard Starter Kit
+Author: Left4code
+Website: http://www.left4code.com/
+Contact: muhammadrizki@left4code.com
+Purchase: https://themeforest.net/user/left4code/portfolio
+Renew Support: https://themeforest.net/user/left4code/portfolio
+License: You must have a valid license purchased only from themeforest(the above link) in order to legally use the theme for your project.
+-->
+<html lang="en">
+    <!-- BEGIN: Head -->
+    <head>
+        <meta charset="utf-8">
+        <link href="dist/images/logo.svg" rel="shortcut icon">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Midone admin is super flexible, powerful, clean & modern responsive tailwind admin template with unlimited possibilities.">
+        <meta name="keywords" content="admin template, Midone admin template, dashboard template, flat admin template, responsive admin template, web app">
+        <meta name="author" content="LEFT4CODE">
+        <title>Stye Customization - Midone - Laravel Admin Dashboard Starter Kit</title>
+        <!-- BEGIN: CSS Assets-->
+        <link rel="stylesheet" href="dist/css/app.css" />
+        <!-- END: CSS Assets-->
+    </head>
+    <!-- END: Head -->
+    <body>
+        <div class="container grid grid-cols-12 -my-3 min-h-screen relative z-10">
+            <div class="col-span-3 bg-gray-800 py-10">
+                <a href="" class="intro-x flex items-center pl-5 mb-8">
+                    <img alt="Midone - Laravel Admin Dashboard Starter Kit" class="w-6" src="dist/images/logo.svg">
+                    <span class="hidden xl:block text-2xl ml-3"> <span class="font-medium">Midone</span> Docs </span>
+                </a>
+                <a href="index.html" class="intro-x flex items-center px-5 py-3 rounded-l hover:bg-gray-900 transition duration-300 ease-in-out">Getting Started</a> <a href="file-structure.html" class="intro-x flex items-center px-5 py-3 rounded-l hover:bg-gray-900 transition duration-300 ease-in-out">File Structure</a> <a href="installation.html" class="intro-x flex items-center px-5 py-3 rounded-l hover:bg-gray-900 transition duration-300 ease-in-out">Installation</a> <a href="style-customization.html" class="intro-x flex items-center px-5 py-3 rounded-l hover:bg-gray-900 transition duration-300 ease-in-out font-medium bg-gray-900">Style Customization</a> <a href="javascript.html" class="intro-x flex items-center px-5 py-3 rounded-l hover:bg-gray-900 transition duration-300 ease-in-out">Javascript</a> <a href="attributions.html" class="intro-x flex items-center px-5 py-3 rounded-l hover:bg-gray-900 transition duration-300 ease-in-out">Attributions</a> <a href="support.html" class="intro-x flex items-center px-5 py-3 rounded-l hover:bg-gray-900 transition duration-300 ease-in-out">Support</a> <a href="changelog.html" class="intro-x flex items-center px-5 py-3 rounded-l hover:bg-gray-900 transition duration-300 ease-in-out">Changelog</a> 
+            </div>
+            <div class="col-span-9 border-l border-gray-800 bg-gray-900 py-10 px-10">
+                <h1 class="intro-y text-2xl font-medium pb-8 mb-10 border-b border-gray-800">
+                    Style Customization
+                </h1>
+                <h2 class="intro-y text-xl font-medium pb-5 mb-5 border-b border-gray-800">
+                    SASS Structure
+                </h2>
+                <div class="intro-y leading-relaxed">
+                    <p class="mb-3">Midone use SASS as a default css preprocessing, you can found all the SASS files in one single place at <span class="text-yellow-500">/resources/sass/*</span> directory. Every single component SASS file are imported in <span class="text-yellow-500">/resources/sass/app.scss</span>. You can modify this file to add or remove components depends to your needs. Here is the part things you need to know about the <span class="text-yellow-500">/resources/sass/app.scss</span> structure and functions.</p>
+                    <ul class="list-decimal ml-6">
+                        <li class="mt-4">Fonts: This section is supposed to import all the template used fonts.</li>
+                        <li class="mt-1">Breakpoint: This file is contains screen breakpoint variables that used by the template components.</li>
+                        <li class="mt-1">3rd Parties: This section supposed to import all 3rd parties SASS or CSS files.</li>
+                        <li class="mt-1">Animations: This section supposed to import all custom animations used by the template.</li>
+                        <li class="mt-1">Components: This section supposed to import all component SASS files used by the template.</li>
+                    </ul>
+                    <pre class="source-preview overflow-hidden rounded-md mt-6"> 
+                        <code class="scss text-xs p-0 rounded-md html pl-5 pt-4 -mb-10 -mt-10 -ml-40"> 
+                            // Fonts 
+                            @import &#039;fonts/roboto&#039;; 
+                            
+                            // Breakpoint 
+                            @import &#039;breakpoint&#039;; 
+                            
+                            // 3rd Parties 
+                            @import &#039;~slick-carousel/slick/slick&#039;; 
+                            @import &#039;~slick-carousel/slick/slick-theme&#039;; 
+                            @import &#039;~highlight.js/scss/github&#039;; 
+                            @import &#039;~tooltipster/dist/css/tooltipster.bundle.min&#039;; 
+                            @import &#039;~tooltipster/dist/css/plugins/tooltipster/sideTip/themes/tooltipster-sideTip-shadow.min&#039;; 
+                            @import &#039;~tooltipster/dist/css/plugins/tooltipster/sideTip/themes/tooltipster-sideTip-borderless.min&#039;; 
+                            @import &#039;~daterangepicker/daterangepicker&#039;; 
+                            @import &#039;~select2/src/scss/core&#039;; 
+                            @import &#039;~dropzone/src/dropzone&#039;; // Animations 
+                            @import &#039;typing-dots&#039;; 
+                            @import &#039;zoom-in&#039;; 
+                            @import &#039;intro&#039;; // Components 
+                            @import &#039;top-bar&#039;; 
+                            @import &#039;app&#039;; 
+                            @import &#039;login&#039;; 
+                            @import &#039;mini-chat-box&#039;; 
+                            @import &#039;mini-chat-list&#039;; 
+                            @import &#039;mini-chat&#039;; 
+                            @import &#039;table&#039;; 
+                            @import &#039;table-report&#039;; 
+                            @import &#039;report-timeline&#039;; 
+                            @import &#039;report-chart&#039;; 
+                            @import &#039;search&#039;; 
+                            @import &#039;input&#039;; 
+                            @import &#039;button&#039;; 
+                            @import &#039;notification&#039;; 
+                            @import &#039;image-fit&#039;; 
+                            @import &#039;box&#039;; 
+                            @import &#039;report-box&#039;; 
+                            @import &#039;global&#039;; 
+                            @import &#039;content&#039;; 
+                            @import &#039;top-nav&#039;; 
+                            @import &#039;side-nav&#039;; 
+                            @import &#039;breadcrumb&#039;; 
+                            @import &#039;tailwind&#039;; 
+                            @import &#039;top-bar-boxed&#039;; 
+                            @import &#039;mobile-menu&#039;; 
+                            @import &#039;pagination&#039;; 
+                            @import &#039;dropdown&#039;; 
+                            @import &#039;modal&#039;; 
+                            @import &#039;tab&#039;; 
+                            @import &#039;checkbox&#039;; 
+                            @import &#039;file&#039;; 
+                            @import &#039;inbox-filter&#039;; 
+                            @import &#039;inbox&#039;; 
+                            @import &#039;scrollbar&#039;; 
+                            @import &#039;chat&#039;; 
+                            @import &#039;boxed-tabs&#039;; 
+                            @import &#039;chat-dropdown&#039;; 
+                            @import &#039;wizard&#039;; 
+                            @import &#039;blog&#039;; 
+                            @import &#039;news&#039;; 
+                            @import &#039;pricing-tabs&#039;; 
+                            @import &#039;accordion&#039;; 
+                            @import &#039;error-page&#039;; 
+                            @import &#039;tooltip&#039;; 
+                            @import &#039;datatable-wrapper&#039;; 
+                            @import &#039;datepicker&#039;; 
+                            @import &#039;select2&#039;; 
+                            @import &#039;summernote&#039;; 
+                            @import &#039;slick&#039;; 
+                            @import &#039;jquery-validation&#039;; 
+                            @import &#039;slick&#039;; 
+                            @import &#039;source-preview&#039;; 
+                            @import &#039;search-result&#039;; 
+                            @import &#039;notification-content&#039;; </code> </pre>
+                </div>
+            </div>
+        </div>
+        <!-- BEGIN: JS Assets-->
+        <script src="dist/js/app.js"></script>
+        <!-- END: JS Assets-->
+    </body>
+</html>

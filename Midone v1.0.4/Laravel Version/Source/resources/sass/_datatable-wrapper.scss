@@ -1,0 +1,90 @@
+.datatable-wrapper {
+    .dataTables_length {
+        select {
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='rgb(74, 85, 104)' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' class='feather feather-chevron-down'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");
+            background-size: 15px;
+            background-position: center right 0.60rem;
+            @apply input border mx-2 bg-white bg-no-repeat pr-8;
+        }
+    }
+    .dataTables_filter {
+        @apply ml-auto;
+        @media (max-width: $sm) {
+            @apply w-full ml-0 mt-3;
+            input {
+                @apply w-40;
+            }
+        }
+        input {
+            @apply input border ml-2;
+        }
+    }
+    .dataTables_wrapper {
+        @apply flex flex-wrap;
+    }
+    .dataTables_paginate {
+        @apply ml-auto;
+        @media (max-width: $sm) {
+            @apply justify-center w-full mx-auto mt-3;
+            .paginate_button.previous {
+                @apply ml-0;
+            }
+        }
+    }
+    .datatable {
+        @apply my-5;
+        width: 100% !important;
+        @media (max-width: $sm) {
+            @apply -ml-3;
+        }
+        thead tr th {
+            @apply border-t-2 py-4;
+        }
+        tbody tr {
+            @apply bg-gray-200;
+            &:nth-child(even) {
+                @apply bg-transparent;
+            }
+            &:last-child td {
+                @apply border-b;
+            }
+            td.child {
+                .dtr-title {
+                    @apply font-medium;
+                }
+                .dtr-data {
+                    @apply block mt-2 mb-3 border-b border-gray-200 pb-4;
+                }
+            }
+        }
+    }
+    .dataTables_info {
+        @apply flex items-center;
+        @media (max-width: $sm) {
+            @apply mx-auto;
+        }
+    }
+    .dataTables_paginate {
+        @apply flex items-center;
+        span {
+            @apply flex;
+        }
+        .paginate_button {
+            min-width: 40px;
+            @apply button font-normal flex items-center justify-center border-transparent text-gray-800 ml-2;
+            &.current {
+                @apply bg-gray-200 font-medium text-gray-700;
+            }
+        }
+    }
+    table.dataTable.dtr-inline.collapsed > tbody > tr[role=row] > td:first-child, 
+    table.dataTable.dtr-inline.collapsed > tbody > tr[role=row] > th:first-child {
+        @apply relative pl-16;
+        &:before {
+            content: "";
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' class='feather feather-plus'%3E%3Cline x1='12' y1='5' x2='12' y2='19'%3E%3C/line%3E%3Cline x1='5' y1='12' x2='19' y2='12'%3E%3C/line%3E%3C/svg%3E");
+            background-size: 80%;
+            @apply bg-white w-5 h-5 rounded-full absolute top-0 bottom-0 left-0 my-auto ml-5 bg-center cursor-pointer shadow;
+        }
+    }
+}

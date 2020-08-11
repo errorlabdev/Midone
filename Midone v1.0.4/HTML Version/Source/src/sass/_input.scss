@@ -1,0 +1,84 @@
+.input {
+    @apply py-2 px-3 rounded-md appearance-none;
+    &:not(textarea) {
+        &.input--sm {
+            @apply py-1 px-2;
+        }
+        &.input--lg {
+            @apply py-3 px-4;
+        }
+    }
+    &:focus {
+        @apply outline-none shadow-outline;
+    }
+    &[type="radio"] {
+        width: 16px;
+        height: 16px;
+        @apply relative rounded-full overflow-hidden cursor-pointer;
+        &:before {
+            content: "";
+            width: 10px;
+            height: 10px;
+            transition: all 0.2s ease-in-out;
+            @apply absolute rounded-full bg-theme-1 inset-0 m-auto opacity-0;
+        }
+        &:checked {
+            @apply border-theme-1;
+            &:before {
+                @apply opacity-100;
+            }
+        }
+    }
+    &[type="checkbox"]:not(.input--switch) {
+        width: 16px;
+        height: 16px;
+        border-radius: 0.2em;
+        @apply relative overflow-hidden cursor-pointer;
+        &:before {
+            content: "";
+            transition: all 0.2s ease-in-out;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%23ffffff' stroke-width='3' stroke-linecap='round' stroke-linejoin='round' class='feather feather-check'%3E%3Cpolyline points='20 6 9 17 4 12'%3E%3C/polyline%3E%3C/svg%3E");
+            background-size: 80%;
+            @apply w-full h-full absolute text-white flex items-center justify-center opacity-0 bg-no-repeat bg-center;
+        }
+        &:checked {
+            @apply bg-theme-1 border-theme-1;
+            &:before {
+                @apply opacity-100;
+            }
+        }
+    }
+    &.input--switch[type="checkbox"] {
+        width: 38px;
+        height: 24px;
+        padding: 1px;
+        @apply outline-none rounded-full relative cursor-pointer;
+        &:before {
+            content: "";
+            width: 22px;
+            height: 22px;
+            transition: all 0.2s ease-in-out;
+            box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25);
+            @apply absolute inset-y-0 my-auto rounded-full;
+        }
+        &:checked {
+            @apply bg-theme-1 border-theme-1;
+            &::before {
+                margin-left: 13px;
+                @apply bg-white;
+            }
+        }
+    }
+}
+select.input {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='rgb(74, 85, 104)' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' class='feather feather-chevron-down'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");
+    background-size: 15px;
+    background-position: center right 0.60rem;
+    @apply bg-white bg-no-repeat pr-8;
+    &.input--sm {
+        @apply pr-8;
+    }
+    &.input--lg {
+        @apply pr-8;
+    }
+}

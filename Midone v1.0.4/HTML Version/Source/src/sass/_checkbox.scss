@@ -1,0 +1,15 @@
+.checkbox {
+    padding: 0px 3px;
+    @apply w-10 h-5 outline-none rounded-full bg-white appearance-none relative cursor-pointer;
+    &:before {
+        content: "";
+        width: 50%;
+        height: 84%;
+        transition: all 0.3s ease-in-out;
+        @apply absolute inset-y-0 my-auto bg-gray-400 rounded-full;
+    }
+    &:checked::before {
+        margin-left: 35%;
+        @apply bg-gray-600;
+    }
+}

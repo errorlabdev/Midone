@@ -1,0 +1,56 @@
+.daterangepicker {
+    box-shadow: 0px 3px 20px #00000014;
+    @apply border-none;
+    &:before {
+        border-bottom-color: #f7f7f7;
+    }
+    select.monthselect,
+    select.yearselect,
+    select.hourselect,
+    select.minuteselect,
+    select.secondselect,
+    select.ampmselect {
+        width: 80px;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='rgb(74, 85, 104)' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' class='feather feather-chevron-down'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");
+        background-size: 15px;
+        background-position: center right 0.60rem;
+        padding-top: 0.25rem;
+        padding-bottom: 0.25rem;
+        padding-left: 0.5rem;
+        padding-right: 2rem;
+        appearance: none;
+        @apply border bg-white bg-no-repeat;
+    }
+    select.hourselect,
+    select.minuteselect,
+    select.secondselect,
+    select.ampmselect {
+        width: 60px;
+        height: 34px;
+        line-height: 1;
+    }
+    .calendar-table th, 
+    .calendar-table td {
+        width: 40px;
+        height: 34px;
+    }
+    .calendar-table {
+        table {
+            thead tr:nth-child(2) th {
+                @apply pt-5;
+            }
+            tbody tr td {
+                &:hover {
+                    @apply bg-gray-200;
+                }
+                &.active {
+                    @apply bg-theme-1;
+                }
+            }
+        }
+        .next span,
+        .prev span {
+            @apply border-gray-700;
+        }
+    }
+}

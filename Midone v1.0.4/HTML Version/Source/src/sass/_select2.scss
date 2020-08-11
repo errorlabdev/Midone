@@ -1,0 +1,43 @@
+.select2-container {
+    &.select2-container--default {
+        .select2-selection--multiple {
+            height: 39px;
+            @apply border-gray-300;
+            .select2-selection__choice {
+                height: 26px;
+                @apply flex items-center mt-0 bg-gray-200 border-gray-300 pr-2 mr-2;
+                &:first-child {
+                    @apply -ml-1;
+                }
+                .select2-selection__choice__remove {
+                    @apply ml-1 mr-2;
+                }
+            }
+        }
+        .select2-search--dropdown .select2-search__field {
+            @apply border-gray-300;
+        }
+        .select2-results__option {
+            @apply px-3 py-2;
+        }
+        .select2-results__option--highlighted[aria-selected] {
+            @apply bg-theme-1;
+        }
+    }
+    .select2-selection {
+        &.select2-selection--single {
+            height: 39px;
+            @apply border-gray-300;
+        }
+        .select2-selection__rendered {
+            @apply h-full flex items-center pl-3 pr-8;
+        }
+        .select2-selection__arrow {
+            width: 32px;
+            @apply h-full;
+        }
+    }
+    .select2-dropdown {
+        @apply border-gray-300;
+    }
+}

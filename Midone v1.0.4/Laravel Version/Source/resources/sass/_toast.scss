@@ -1,0 +1,12 @@
+.jq-toast-single {
+    background: #0e2c88;
+    @apply font-roboto text-sm shadow-md leading-relaxed p-5;
+    .close-jq-toast-single {
+        right: 10px;
+        @apply text-xl top-0;
+    }
+    .jq-toast-loader {
+        background: white !important;
+        @apply h-1;
+    }
+}

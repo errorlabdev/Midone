@@ -1,0 +1,10 @@
+.post {
+    .post__tabs {
+        a {
+            @apply border-b-0;
+            &.active {
+                @apply bg-white text-theme-1;
+            }
+        }
+    }
+}

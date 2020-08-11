@@ -1,0 +1,13 @@
+.nav-tabs .active {
+    @apply border-b-2 border-theme-1 font-medium;
+}
+.tab-content .tab-content__pane {
+    top: -9999px;
+    left: -9999px;
+    transition: visibility 0s linear 0.6s, opacity 0.6s 0s;
+    @apply absolute invisible opacity-0;
+    &.active {
+        transition: visibility 0s linear 0s, opacity 0.6s 0s;
+        @apply static visible opacity-100;
+    }
+}

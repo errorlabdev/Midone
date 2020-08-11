@@ -1,0 +1,8 @@
+.validate-form {
+    .error:not(label) {
+        @apply border border-theme-6;
+    }
+    label.error {
+        @apply mt-2 text-theme-6 block;
+    }
+}

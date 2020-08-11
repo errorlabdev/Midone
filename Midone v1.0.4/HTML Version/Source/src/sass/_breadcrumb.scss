@@ -1,0 +1,20 @@
+.breadcrumb {
+    @apply flex items-center;
+    &.breadcrumb--light {
+        @apply h-full ml-10 pl-10 border-l border-theme-24 text-theme-25;
+        @media (max-width: $md) {
+            @apply ml-0 pl-0 border-l-0;
+        }
+        .breadcrumb--active {
+            @apply text-theme-26;
+        }    
+    }
+    .breadcrumb__icon {
+        width: 14px;
+        height: 14px;
+        @apply mx-1;
+    }
+    .breadcrumb--active {
+        @apply text-theme-1 font-medium;
+    }
+}

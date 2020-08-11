@@ -1,0 +1,2113 @@
+<!DOCTYPE html>
+<!--
+Template Name: Midone - HTML Admin Dashboard Template
+Author: Left4code
+Website: http://www.left4code.com/
+Contact: muhammadrizki@left4code.com
+Purchase: https://themeforest.net/user/left4code/portfolio
+Renew Support: https://themeforest.net/user/left4code/portfolio
+License: You must have a valid license purchased only from themeforest(the above link) in order to legally use the theme for your project.
+-->
+<html lang="en">
+    <!-- BEGIN: Head -->
+    <head>
+        <meta charset="utf-8">
+        <link href="dist/images/logo.svg" rel="shortcut icon">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Midone admin is super flexible, powerful, clean & modern responsive tailwind admin template with unlimited possibilities.">
+        <meta name="keywords" content="admin template, Midone admin template, dashboard template, flat admin template, responsive admin template, web app">
+        <meta name="author" content="LEFT4CODE">
+        <title>Icon - Midone - Tailwind HTML Admin Template</title>
+        <!-- BEGIN: CSS Assets-->
+        <link rel="stylesheet" href="dist/css/app.css" />
+        <!-- END: CSS Assets-->
+    </head>
+    <!-- END: Head -->
+    <body class="app">
+        <!-- BEGIN: Mobile Menu -->
+        <div class="mobile-menu md:hidden">
+            <div class="mobile-menu-bar">
+                <a href="" class="flex mr-auto">
+                    <img alt="Midone Tailwind HTML Admin Template" class="w-6" src="dist/images/logo.svg">
+                </a>
+                <a href="javascript:;" id="mobile-menu-toggler"> <i data-feather="bar-chart-2" class="w-8 h-8 text-white transform -rotate-90"></i> </a>
+            </div>
+            <ul class="border-t border-theme-24 py-5 hidden">
+                <li>
+                    <a href="index.html" class="menu">
+                        <div class="menu__icon"> <i data-feather="home"></i> </div>
+                        <div class="menu__title"> Dashboard </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;" class="menu">
+                        <div class="menu__icon"> <i data-feather="box"></i> </div>
+                        <div class="menu__title"> Menu Layout <i data-feather="chevron-down" class="menu__sub-icon"></i> </div>
+                    </a>
+                    <ul class="">
+                        <li>
+                            <a href="index.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Side Menu </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="simple-menu-dashboard.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Simple Menu </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="top-menu-dashboard.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Top Menu </div>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="side-menu-inbox.html" class="menu">
+                        <div class="menu__icon"> <i data-feather="inbox"></i> </div>
+                        <div class="menu__title"> Inbox </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="side-menu-file-manager.html" class="menu">
+                        <div class="menu__icon"> <i data-feather="hard-drive"></i> </div>
+                        <div class="menu__title"> File Manager </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="side-menu-point-of-sale.html" class="menu">
+                        <div class="menu__icon"> <i data-feather="credit-card"></i> </div>
+                        <div class="menu__title"> Point of Sale </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="side-menu-chat.html" class="menu">
+                        <div class="menu__icon"> <i data-feather="message-square"></i> </div>
+                        <div class="menu__title"> Chat </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="side-menu-post.html" class="menu">
+                        <div class="menu__icon"> <i data-feather="file-text"></i> </div>
+                        <div class="menu__title"> Post </div>
+                    </a>
+                </li>
+                <li class="menu__devider my-6"></li>
+                <li>
+                    <a href="javascript:;" class="menu">
+                        <div class="menu__icon"> <i data-feather="edit"></i> </div>
+                        <div class="menu__title"> Crud <i data-feather="chevron-down" class="menu__sub-icon"></i> </div>
+                    </a>
+                    <ul class="">
+                        <li>
+                            <a href="side-menu-crud-data-list.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Data List </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="side-menu-crud-form.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Form </div>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript:;" class="menu">
+                        <div class="menu__icon"> <i data-feather="users"></i> </div>
+                        <div class="menu__title"> Users <i data-feather="chevron-down" class="menu__sub-icon"></i> </div>
+                    </a>
+                    <ul class="">
+                        <li>
+                            <a href="side-menu-users-layout-1.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Layout 1 </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="side-menu-users-layout-2.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Layout 2 </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="side-menu-users-layout-3.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Layout 3 </div>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript:;" class="menu">
+                        <div class="menu__icon"> <i data-feather="trello"></i> </div>
+                        <div class="menu__title"> Profile <i data-feather="chevron-down" class="menu__sub-icon"></i> </div>
+                    </a>
+                    <ul class="">
+                        <li>
+                            <a href="side-menu-profile-overview-1.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Overview 1 </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="side-menu-profile-overview-2.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Overview 2 </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="side-menu-profile-overview-3.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Overview 3 </div>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript:;" class="menu">
+                        <div class="menu__icon"> <i data-feather="layout"></i> </div>
+                        <div class="menu__title"> Pages <i data-feather="chevron-down" class="menu__sub-icon"></i> </div>
+                    </a>
+                    <ul class="">
+                        <li>
+                            <a href="javascript:;" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Wizards <i data-feather="chevron-down" class="menu__sub-icon"></i> </div>
+                            </a>
+                            <ul class="">
+                                <li>
+                                    <a href="side-menu-wizard-layout-1.html" class="menu">
+                                        <div class="menu__icon"> <i data-feather="zap"></i> </div>
+                                        <div class="menu__title">Layout 1</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="side-menu-wizard-layout-2.html" class="menu">
+                                        <div class="menu__icon"> <i data-feather="zap"></i> </div>
+                                        <div class="menu__title">Layout 2</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="side-menu-wizard-layout-3.html" class="menu">
+                                        <div class="menu__icon"> <i data-feather="zap"></i> </div>
+                                        <div class="menu__title">Layout 3</div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript:;" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Blog <i data-feather="chevron-down" class="menu__sub-icon"></i> </div>
+                            </a>
+                            <ul class="">
+                                <li>
+                                    <a href="side-menu-blog-layout-1.html" class="menu">
+                                        <div class="menu__icon"> <i data-feather="zap"></i> </div>
+                                        <div class="menu__title">Layout 1</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="side-menu-blog-layout-2.html" class="menu">
+                                        <div class="menu__icon"> <i data-feather="zap"></i> </div>
+                                        <div class="menu__title">Layout 2</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="side-menu-blog-layout-3.html" class="menu">
+                                        <div class="menu__icon"> <i data-feather="zap"></i> </div>
+                                        <div class="menu__title">Layout 3</div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript:;" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Pricing <i data-feather="chevron-down" class="menu__sub-icon"></i> </div>
+                            </a>
+                            <ul class="">
+                                <li>
+                                    <a href="side-menu-pricing-layout-1.html" class="menu">
+                                        <div class="menu__icon"> <i data-feather="zap"></i> </div>
+                                        <div class="menu__title">Layout 1</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="side-menu-pricing-layout-2.html" class="menu">
+                                        <div class="menu__icon"> <i data-feather="zap"></i> </div>
+                                        <div class="menu__title">Layout 2</div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript:;" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Invoice <i data-feather="chevron-down" class="menu__sub-icon"></i> </div>
+                            </a>
+                            <ul class="">
+                                <li>
+                                    <a href="side-menu-invoice-layout-1.html" class="menu">
+                                        <div class="menu__icon"> <i data-feather="zap"></i> </div>
+                                        <div class="menu__title">Layout 1</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="side-menu-invoice-layout-2.html" class="menu">
+                                        <div class="menu__icon"> <i data-feather="zap"></i> </div>
+                                        <div class="menu__title">Layout 2</div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript:;" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> FAQ <i data-feather="chevron-down" class="menu__sub-icon"></i> </div>
+                            </a>
+                            <ul class="">
+                                <li>
+                                    <a href="side-menu-faq-layout-1.html" class="menu">
+                                        <div class="menu__icon"> <i data-feather="zap"></i> </div>
+                                        <div class="menu__title">Layout 1</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="side-menu-faq-layout-2.html" class="menu">
+                                        <div class="menu__icon"> <i data-feather="zap"></i> </div>
+                                        <div class="menu__title">Layout 2</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="side-menu-faq-layout-3.html" class="menu">
+                                        <div class="menu__icon"> <i data-feather="zap"></i> </div>
+                                        <div class="menu__title">Layout 3</div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="login-login.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Login </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="login-register.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Register </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="main-error-page.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Error Page </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="side-menu-update-profile.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Update profile </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="side-menu-change-password.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Change Password </div>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="menu__devider my-6"></li>
+                <li>
+                    <a href="javascript:;.html" class="menu menu--active">
+                        <div class="menu__icon"> <i data-feather="inbox"></i> </div>
+                        <div class="menu__title"> Components <i data-feather="chevron-down" class="menu__sub-icon"></i> </div>
+                    </a>
+                    <ul class="menu__sub-open">
+                        <li>
+                            <a href="javascript:;" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Grid <i data-feather="chevron-down" class="menu__sub-icon"></i> </div>
+                            </a>
+                            <ul class="">
+                                <li>
+                                    <a href="side-menu-regular-table.html" class="menu">
+                                        <div class="menu__icon"> <i data-feather="zap"></i> </div>
+                                        <div class="menu__title">Regular Table</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="side-menu-datatable.html" class="menu">
+                                        <div class="menu__icon"> <i data-feather="zap"></i> </div>
+                                        <div class="menu__title">Datatable</div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="side-menu-accordion.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Accordion </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="side-menu-button.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Button </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="side-menu-modal.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Modal </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="side-menu-alert.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Alert </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="side-menu-progress-bar.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Progress Bar </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="side-menu-tooltip.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Tooltip </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="side-menu-dropdown.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Dropdown </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="side-menu-toast.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Toast </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="side-menu-typography.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Typography </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="side-menu-icon.html" class="menu menu--active">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Icon </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="side-menu-loading-icon.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Loading Icon </div>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript:;" class="menu">
+                        <div class="menu__icon"> <i data-feather="sidebar"></i> </div>
+                        <div class="menu__title"> Forms <i data-feather="chevron-down" class="menu__sub-icon"></i> </div>
+                    </a>
+                    <ul class="">
+                        <li>
+                            <a href="side-menu-regular-form.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Regular Form </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="side-menu-datepicker.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Datepicker </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="side-menu-select2.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Select2 </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="side-menu-file-upload.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> File Upload </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="side-menu-wysiwyg-editor.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Wysiwyg Editor </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="side-menu-validation.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Validation </div>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript:;" class="menu">
+                        <div class="menu__icon"> <i data-feather="hard-drive"></i> </div>
+                        <div class="menu__title"> Widgets <i data-feather="chevron-down" class="menu__sub-icon"></i> </div>
+                    </a>
+                    <ul class="">
+                        <li>
+                            <a href="side-menu-chart.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Chart </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="side-menu-slider.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Slider </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="side-menu-image-zoom.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Image Zoom </div>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <!-- END: Mobile Menu -->
+        <div class="flex">
+            <!-- BEGIN: Side Menu -->
+            <nav class="side-nav">
+                <a href="" class="intro-x flex items-center pl-5 pt-4">
+                    <img alt="Midone Tailwind HTML Admin Template" class="w-6" src="dist/images/logo.svg">
+                    <span class="hidden xl:block text-white text-lg ml-3"> Mid<span class="font-medium">one</span> </span>
+                </a>
+                <div class="side-nav__devider my-6"></div>
+                <ul>
+                    <li>
+                        <a href="index.html" class="side-menu">
+                            <div class="side-menu__icon"> <i data-feather="home"></i> </div>
+                            <div class="side-menu__title"> Dashboard </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;" class="side-menu">
+                            <div class="side-menu__icon"> <i data-feather="box"></i> </div>
+                            <div class="side-menu__title"> Menu Layout <i data-feather="chevron-down" class="side-menu__sub-icon"></i> </div>
+                        </a>
+                        <ul class="">
+                            <li>
+                                <a href="index.html" class="side-menu">
+                                    <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                    <div class="side-menu__title"> Side Menu </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="simple-menu-dashboard.html" class="side-menu">
+                                    <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                    <div class="side-menu__title"> Simple Menu </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="top-menu-dashboard.html" class="side-menu">
+                                    <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                    <div class="side-menu__title"> Top Menu </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="side-menu-inbox.html" class="side-menu">
+                            <div class="side-menu__icon"> <i data-feather="inbox"></i> </div>
+                            <div class="side-menu__title"> Inbox </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="side-menu-file-manager.html" class="side-menu">
+                            <div class="side-menu__icon"> <i data-feather="hard-drive"></i> </div>
+                            <div class="side-menu__title"> File Manager </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="side-menu-point-of-sale.html" class="side-menu">
+                            <div class="side-menu__icon"> <i data-feather="credit-card"></i> </div>
+                            <div class="side-menu__title"> Point of Sale </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="side-menu-chat.html" class="side-menu">
+                            <div class="side-menu__icon"> <i data-feather="message-square"></i> </div>
+                            <div class="side-menu__title"> Chat </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="side-menu-post.html" class="side-menu">
+                            <div class="side-menu__icon"> <i data-feather="file-text"></i> </div>
+                            <div class="side-menu__title"> Post </div>
+                        </a>
+                    </li>
+                    <li class="side-nav__devider my-6"></li>
+                    <li>
+                        <a href="javascript:;" class="side-menu">
+                            <div class="side-menu__icon"> <i data-feather="edit"></i> </div>
+                            <div class="side-menu__title"> Crud <i data-feather="chevron-down" class="side-menu__sub-icon"></i> </div>
+                        </a>
+                        <ul class="">
+                            <li>
+                                <a href="side-menu-crud-data-list.html" class="side-menu">
+                                    <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                    <div class="side-menu__title"> Data List </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="side-menu-crud-form.html" class="side-menu">
+                                    <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                    <div class="side-menu__title"> Form </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:;" class="side-menu">
+                            <div class="side-menu__icon"> <i data-feather="users"></i> </div>
+                            <div class="side-menu__title"> Users <i data-feather="chevron-down" class="side-menu__sub-icon"></i> </div>
+                        </a>
+                        <ul class="">
+                            <li>
+                                <a href="side-menu-users-layout-1.html" class="side-menu">
+                                    <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                    <div class="side-menu__title"> Layout 1 </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="side-menu-users-layout-2.html" class="side-menu">
+                                    <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                    <div class="side-menu__title"> Layout 2 </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="side-menu-users-layout-3.html" class="side-menu">
+                                    <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                    <div class="side-menu__title"> Layout 3 </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:;" class="side-menu">
+                            <div class="side-menu__icon"> <i data-feather="trello"></i> </div>
+                            <div class="side-menu__title"> Profile <i data-feather="chevron-down" class="side-menu__sub-icon"></i> </div>
+                        </a>
+                        <ul class="">
+                            <li>
+                                <a href="side-menu-profile-overview-1.html" class="side-menu">
+                                    <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                    <div class="side-menu__title"> Overview 1 </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="side-menu-profile-overview-2.html" class="side-menu">
+                                    <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                    <div class="side-menu__title"> Overview 2 </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="side-menu-profile-overview-3.html" class="side-menu">
+                                    <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                    <div class="side-menu__title"> Overview 3 </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:;" class="side-menu">
+                            <div class="side-menu__icon"> <i data-feather="layout"></i> </div>
+                            <div class="side-menu__title"> Pages <i data-feather="chevron-down" class="side-menu__sub-icon"></i> </div>
+                        </a>
+                        <ul class="">
+                            <li>
+                                <a href="javascript:;" class="side-menu">
+                                    <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                    <div class="side-menu__title"> Wizards <i data-feather="chevron-down" class="side-menu__sub-icon"></i> </div>
+                                </a>
+                                <ul class="">
+                                    <li>
+                                        <a href="side-menu-wizard-layout-1.html" class="side-menu">
+                                            <div class="side-menu__icon"> <i data-feather="zap"></i> </div>
+                                            <div class="side-menu__title">Layout 1</div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="side-menu-wizard-layout-2.html" class="side-menu">
+                                            <div class="side-menu__icon"> <i data-feather="zap"></i> </div>
+                                            <div class="side-menu__title">Layout 2</div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="side-menu-wizard-layout-3.html" class="side-menu">
+                                            <div class="side-menu__icon"> <i data-feather="zap"></i> </div>
+                                            <div class="side-menu__title">Layout 3</div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="javascript:;" class="side-menu">
+                                    <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                    <div class="side-menu__title"> Blog <i data-feather="chevron-down" class="side-menu__sub-icon"></i> </div>
+                                </a>
+                                <ul class="">
+                                    <li>
+                                        <a href="side-menu-blog-layout-1.html" class="side-menu">
+                                            <div class="side-menu__icon"> <i data-feather="zap"></i> </div>
+                                            <div class="side-menu__title">Layout 1</div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="side-menu-blog-layout-2.html" class="side-menu">
+                                            <div class="side-menu__icon"> <i data-feather="zap"></i> </div>
+                                            <div class="side-menu__title">Layout 2</div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="side-menu-blog-layout-3.html" class="side-menu">
+                                            <div class="side-menu__icon"> <i data-feather="zap"></i> </div>
+                                            <div class="side-menu__title">Layout 3</div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="javascript:;" class="side-menu">
+                                    <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                    <div class="side-menu__title"> Pricing <i data-feather="chevron-down" class="side-menu__sub-icon"></i> </div>
+                                </a>
+                                <ul class="">
+                                    <li>
+                                        <a href="side-menu-pricing-layout-1.html" class="side-menu">
+                                            <div class="side-menu__icon"> <i data-feather="zap"></i> </div>
+                                            <div class="side-menu__title">Layout 1</div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="side-menu-pricing-layout-2.html" class="side-menu">
+                                            <div class="side-menu__icon"> <i data-feather="zap"></i> </div>
+                                            <div class="side-menu__title">Layout 2</div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="javascript:;" class="side-menu">
+                                    <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                    <div class="side-menu__title"> Invoice <i data-feather="chevron-down" class="side-menu__sub-icon"></i> </div>
+                                </a>
+                                <ul class="">
+                                    <li>
+                                        <a href="side-menu-invoice-layout-1.html" class="side-menu">
+                                            <div class="side-menu__icon"> <i data-feather="zap"></i> </div>
+                                            <div class="side-menu__title">Layout 1</div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="side-menu-invoice-layout-2.html" class="side-menu">
+                                            <div class="side-menu__icon"> <i data-feather="zap"></i> </div>
+                                            <div class="side-menu__title">Layout 2</div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="javascript:;" class="side-menu">
+                                    <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                    <div class="side-menu__title"> FAQ <i data-feather="chevron-down" class="side-menu__sub-icon"></i> </div>
+                                </a>
+                                <ul class="">
+                                    <li>
+                                        <a href="side-menu-faq-layout-1.html" class="side-menu">
+                                            <div class="side-menu__icon"> <i data-feather="zap"></i> </div>
+                                            <div class="side-menu__title">Layout 1</div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="side-menu-faq-layout-2.html" class="side-menu">
+                                            <div class="side-menu__icon"> <i data-feather="zap"></i> </div>
+                                            <div class="side-menu__title">Layout 2</div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="side-menu-faq-layout-3.html" class="side-menu">
+                                            <div class="side-menu__icon"> <i data-feather="zap"></i> </div>
+                                            <div class="side-menu__title">Layout 3</div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="login-login.html" class="side-menu">
+                                    <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                    <div class="side-menu__title"> Login </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="login-register.html" class="side-menu">
+                                    <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                    <div class="side-menu__title"> Register </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="main-error-page.html" class="side-menu">
+                                    <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                    <div class="side-menu__title"> Error Page </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="side-menu-update-profile.html" class="side-menu">
+                                    <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                    <div class="side-menu__title"> Update profile </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="side-menu-change-password.html" class="side-menu">
+                                    <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                    <div class="side-menu__title"> Change Password </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="side-nav__devider my-6"></li>
+                    <li>
+                        <a href="javascript:;.html" class="side-menu side-menu--active">
+                            <div class="side-menu__icon"> <i data-feather="inbox"></i> </div>
+                            <div class="side-menu__title"> Components <i data-feather="chevron-down" class="side-menu__sub-icon"></i> </div>
+                        </a>
+                        <ul class="side-menu__sub-open">
+                            <li>
+                                <a href="javascript:;" class="side-menu">
+                                    <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                    <div class="side-menu__title"> Grid <i data-feather="chevron-down" class="side-menu__sub-icon"></i> </div>
+                                </a>
+                                <ul class="">
+                                    <li>
+                                        <a href="side-menu-regular-table.html" class="side-menu">
+                                            <div class="side-menu__icon"> <i data-feather="zap"></i> </div>
+                                            <div class="side-menu__title">Regular Table</div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="side-menu-datatable.html" class="side-menu">
+                                            <div class="side-menu__icon"> <i data-feather="zap"></i> </div>
+                                            <div class="side-menu__title">Datatable</div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="side-menu-accordion.html" class="side-menu">
+                                    <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                    <div class="side-menu__title"> Accordion </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="side-menu-button.html" class="side-menu">
+                                    <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                    <div class="side-menu__title"> Button </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="side-menu-modal.html" class="side-menu">
+                                    <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                    <div class="side-menu__title"> Modal </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="side-menu-alert.html" class="side-menu">
+                                    <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                    <div class="side-menu__title"> Alert </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="side-menu-progress-bar.html" class="side-menu">
+                                    <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                    <div class="side-menu__title"> Progress Bar </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="side-menu-tooltip.html" class="side-menu">
+                                    <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                    <div class="side-menu__title"> Tooltip </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="side-menu-dropdown.html" class="side-menu">
+                                    <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                    <div class="side-menu__title"> Dropdown </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="side-menu-toast.html" class="side-menu">
+                                    <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                    <div class="side-menu__title"> Toast </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="side-menu-typography.html" class="side-menu">
+                                    <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                    <div class="side-menu__title"> Typography </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="side-menu-icon.html" class="side-menu side-menu--active">
+                                    <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                    <div class="side-menu__title"> Icon </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="side-menu-loading-icon.html" class="side-menu">
+                                    <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                    <div class="side-menu__title"> Loading Icon </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:;" class="side-menu">
+                            <div class="side-menu__icon"> <i data-feather="sidebar"></i> </div>
+                            <div class="side-menu__title"> Forms <i data-feather="chevron-down" class="side-menu__sub-icon"></i> </div>
+                        </a>
+                        <ul class="">
+                            <li>
+                                <a href="side-menu-regular-form.html" class="side-menu">
+                                    <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                    <div class="side-menu__title"> Regular Form </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="side-menu-datepicker.html" class="side-menu">
+                                    <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                    <div class="side-menu__title"> Datepicker </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="side-menu-select2.html" class="side-menu">
+                                    <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                    <div class="side-menu__title"> Select2 </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="side-menu-file-upload.html" class="side-menu">
+                                    <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                    <div class="side-menu__title"> File Upload </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="side-menu-wysiwyg-editor.html" class="side-menu">
+                                    <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                    <div class="side-menu__title"> Wysiwyg Editor </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="side-menu-validation.html" class="side-menu">
+                                    <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                    <div class="side-menu__title"> Validation </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:;" class="side-menu">
+                            <div class="side-menu__icon"> <i data-feather="hard-drive"></i> </div>
+                            <div class="side-menu__title"> Widgets <i data-feather="chevron-down" class="side-menu__sub-icon"></i> </div>
+                        </a>
+                        <ul class="">
+                            <li>
+                                <a href="side-menu-chart.html" class="side-menu">
+                                    <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                    <div class="side-menu__title"> Chart </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="side-menu-slider.html" class="side-menu">
+                                    <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                    <div class="side-menu__title"> Slider </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="side-menu-image-zoom.html" class="side-menu">
+                                    <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                    <div class="side-menu__title"> Image Zoom </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <!-- END: Side Menu -->
+            <!-- BEGIN: Content -->
+            <div class="content">
+                <!-- BEGIN: Top Bar -->
+                <div class="top-bar">
+                    <!-- BEGIN: Breadcrumb -->
+                    <div class="-intro-x breadcrumb mr-auto hidden sm:flex"> <a href="" class="">Application</a> <i data-feather="chevron-right" class="breadcrumb__icon"></i> <a href="" class="breadcrumb--active">Dashboard</a> </div>
+                    <!-- END: Breadcrumb -->
+                    <!-- BEGIN: Search -->
+                    <div class="intro-x relative mr-3 sm:mr-6">
+                        <div class="search hidden sm:block">
+                            <input type="text" class="search__input input placeholder-theme-13" placeholder="Search...">
+                            <i data-feather="search" class="search__icon"></i> 
+                        </div>
+                        <a class="notification sm:hidden" href=""> <i data-feather="search" class="notification__icon"></i> </a>
+                        <div class="search-result">
+                            <div class="search-result__content">
+                                <div class="search-result__content__title">Pages</div>
+                                <div class="mb-5">
+                                    <a href="" class="flex items-center">
+                                        <div class="w-8 h-8 bg-theme-18 text-theme-9 flex items-center justify-center rounded-full"> <i class="w-4 h-4" data-feather="inbox"></i> </div>
+                                        <div class="ml-3">Mail Settings</div>
+                                    </a>
+                                    <a href="" class="flex items-center mt-2">
+                                        <div class="w-8 h-8 bg-theme-17 text-theme-11 flex items-center justify-center rounded-full"> <i class="w-4 h-4" data-feather="users"></i> </div>
+                                        <div class="ml-3">Users & Permissions</div>
+                                    </a>
+                                    <a href="" class="flex items-center mt-2">
+                                        <div class="w-8 h-8 bg-theme-14 text-theme-10 flex items-center justify-center rounded-full"> <i class="w-4 h-4" data-feather="credit-card"></i> </div>
+                                        <div class="ml-3">Transactions Report</div>
+                                    </a>
+                                </div>
+                                <div class="search-result__content__title">Users</div>
+                                <div class="mb-5">
+                                    <a href="" class="flex items-center mt-2">
+                                        <div class="w-8 h-8 image-fit">
+                                            <img alt="Midone Tailwind HTML Admin Template" class="rounded-full" src="dist/images/profile-7.jpg">
+                                        </div>
+                                        <div class="ml-3">Russell Crowe</div>
+                                        <div class="ml-auto w-48 truncate text-gray-600 text-xs text-right">russellcrowe@left4code.com</div>
+                                    </a>
+                                    <a href="" class="flex items-center mt-2">
+                                        <div class="w-8 h-8 image-fit">
+                                            <img alt="Midone Tailwind HTML Admin Template" class="rounded-full" src="dist/images/profile-10.jpg">
+                                        </div>
+                                        <div class="ml-3">Brad Pitt</div>
+                                        <div class="ml-auto w-48 truncate text-gray-600 text-xs text-right">bradpitt@left4code.com</div>
+                                    </a>
+                                    <a href="" class="flex items-center mt-2">
+                                        <div class="w-8 h-8 image-fit">
+                                            <img alt="Midone Tailwind HTML Admin Template" class="rounded-full" src="dist/images/profile-4.jpg">
+                                        </div>
+                                        <div class="ml-3">Leonardo DiCaprio</div>
+                                        <div class="ml-auto w-48 truncate text-gray-600 text-xs text-right">leonardodicaprio@left4code.com</div>
+                                    </a>
+                                    <a href="" class="flex items-center mt-2">
+                                        <div class="w-8 h-8 image-fit">
+                                            <img alt="Midone Tailwind HTML Admin Template" class="rounded-full" src="dist/images/profile-10.jpg">
+                                        </div>
+                                        <div class="ml-3">Al Pacino</div>
+                                        <div class="ml-auto w-48 truncate text-gray-600 text-xs text-right">alpacino@left4code.com</div>
+                                    </a>
+                                </div>
+                                <div class="search-result__content__title">Products</div>
+                                <a href="" class="flex items-center mt-2">
+                                    <div class="w-8 h-8 image-fit">
+                                        <img alt="Midone Tailwind HTML Admin Template" class="rounded-full" src="dist/images/preview-13.jpg">
+                                    </div>
+                                    <div class="ml-3">Nike Tanjun</div>
+                                    <div class="ml-auto w-48 truncate text-gray-600 text-xs text-right">Sport &amp; Outdoor</div>
+                                </a>
+                                <a href="" class="flex items-center mt-2">
+                                    <div class="w-8 h-8 image-fit">
+                                        <img alt="Midone Tailwind HTML Admin Template" class="rounded-full" src="dist/images/preview-1.jpg">
+                                    </div>
+                                    <div class="ml-3">Samsung Q90 QLED TV</div>
+                                    <div class="ml-auto w-48 truncate text-gray-600 text-xs text-right">Electronic</div>
+                                </a>
+                                <a href="" class="flex items-center mt-2">
+                                    <div class="w-8 h-8 image-fit">
+                                        <img alt="Midone Tailwind HTML Admin Template" class="rounded-full" src="dist/images/preview-15.jpg">
+                                    </div>
+                                    <div class="ml-3">Sony Master Series A9G</div>
+                                    <div class="ml-auto w-48 truncate text-gray-600 text-xs text-right">Electronic</div>
+                                </a>
+                                <a href="" class="flex items-center mt-2">
+                                    <div class="w-8 h-8 image-fit">
+                                        <img alt="Midone Tailwind HTML Admin Template" class="rounded-full" src="dist/images/preview-11.jpg">
+                                    </div>
+                                    <div class="ml-3">Nikon Z6</div>
+                                    <div class="ml-auto w-48 truncate text-gray-600 text-xs text-right">Photography</div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END: Search -->
+                    <!-- BEGIN: Notifications -->
+                    <div class="intro-x dropdown relative mr-auto sm:mr-6">
+                        <div class="dropdown-toggle notification notification--bullet cursor-pointer"> <i data-feather="bell" class="notification__icon"></i> </div>
+                        <div class="notification-content dropdown-box mt-8 absolute top-0 left-0 sm:left-auto sm:right-0 z-20 -ml-10 sm:ml-0">
+                            <div class="notification-content__box dropdown-box__content box">
+                                <div class="notification-content__title">Notifications</div>
+                                <div class="cursor-pointer relative flex items-center ">
+                                    <div class="w-12 h-12 flex-none image-fit mr-1">
+                                        <img alt="Midone Tailwind HTML Admin Template" class="rounded-full" src="dist/images/profile-7.jpg">
+                                        <div class="w-3 h-3 bg-theme-9 absolute right-0 bottom-0 rounded-full border-2 border-white"></div>
+                                    </div>
+                                    <div class="ml-2 overflow-hidden">
+                                        <div class="flex items-center">
+                                            <a href="javascript:;" class="font-medium truncate mr-5">Russell Crowe</a> 
+                                            <div class="text-xs text-gray-500 ml-auto whitespace-no-wrap">05:09 AM</div>
+                                        </div>
+                                        <div class="w-full truncate text-gray-600">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 20</div>
+                                    </div>
+                                </div>
+                                <div class="cursor-pointer relative flex items-center mt-5">
+                                    <div class="w-12 h-12 flex-none image-fit mr-1">
+                                        <img alt="Midone Tailwind HTML Admin Template" class="rounded-full" src="dist/images/profile-10.jpg">
+                                        <div class="w-3 h-3 bg-theme-9 absolute right-0 bottom-0 rounded-full border-2 border-white"></div>
+                                    </div>
+                                    <div class="ml-2 overflow-hidden">
+                                        <div class="flex items-center">
+                                            <a href="javascript:;" class="font-medium truncate mr-5">Brad Pitt</a> 
+                                            <div class="text-xs text-gray-500 ml-auto whitespace-no-wrap">05:09 AM</div>
+                                        </div>
+                                        <div class="w-full truncate text-gray-600">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomi</div>
+                                    </div>
+                                </div>
+                                <div class="cursor-pointer relative flex items-center mt-5">
+                                    <div class="w-12 h-12 flex-none image-fit mr-1">
+                                        <img alt="Midone Tailwind HTML Admin Template" class="rounded-full" src="dist/images/profile-4.jpg">
+                                        <div class="w-3 h-3 bg-theme-9 absolute right-0 bottom-0 rounded-full border-2 border-white"></div>
+                                    </div>
+                                    <div class="ml-2 overflow-hidden">
+                                        <div class="flex items-center">
+                                            <a href="javascript:;" class="font-medium truncate mr-5">Leonardo DiCaprio</a> 
+                                            <div class="text-xs text-gray-500 ml-auto whitespace-no-wrap">06:05 AM</div>
+                                        </div>
+                                        <div class="w-full truncate text-gray-600">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#039;s standard dummy text ever since the 1500</div>
+                                    </div>
+                                </div>
+                                <div class="cursor-pointer relative flex items-center mt-5">
+                                    <div class="w-12 h-12 flex-none image-fit mr-1">
+                                        <img alt="Midone Tailwind HTML Admin Template" class="rounded-full" src="dist/images/profile-10.jpg">
+                                        <div class="w-3 h-3 bg-theme-9 absolute right-0 bottom-0 rounded-full border-2 border-white"></div>
+                                    </div>
+                                    <div class="ml-2 overflow-hidden">
+                                        <div class="flex items-center">
+                                            <a href="javascript:;" class="font-medium truncate mr-5">Al Pacino</a> 
+                                            <div class="text-xs text-gray-500 ml-auto whitespace-no-wrap">01:10 PM</div>
+                                        </div>
+                                        <div class="w-full truncate text-gray-600">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem </div>
+                                    </div>
+                                </div>
+                                <div class="cursor-pointer relative flex items-center mt-5">
+                                    <div class="w-12 h-12 flex-none image-fit mr-1">
+                                        <img alt="Midone Tailwind HTML Admin Template" class="rounded-full" src="dist/images/profile-12.jpg">
+                                        <div class="w-3 h-3 bg-theme-9 absolute right-0 bottom-0 rounded-full border-2 border-white"></div>
+                                    </div>
+                                    <div class="ml-2 overflow-hidden">
+                                        <div class="flex items-center">
+                                            <a href="javascript:;" class="font-medium truncate mr-5">Denzel Washington</a> 
+                                            <div class="text-xs text-gray-500 ml-auto whitespace-no-wrap">01:10 PM</div>
+                                        </div>
+                                        <div class="w-full truncate text-gray-600">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#039;s standard dummy text ever since the 1500</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END: Notifications -->
+                    <!-- BEGIN: Account Menu -->
+                    <div class="intro-x dropdown w-8 h-8 relative">
+                        <div class="dropdown-toggle w-8 h-8 rounded-full overflow-hidden shadow-lg image-fit zoom-in">
+                            <img alt="Midone Tailwind HTML Admin Template" src="dist/images/profile-4.jpg">
+                        </div>
+                        <div class="dropdown-box mt-10 absolute w-56 top-0 right-0 z-20">
+                            <div class="dropdown-box__content box bg-theme-38 text-white">
+                                <div class="p-4 border-b border-theme-40">
+                                    <div class="font-medium">Russell Crowe</div>
+                                    <div class="text-xs text-theme-41">Backend Engineer</div>
+                                </div>
+                                <div class="p-2">
+                                    <a href="" class="flex items-center block p-2 transition duration-300 ease-in-out hover:bg-theme-1 rounded-md"> <i data-feather="user" class="w-4 h-4 mr-2"></i> Profile </a>
+                                    <a href="" class="flex items-center block p-2 transition duration-300 ease-in-out hover:bg-theme-1 rounded-md"> <i data-feather="edit" class="w-4 h-4 mr-2"></i> Add Account </a>
+                                    <a href="" class="flex items-center block p-2 transition duration-300 ease-in-out hover:bg-theme-1 rounded-md"> <i data-feather="lock" class="w-4 h-4 mr-2"></i> Reset Password </a>
+                                    <a href="" class="flex items-center block p-2 transition duration-300 ease-in-out hover:bg-theme-1 rounded-md"> <i data-feather="help-circle" class="w-4 h-4 mr-2"></i> Help </a>
+                                </div>
+                                <div class="p-2 border-t border-theme-40">
+                                    <a href="" class="flex items-center block p-2 transition duration-300 ease-in-out hover:bg-theme-1 rounded-md"> <i data-feather="toggle-right" class="w-4 h-4 mr-2"></i> Logout </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END: Account Menu -->
+                </div>
+                <!-- END: Top Bar -->
+                <div class="intro-y flex items-center mt-8">
+                    <h2 class="text-lg font-medium mr-auto">
+                        Feather Icons
+                    </h2>
+                </div>
+                <!-- BEGIN: Icon List -->
+                <div class="intro-y grid grid-cols-12 sm:gap-6 row-gap-6 box px-5 py-8 mt-5">
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="activity" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">activity</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="airplay" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">airplay</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="alert-circle" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">alert-circle</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="alert-octagon" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">alert-octagon</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="alert-triangle" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">alert-triangle</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="align-center" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">align-center</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="align-justify" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">align-justify</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="align-left" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">align-left</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="align-right" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">align-right</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="anchor" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">anchor</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="archive" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">archive</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="at-sign" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">at-sign</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="award" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">award</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="aperture" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">aperture</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="bar-chart" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">bar-chart</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="bar-chart-2" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">bar-chart-2</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="battery" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">battery</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="battery-charging" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">battery-charging</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="bell" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">bell</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="bell-off" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">bell-off</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="bluetooth" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">bluetooth</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="book-open" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">book-open</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="book" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">book</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="bookmark" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">bookmark</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="box" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">box</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="briefcase" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">briefcase</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="calendar" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">calendar</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="camera" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">camera</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="cast" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">cast</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="circle" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">circle</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="clipboard" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">clipboard</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="clock" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">clock</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="cloud-drizzle" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">cloud-drizzle</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="cloud-lightning" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">cloud-lightning</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="cloud-rain" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">cloud-rain</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="cloud-snow" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">cloud-snow</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="cloud" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">cloud</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="codepen" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">codepen</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="codesandbox" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">codesandbox</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="code" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">code</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="coffee" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">coffee</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="columns" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">columns</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="command" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">command</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="compass" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">compass</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="copy" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">copy</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="corner-down-left" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">corner-down-left</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="corner-down-right" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">corner-down-right</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="corner-left-down" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">corner-left-down</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="corner-left-up" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">corner-left-up</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="corner-right-down" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">corner-right-down</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="corner-right-up" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">corner-right-up</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="corner-up-left" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">corner-up-left</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="corner-up-right" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">corner-up-right</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="cpu" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">cpu</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="credit-card" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">credit-card</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="crop" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">crop</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="crosshair" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">crosshair</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="database" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">database</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="delete" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">delete</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="disc" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">disc</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="dollar-sign" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">dollar-sign</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="droplet" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">droplet</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="edit" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">edit</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="edit-2" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">edit-2</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="edit-3" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">edit-3</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="eye" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">eye</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="eye-off" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">eye-off</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="external-link" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">external-link</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="facebook" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">facebook</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="fast-forward" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">fast-forward</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="figma" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">figma</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="file-minus" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">file-minus</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="file-plus" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">file-plus</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="file-text" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">file-text</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="film" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">film</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="filter" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">filter</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="flag" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">flag</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="folder-minus" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">folder-minus</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="folder-plus" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">folder-plus</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="folder" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">folder</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="framer" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">framer</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="frown" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">frown</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="gift" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">gift</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="git-branch" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">git-branch</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="git-commit" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">git-commit</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="git-merge" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">git-merge</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="git-pull-request" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">git-pull-request</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="github" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">github</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="gitlab" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">gitlab</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="globe" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">globe</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="hard-drive" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">hard-drive</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="hash" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">hash</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="headphones" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">headphones</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="heart" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">heart</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="help-circle" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">help-circle</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="hexagon" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">hexagon</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="home" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">home</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="image" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">image</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="inbox" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">inbox</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="instagram" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">instagram</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="key" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">key</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="layers" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">layers</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="layout" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">layout</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="link" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">link</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="link-2" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">link-2</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="linkedin" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">linkedin</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="list" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">list</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="lock" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">lock</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="log-in" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">log-in</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="log-out" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">log-out</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="mail" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">mail</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="map-pin" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">map-pin</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="map" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">map</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="maximize" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">maximize</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="maximize-2" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">maximize-2</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="meh" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">meh</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="menu" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">menu</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="message-circle" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">message-circle</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="message-square" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">message-square</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="mic-off" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">mic-off</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="mic" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">mic</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="minimize" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">minimize</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="minimize-2" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">minimize-2</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="minus" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">minus</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="monitor" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">monitor</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="moon" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">moon</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="more-horizontal" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">more-horizontal</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="more-vertical" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">more-vertical</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="mouse-pointer" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">mouse-pointer</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="move" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">move</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="music" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">music</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="navigation" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">navigation</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="navigation-2" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">navigation-2</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="octagon" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">octagon</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="package" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">package</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="paperclip" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">paperclip</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="pause" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">pause</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="pause-circle" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">pause-circle</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="pen-tool" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">pen-tool</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="percent" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">percent</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="phone-call" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">phone-call</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="phone-forwarded" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">phone-forwarded</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="phone-incoming" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">phone-incoming</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="phone-missed" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">phone-missed</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="phone-off" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">phone-off</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="phone-outgoing" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">phone-outgoing</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="phone" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">phone</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="play" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">play</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="pie-chart" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">pie-chart</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="play-circle" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">play-circle</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="plus" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">plus</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="plus-circle" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">plus-circle</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="plus-square" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">plus-square</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="pocket" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">pocket</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="power" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">power</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="printer" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">printer</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="radio" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">radio</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="refresh-cw" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">refresh-cw</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="refresh-ccw" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">refresh-ccw</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="repeat" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">repeat</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="rewind" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">rewind</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="rotate-ccw" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">rotate-ccw</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="rotate-cw" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">rotate-cw</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="rss" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">rss</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="save" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">save</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="scissors" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">scissors</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="search" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">search</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="send" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">send</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="settings" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">settings</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="share-2" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">share-2</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="shield" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">shield</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="shield-off" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">shield-off</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="shopping-bag" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">shopping-bag</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="shopping-cart" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">shopping-cart</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="shuffle" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">shuffle</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="skip-back" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">skip-back</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="skip-forward" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">skip-forward</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="slack" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">slack</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="slash" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">slash</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="sliders" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">sliders</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="smartphone" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">smartphone</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="smile" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">smile</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="speaker" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">speaker</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="star" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">star</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="stop-circle" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">stop-circle</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="sun" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">sun</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="sunrise" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">sunrise</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="sunset" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">sunset</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="tablet" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">tablet</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="tag" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">tag</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="target" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">target</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="terminal" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">terminal</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="thermometer" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">thermometer</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="thumbs-down" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">thumbs-down</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="thumbs-up" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">thumbs-up</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="toggle-left" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">toggle-left</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="toggle-right" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">toggle-right</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="tool" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">tool</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="trash" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">trash</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="trash-2" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">trash-2</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="triangle" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">triangle</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="truck" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">truck</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="tv" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">tv</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="twitch" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">twitch</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="twitter" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">twitter</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="type" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">type</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="umbrella" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">umbrella</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="unlock" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">unlock</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="user-check" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">user-check</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="user-minus" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">user-minus</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="user-plus" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">user-plus</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="user-x" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">user-x</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="user" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">user</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="users" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">users</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="video-off" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">video-off</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="video" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">video</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="voicemail" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">voicemail</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="volume" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">volume</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="volume-1" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">volume-1</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="volume-2" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">volume-2</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="volume-x" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">volume-x</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="watch" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">watch</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="wifi-off" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">wifi-off</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="wifi" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">wifi</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="wind" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">wind</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="x-circle" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">x-circle</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="x-octagon" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">x-octagon</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="x-square" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">x-square</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="x" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">x</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="youtube" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">youtube</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="zap-off" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">zap-off</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="zap" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">zap</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="zoom-in" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">zoom-in</div>
+                    </div>
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2 xl:col-span-1">
+                        <i data-feather="zoom-out" class="mx-auto"></i> 
+                        <div class="text-center text-xs mt-2">zoom-out</div>
+                    </div>
+                </div>
+                <!-- END: Icon List -->
+            </div>
+            <!-- END: Content -->
+        </div>
+        <!-- BEGIN: JS Assets-->
+        <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=["your-google-map-api"]&libraries=places"></script>
+        <script src="dist/js/app.js"></script>
+        <!-- END: JS Assets-->
+    </body>
+</html>

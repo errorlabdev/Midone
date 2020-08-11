@@ -1,0 +1,49 @@
+* {
+    @for $i from 1 through 50 {
+        > .intro-x:nth-child(#{$i}) {
+            z-index: #{50 - $i};
+            @apply opacity-0 relative;
+            transform: translateX(50px);
+            animation: 0.4s intro-x-animation ease-in-out .33333s;
+            animation-fill-mode: forwards;
+            animation-delay: #{$i * 0.1}s;
+        }
+        > .-intro-x:nth-child(#{$i}) {
+            z-index: #{50 - $i};
+            @apply opacity-0 relative;
+            transform: translateX(-50px);
+            animation: 0.4s intro-x-animation ease-in-out .33333s;
+            animation-fill-mode: forwards;
+            animation-delay: #{$i * 0.1}s;
+        }
+        > .intro-y:nth-child(#{$i}) {
+            z-index: #{50 - $i};
+            @apply opacity-0 relative;
+            transform: translateY(50px);
+            animation: 0.4s intro-y-animation ease-in-out .33333s;
+            animation-fill-mode: forwards;
+            animation-delay: #{$i * 0.1}s;
+        }
+        > .-intro-y:nth-child(#{$i}) {
+            z-index: #{50 - $i};
+            @apply opacity-0 relative;
+            transform: translateY(-50px);
+            animation: 0.4s intro-y-animation ease-in-out .33333s;
+            animation-fill-mode: forwards;
+            animation-delay: #{$i * 0.1}s;
+        }
+    }
+}
+
+@keyframes intro-x-animation {
+    100% {
+        @apply opacity-100;
+        transform: translateX(0px);
+    }
+}
+@keyframes intro-y-animation {
+    100% {
+        @apply opacity-100;
+        transform: translateY(0px);
+    }
+}

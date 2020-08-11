@@ -1,0 +1,31 @@
+.pagination {
+    @apply flex mr-auto;
+    @media (max-width: $sm) {
+        @apply w-full mr-0;
+    }
+    li {
+        @media (max-width: $sm) {
+            @apply flex-1;
+            &:nth-child(1),
+            &:nth-child(2),
+            &:nth-child(3),
+            &:nth-child(7),
+            &:nth-child(8),
+            &:nth-child(9) {
+                .pagination__link {
+                    @apply px-1;
+                }
+            }
+        }
+        .pagination__link {
+            min-width: 40px;
+            @apply button font-normal flex items-center justify-center border-transparent text-gray-800 mr-2;
+            @media (max-width: $sm) {
+                @apply min-w-0 mr-0;
+            }
+            &.pagination__link--active {
+                @apply box font-medium;
+            }
+        }
+    }
+}

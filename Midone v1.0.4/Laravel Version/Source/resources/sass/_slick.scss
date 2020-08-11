@@ -1,0 +1,42 @@
+.slick-dots {
+    @apply -mb-1;
+    li {
+        @apply w-3 h-3;
+        button {
+            @apply w-full h-full;
+            &.active:before {
+                @apply w-full h-full bg-gray-700;
+            }
+            &:before {
+                content: "";
+                @apply w-full h-full bg-gray-500 rounded-full;
+            }
+        }
+    }
+}
+.slick-arrow {
+    background: #71809647;
+    @apply z-20 rounded-full;
+    &:hover {
+        @apply bg-gray-500;
+    }
+    &:before {
+        @apply top-0 left-0 w-full h-full absolute bg-cover bg-center;
+    }
+    &.slick-prev {
+        &::before {
+            content: "";
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='rgb(74, 85, 104)' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' class='feather feather-chevron-down'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");
+            background-size: 15px;
+            @apply transform rotate-90;
+        }
+    }
+    &.slick-next {
+        &::before {
+            content: "";
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='rgb(74, 85, 104)' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' class='feather feather-chevron-down'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");
+            background-size: 15px;
+            @apply transform -rotate-90;
+        }
+    }
+}

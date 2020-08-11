@@ -1,0 +1,28 @@
+.note-editor {
+    &.note-frame {
+        border-color: #e2e8f0 !important;
+    }
+    .note-toolbar {
+        @apply bg-gray-200 border-gray-300;
+    }
+    .note-btn {
+        @apply border-gray-300 bg-gray-200 text-xs text-gray-700;
+        &:hover {
+            @apply bg-gray-200;
+        }
+    }
+    &.note-frame .note-statusbar, 
+    &.note-airframe .note-statusbar {
+        border-color: #edf2f7 !important;
+        background-color: #edf2f7 !important;
+    }
+    &.note-frame .note-statusbar .note-resizebar .note-icon-bar, 
+    &.note-airframe .note-statusbar .note-resizebar .note-icon-bar {
+        border-color: #e2e8f0 !important;
+    }
+}
+
+@font-face {
+    font-family: 'summernote';
+    src: url(../fonts/summernote/summernote.woff);
+}

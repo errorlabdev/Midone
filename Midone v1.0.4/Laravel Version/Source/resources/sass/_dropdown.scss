@@ -1,0 +1,21 @@
+.dropdown .dropdown-box {
+    transition: visibility 0s linear 0.2s, opacity 0.2s 0s;
+    @apply invisible opacity-0;
+    &.show {
+        transition: visibility 0s linear 0s, opacity 0.2s 0s;
+        @apply visible opacity-100;
+        > .dropdown-box__content {
+            margin-top: -1px;
+            .tab-content .tab-content__pane {
+                @apply visible;
+            }
+        }
+    }
+    .dropdown-box__content {
+        transition: margin-top 0.2s;
+        @apply mt-5;
+        .tab-content .tab-content__pane {
+            @apply invisible;
+        }
+    }
+}

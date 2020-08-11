@@ -1,0 +1,1589 @@
+<!DOCTYPE html>
+<!--
+Template Name: Midone - HTML Admin Dashboard Template
+Author: Left4code
+Website: http://www.left4code.com/
+Contact: muhammadrizki@left4code.com
+Purchase: https://themeforest.net/user/left4code/portfolio
+Renew Support: https://themeforest.net/user/left4code/portfolio
+License: You must have a valid license purchased only from themeforest(the above link) in order to legally use the theme for your project.
+-->
+<html lang="en">
+    <!-- BEGIN: Head -->
+    <head>
+        <meta charset="utf-8">
+        <link href="dist/images/logo.svg" rel="shortcut icon">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Midone admin is super flexible, powerful, clean & modern responsive tailwind admin template with unlimited possibilities.">
+        <meta name="keywords" content="admin template, Midone admin template, dashboard template, flat admin template, responsive admin template, web app">
+        <meta name="author" content="LEFT4CODE">
+        <title>Modal - Midone - Tailwind HTML Admin Template</title>
+        <!-- BEGIN: CSS Assets-->
+        <link rel="stylesheet" href="dist/css/app.css" />
+        <!-- END: CSS Assets-->
+    </head>
+    <!-- END: Head -->
+    <body class="app">
+        <!-- BEGIN: Mobile Menu -->
+        <div class="mobile-menu md:hidden">
+            <div class="mobile-menu-bar">
+                <a href="" class="flex mr-auto">
+                    <img alt="Midone Tailwind HTML Admin Template" class="w-6" src="dist/images/logo.svg">
+                </a>
+                <a href="javascript:;" id="mobile-menu-toggler"> <i data-feather="bar-chart-2" class="w-8 h-8 text-white transform -rotate-90"></i> </a>
+            </div>
+            <ul class="border-t border-theme-24 py-5 hidden">
+                <li>
+                    <a href="index.html" class="menu">
+                        <div class="menu__icon"> <i data-feather="home"></i> </div>
+                        <div class="menu__title"> Dashboard </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;" class="menu">
+                        <div class="menu__icon"> <i data-feather="box"></i> </div>
+                        <div class="menu__title"> Menu Layout <i data-feather="chevron-down" class="menu__sub-icon"></i> </div>
+                    </a>
+                    <ul class="">
+                        <li>
+                            <a href="index.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Side Menu </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="simple-menu-dashboard.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Simple Menu </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="top-menu-dashboard.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Top Menu </div>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="side-menu-inbox.html" class="menu">
+                        <div class="menu__icon"> <i data-feather="inbox"></i> </div>
+                        <div class="menu__title"> Inbox </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="side-menu-file-manager.html" class="menu">
+                        <div class="menu__icon"> <i data-feather="hard-drive"></i> </div>
+                        <div class="menu__title"> File Manager </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="side-menu-point-of-sale.html" class="menu">
+                        <div class="menu__icon"> <i data-feather="credit-card"></i> </div>
+                        <div class="menu__title"> Point of Sale </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="side-menu-chat.html" class="menu">
+                        <div class="menu__icon"> <i data-feather="message-square"></i> </div>
+                        <div class="menu__title"> Chat </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="side-menu-post.html" class="menu">
+                        <div class="menu__icon"> <i data-feather="file-text"></i> </div>
+                        <div class="menu__title"> Post </div>
+                    </a>
+                </li>
+                <li class="menu__devider my-6"></li>
+                <li>
+                    <a href="javascript:;" class="menu">
+                        <div class="menu__icon"> <i data-feather="edit"></i> </div>
+                        <div class="menu__title"> Crud <i data-feather="chevron-down" class="menu__sub-icon"></i> </div>
+                    </a>
+                    <ul class="">
+                        <li>
+                            <a href="side-menu-crud-data-list.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Data List </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="side-menu-crud-form.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Form </div>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript:;" class="menu">
+                        <div class="menu__icon"> <i data-feather="users"></i> </div>
+                        <div class="menu__title"> Users <i data-feather="chevron-down" class="menu__sub-icon"></i> </div>
+                    </a>
+                    <ul class="">
+                        <li>
+                            <a href="side-menu-users-layout-1.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Layout 1 </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="side-menu-users-layout-2.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Layout 2 </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="side-menu-users-layout-3.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Layout 3 </div>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript:;" class="menu">
+                        <div class="menu__icon"> <i data-feather="trello"></i> </div>
+                        <div class="menu__title"> Profile <i data-feather="chevron-down" class="menu__sub-icon"></i> </div>
+                    </a>
+                    <ul class="">
+                        <li>
+                            <a href="side-menu-profile-overview-1.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Overview 1 </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="side-menu-profile-overview-2.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Overview 2 </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="side-menu-profile-overview-3.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Overview 3 </div>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript:;" class="menu">
+                        <div class="menu__icon"> <i data-feather="layout"></i> </div>
+                        <div class="menu__title"> Pages <i data-feather="chevron-down" class="menu__sub-icon"></i> </div>
+                    </a>
+                    <ul class="">
+                        <li>
+                            <a href="javascript:;" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Wizards <i data-feather="chevron-down" class="menu__sub-icon"></i> </div>
+                            </a>
+                            <ul class="">
+                                <li>
+                                    <a href="side-menu-wizard-layout-1.html" class="menu">
+                                        <div class="menu__icon"> <i data-feather="zap"></i> </div>
+                                        <div class="menu__title">Layout 1</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="side-menu-wizard-layout-2.html" class="menu">
+                                        <div class="menu__icon"> <i data-feather="zap"></i> </div>
+                                        <div class="menu__title">Layout 2</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="side-menu-wizard-layout-3.html" class="menu">
+                                        <div class="menu__icon"> <i data-feather="zap"></i> </div>
+                                        <div class="menu__title">Layout 3</div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript:;" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Blog <i data-feather="chevron-down" class="menu__sub-icon"></i> </div>
+                            </a>
+                            <ul class="">
+                                <li>
+                                    <a href="side-menu-blog-layout-1.html" class="menu">
+                                        <div class="menu__icon"> <i data-feather="zap"></i> </div>
+                                        <div class="menu__title">Layout 1</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="side-menu-blog-layout-2.html" class="menu">
+                                        <div class="menu__icon"> <i data-feather="zap"></i> </div>
+                                        <div class="menu__title">Layout 2</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="side-menu-blog-layout-3.html" class="menu">
+                                        <div class="menu__icon"> <i data-feather="zap"></i> </div>
+                                        <div class="menu__title">Layout 3</div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript:;" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Pricing <i data-feather="chevron-down" class="menu__sub-icon"></i> </div>
+                            </a>
+                            <ul class="">
+                                <li>
+                                    <a href="side-menu-pricing-layout-1.html" class="menu">
+                                        <div class="menu__icon"> <i data-feather="zap"></i> </div>
+                                        <div class="menu__title">Layout 1</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="side-menu-pricing-layout-2.html" class="menu">
+                                        <div class="menu__icon"> <i data-feather="zap"></i> </div>
+                                        <div class="menu__title">Layout 2</div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript:;" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Invoice <i data-feather="chevron-down" class="menu__sub-icon"></i> </div>
+                            </a>
+                            <ul class="">
+                                <li>
+                                    <a href="side-menu-invoice-layout-1.html" class="menu">
+                                        <div class="menu__icon"> <i data-feather="zap"></i> </div>
+                                        <div class="menu__title">Layout 1</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="side-menu-invoice-layout-2.html" class="menu">
+                                        <div class="menu__icon"> <i data-feather="zap"></i> </div>
+                                        <div class="menu__title">Layout 2</div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript:;" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> FAQ <i data-feather="chevron-down" class="menu__sub-icon"></i> </div>
+                            </a>
+                            <ul class="">
+                                <li>
+                                    <a href="side-menu-faq-layout-1.html" class="menu">
+                                        <div class="menu__icon"> <i data-feather="zap"></i> </div>
+                                        <div class="menu__title">Layout 1</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="side-menu-faq-layout-2.html" class="menu">
+                                        <div class="menu__icon"> <i data-feather="zap"></i> </div>
+                                        <div class="menu__title">Layout 2</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="side-menu-faq-layout-3.html" class="menu">
+                                        <div class="menu__icon"> <i data-feather="zap"></i> </div>
+                                        <div class="menu__title">Layout 3</div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="login-login.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Login </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="login-register.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Register </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="main-error-page.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Error Page </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="side-menu-update-profile.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Update profile </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="side-menu-change-password.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Change Password </div>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="menu__devider my-6"></li>
+                <li>
+                    <a href="javascript:;.html" class="menu menu--active">
+                        <div class="menu__icon"> <i data-feather="inbox"></i> </div>
+                        <div class="menu__title"> Components <i data-feather="chevron-down" class="menu__sub-icon"></i> </div>
+                    </a>
+                    <ul class="menu__sub-open">
+                        <li>
+                            <a href="javascript:;" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Grid <i data-feather="chevron-down" class="menu__sub-icon"></i> </div>
+                            </a>
+                            <ul class="">
+                                <li>
+                                    <a href="side-menu-regular-table.html" class="menu">
+                                        <div class="menu__icon"> <i data-feather="zap"></i> </div>
+                                        <div class="menu__title">Regular Table</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="side-menu-datatable.html" class="menu">
+                                        <div class="menu__icon"> <i data-feather="zap"></i> </div>
+                                        <div class="menu__title">Datatable</div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="side-menu-accordion.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Accordion </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="side-menu-button.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Button </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="side-menu-modal.html" class="menu menu--active">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Modal </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="side-menu-alert.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Alert </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="side-menu-progress-bar.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Progress Bar </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="side-menu-tooltip.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Tooltip </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="side-menu-dropdown.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Dropdown </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="side-menu-toast.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Toast </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="side-menu-typography.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Typography </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="side-menu-icon.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Icon </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="side-menu-loading-icon.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Loading Icon </div>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript:;" class="menu">
+                        <div class="menu__icon"> <i data-feather="sidebar"></i> </div>
+                        <div class="menu__title"> Forms <i data-feather="chevron-down" class="menu__sub-icon"></i> </div>
+                    </a>
+                    <ul class="">
+                        <li>
+                            <a href="side-menu-regular-form.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Regular Form </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="side-menu-datepicker.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Datepicker </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="side-menu-select2.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Select2 </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="side-menu-file-upload.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> File Upload </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="side-menu-wysiwyg-editor.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Wysiwyg Editor </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="side-menu-validation.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Validation </div>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript:;" class="menu">
+                        <div class="menu__icon"> <i data-feather="hard-drive"></i> </div>
+                        <div class="menu__title"> Widgets <i data-feather="chevron-down" class="menu__sub-icon"></i> </div>
+                    </a>
+                    <ul class="">
+                        <li>
+                            <a href="side-menu-chart.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Chart </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="side-menu-slider.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Slider </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="side-menu-image-zoom.html" class="menu">
+                                <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="menu__title"> Image Zoom </div>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <!-- END: Mobile Menu -->
+        <!-- BEGIN: Top Bar -->
+        <div class="border-b border-theme-24 -mt-10 md:-mt-5 -mx-3 sm:-mx-8 px-3 sm:px-8 pt-3 md:pt-0 mb-10">
+            <div class="top-bar-boxed flex items-center">
+                <!-- BEGIN: Logo -->
+                <a href="" class="-intro-x hidden md:flex">
+                    <img alt="Midone Tailwind HTML Admin Template" class="w-6" src="dist/images/logo.svg">
+                    <span class="text-white text-lg ml-3"> Mid<span class="font-medium">one</span> </span>
+                </a>
+                <!-- END: Logo -->
+                <!-- BEGIN: Breadcrumb -->
+                <div class="-intro-x breadcrumb breadcrumb--light mr-auto"> <a href="" class="">Application</a> <i data-feather="chevron-right" class="breadcrumb__icon"></i> <a href="" class="breadcrumb--active">Dashboard</a> </div>
+                <!-- END: Breadcrumb -->
+                <!-- BEGIN: Search -->
+                <div class="intro-x relative mr-3 sm:mr-6">
+                    <div class="search hidden sm:block">
+                        <input type="text" class="search__input input placeholder-theme-13" placeholder="Search...">
+                        <i data-feather="search" class="search__icon"></i> 
+                    </div>
+                    <a class="notification notification--light sm:hidden" href=""> <i data-feather="search" class="notification__icon"></i> </a>
+                    <div class="search-result">
+                        <div class="search-result__content">
+                            <div class="search-result__content__title">Pages</div>
+                            <div class="mb-5">
+                                <a href="" class="flex items-center">
+                                    <div class="w-8 h-8 bg-theme-18 text-theme-9 flex items-center justify-center rounded-full"> <i class="w-4 h-4" data-feather="inbox"></i> </div>
+                                    <div class="ml-3">Mail Settings</div>
+                                </a>
+                                <a href="" class="flex items-center mt-2">
+                                    <div class="w-8 h-8 bg-theme-17 text-theme-11 flex items-center justify-center rounded-full"> <i class="w-4 h-4" data-feather="users"></i> </div>
+                                    <div class="ml-3">Users & Permissions</div>
+                                </a>
+                                <a href="" class="flex items-center mt-2">
+                                    <div class="w-8 h-8 bg-theme-14 text-theme-10 flex items-center justify-center rounded-full"> <i class="w-4 h-4" data-feather="credit-card"></i> </div>
+                                    <div class="ml-3">Transactions Report</div>
+                                </a>
+                            </div>
+                            <div class="search-result__content__title">Users</div>
+                            <div class="mb-5">
+                                <a href="" class="flex items-center mt-2">
+                                    <div class="w-8 h-8 image-fit">
+                                        <img alt="Midone Tailwind HTML Admin Template" class="rounded-full" src="dist/images/profile-1.jpg">
+                                    </div>
+                                    <div class="ml-3">Hugh Jackman</div>
+                                    <div class="ml-auto w-48 truncate text-gray-600 text-xs text-right">hughjackman@left4code.com</div>
+                                </a>
+                                <a href="" class="flex items-center mt-2">
+                                    <div class="w-8 h-8 image-fit">
+                                        <img alt="Midone Tailwind HTML Admin Template" class="rounded-full" src="dist/images/profile-7.jpg">
+                                    </div>
+                                    <div class="ml-3">Angelina Jolie</div>
+                                    <div class="ml-auto w-48 truncate text-gray-600 text-xs text-right">angelinajolie@left4code.com</div>
+                                </a>
+                                <a href="" class="flex items-center mt-2">
+                                    <div class="w-8 h-8 image-fit">
+                                        <img alt="Midone Tailwind HTML Admin Template" class="rounded-full" src="dist/images/profile-11.jpg">
+                                    </div>
+                                    <div class="ml-3">Hugh Jackman</div>
+                                    <div class="ml-auto w-48 truncate text-gray-600 text-xs text-right">hughjackman@left4code.com</div>
+                                </a>
+                                <a href="" class="flex items-center mt-2">
+                                    <div class="w-8 h-8 image-fit">
+                                        <img alt="Midone Tailwind HTML Admin Template" class="rounded-full" src="dist/images/profile-1.jpg">
+                                    </div>
+                                    <div class="ml-3">Kevin Spacey</div>
+                                    <div class="ml-auto w-48 truncate text-gray-600 text-xs text-right">kevinspacey@left4code.com</div>
+                                </a>
+                            </div>
+                            <div class="search-result__content__title">Products</div>
+                            <a href="" class="flex items-center mt-2">
+                                <div class="w-8 h-8 image-fit">
+                                    <img alt="Midone Tailwind HTML Admin Template" class="rounded-full" src="dist/images/preview-9.jpg">
+                                </div>
+                                <div class="ml-3">Sony A7 III</div>
+                                <div class="ml-auto w-48 truncate text-gray-600 text-xs text-right">Photography</div>
+                            </a>
+                            <a href="" class="flex items-center mt-2">
+                                <div class="w-8 h-8 image-fit">
+                                    <img alt="Midone Tailwind HTML Admin Template" class="rounded-full" src="dist/images/preview-1.jpg">
+                                </div>
+                                <div class="ml-3">Nike Tanjun</div>
+                                <div class="ml-auto w-48 truncate text-gray-600 text-xs text-right">Sport &amp; Outdoor</div>
+                            </a>
+                            <a href="" class="flex items-center mt-2">
+                                <div class="w-8 h-8 image-fit">
+                                    <img alt="Midone Tailwind HTML Admin Template" class="rounded-full" src="dist/images/preview-3.jpg">
+                                </div>
+                                <div class="ml-3">Nikon Z6</div>
+                                <div class="ml-auto w-48 truncate text-gray-600 text-xs text-right">Photography</div>
+                            </a>
+                            <a href="" class="flex items-center mt-2">
+                                <div class="w-8 h-8 image-fit">
+                                    <img alt="Midone Tailwind HTML Admin Template" class="rounded-full" src="dist/images/preview-11.jpg">
+                                </div>
+                                <div class="ml-3">Sony Master Series A9G</div>
+                                <div class="ml-auto w-48 truncate text-gray-600 text-xs text-right">Electronic</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- END: Search -->
+                <!-- BEGIN: Notifications -->
+                <div class="intro-x dropdown relative mr-4 sm:mr-6">
+                    <div class="dropdown-toggle notification notification--light notification--bullet cursor-pointer"> <i data-feather="bell" class="notification__icon"></i> </div>
+                    <div class="notification-content dropdown-box mt-8 absolute top-0 right-0 z-10 -mr-10 sm:mr-0">
+                        <div class="notification-content__box dropdown-box__content box">
+                            <div class="notification-content__title">Notifications</div>
+                            <div class="cursor-pointer relative flex items-center ">
+                                <div class="w-12 h-12 flex-none image-fit mr-1">
+                                    <img alt="Midone Tailwind HTML Admin Template" class="rounded-full" src="dist/images/profile-1.jpg">
+                                    <div class="w-3 h-3 bg-theme-9 absolute right-0 bottom-0 rounded-full border-2 border-white"></div>
+                                </div>
+                                <div class="ml-2 overflow-hidden">
+                                    <div class="flex items-center">
+                                        <a href="javascript:;" class="font-medium truncate mr-5">Hugh Jackman</a> 
+                                        <div class="text-xs text-gray-500 ml-auto whitespace-no-wrap">01:10 PM</div>
+                                    </div>
+                                    <div class="w-full truncate text-gray-600">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 20</div>
+                                </div>
+                            </div>
+                            <div class="cursor-pointer relative flex items-center mt-5">
+                                <div class="w-12 h-12 flex-none image-fit mr-1">
+                                    <img alt="Midone Tailwind HTML Admin Template" class="rounded-full" src="dist/images/profile-7.jpg">
+                                    <div class="w-3 h-3 bg-theme-9 absolute right-0 bottom-0 rounded-full border-2 border-white"></div>
+                                </div>
+                                <div class="ml-2 overflow-hidden">
+                                    <div class="flex items-center">
+                                        <a href="javascript:;" class="font-medium truncate mr-5">Angelina Jolie</a> 
+                                        <div class="text-xs text-gray-500 ml-auto whitespace-no-wrap">05:09 AM</div>
+                                    </div>
+                                    <div class="w-full truncate text-gray-600">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#039;s standard dummy text ever since the 1500</div>
+                                </div>
+                            </div>
+                            <div class="cursor-pointer relative flex items-center mt-5">
+                                <div class="w-12 h-12 flex-none image-fit mr-1">
+                                    <img alt="Midone Tailwind HTML Admin Template" class="rounded-full" src="dist/images/profile-11.jpg">
+                                    <div class="w-3 h-3 bg-theme-9 absolute right-0 bottom-0 rounded-full border-2 border-white"></div>
+                                </div>
+                                <div class="ml-2 overflow-hidden">
+                                    <div class="flex items-center">
+                                        <a href="javascript:;" class="font-medium truncate mr-5">Hugh Jackman</a> 
+                                        <div class="text-xs text-gray-500 ml-auto whitespace-no-wrap">01:10 PM</div>
+                                    </div>
+                                    <div class="w-full truncate text-gray-600">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem </div>
+                                </div>
+                            </div>
+                            <div class="cursor-pointer relative flex items-center mt-5">
+                                <div class="w-12 h-12 flex-none image-fit mr-1">
+                                    <img alt="Midone Tailwind HTML Admin Template" class="rounded-full" src="dist/images/profile-1.jpg">
+                                    <div class="w-3 h-3 bg-theme-9 absolute right-0 bottom-0 rounded-full border-2 border-white"></div>
+                                </div>
+                                <div class="ml-2 overflow-hidden">
+                                    <div class="flex items-center">
+                                        <a href="javascript:;" class="font-medium truncate mr-5">Kevin Spacey</a> 
+                                        <div class="text-xs text-gray-500 ml-auto whitespace-no-wrap">01:10 PM</div>
+                                    </div>
+                                    <div class="w-full truncate text-gray-600">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 20</div>
+                                </div>
+                            </div>
+                            <div class="cursor-pointer relative flex items-center mt-5">
+                                <div class="w-12 h-12 flex-none image-fit mr-1">
+                                    <img alt="Midone Tailwind HTML Admin Template" class="rounded-full" src="dist/images/profile-7.jpg">
+                                    <div class="w-3 h-3 bg-theme-9 absolute right-0 bottom-0 rounded-full border-2 border-white"></div>
+                                </div>
+                                <div class="ml-2 overflow-hidden">
+                                    <div class="flex items-center">
+                                        <a href="javascript:;" class="font-medium truncate mr-5">Johnny Depp</a> 
+                                        <div class="text-xs text-gray-500 ml-auto whitespace-no-wrap">05:09 AM</div>
+                                    </div>
+                                    <div class="w-full truncate text-gray-600">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 20</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END: Notifications -->
+                <!-- BEGIN: Account Menu -->
+                <div class="intro-x dropdown w-8 h-8 relative">
+                    <div class="dropdown-toggle w-8 h-8 rounded-full overflow-hidden shadow-lg image-fit zoom-in scale-110">
+                        <img alt="Midone Tailwind HTML Admin Template" src="dist/images/profile-8.jpg">
+                    </div>
+                    <div class="dropdown-box mt-10 absolute w-56 top-0 right-0 z-20">
+                        <div class="dropdown-box__content box bg-theme-38 text-white">
+                            <div class="p-4 border-b border-theme-40">
+                                <div class="font-medium">Hugh Jackman</div>
+                                <div class="text-xs text-theme-41">Software Engineer</div>
+                            </div>
+                            <div class="p-2">
+                                <a href="" class="flex items-center block p-2 transition duration-300 ease-in-out hover:bg-theme-1 rounded-md"> <i data-feather="user" class="w-4 h-4 mr-2"></i> Profile </a>
+                                <a href="" class="flex items-center block p-2 transition duration-300 ease-in-out hover:bg-theme-1 rounded-md"> <i data-feather="edit" class="w-4 h-4 mr-2"></i> Add Account </a>
+                                <a href="" class="flex items-center block p-2 transition duration-300 ease-in-out hover:bg-theme-1 rounded-md"> <i data-feather="lock" class="w-4 h-4 mr-2"></i> Reset Password </a>
+                                <a href="" class="flex items-center block p-2 transition duration-300 ease-in-out hover:bg-theme-1 rounded-md"> <i data-feather="help-circle" class="w-4 h-4 mr-2"></i> Help </a>
+                            </div>
+                            <div class="p-2 border-t border-theme-40">
+                                <a href="" class="flex items-center block p-2 transition duration-300 ease-in-out hover:bg-theme-1 rounded-md"> <i data-feather="toggle-right" class="w-4 h-4 mr-2"></i> Logout </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END: Account Menu -->
+            </div>
+        </div>
+        <!-- END: Top Bar -->
+        <!-- BEGIN: Top Menu -->
+        <nav class="top-nav">
+            <ul>
+                <li>
+                    <a href="top-menu-dashboard.html" class="top-menu">
+                        <div class="top-menu__icon"> <i data-feather="home"></i> </div>
+                        <div class="top-menu__title"> Dashboard </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;" class="top-menu">
+                        <div class="top-menu__icon"> <i data-feather="box"></i> </div>
+                        <div class="top-menu__title"> Menu Layout <i data-feather="chevron-down" class="top-menu__sub-icon"></i> </div>
+                    </a>
+                    <ul class="">
+                        <li>
+                            <a href="index.html" class="top-menu">
+                                <div class="top-menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="top-menu__title"> Side Menu </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="simple-menu-dashboard.html" class="top-menu">
+                                <div class="top-menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="top-menu__title"> Simple Menu </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="top-menu-dashboard.html" class="top-menu">
+                                <div class="top-menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="top-menu__title"> Top Menu </div>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript:;" class="top-menu">
+                        <div class="top-menu__icon"> <i data-feather="activity"></i> </div>
+                        <div class="top-menu__title"> Apps <i data-feather="chevron-down" class="top-menu__sub-icon"></i> </div>
+                    </a>
+                    <ul class="">
+                        <li>
+                            <a href="javascript:;" class="top-menu">
+                                <div class="top-menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="top-menu__title"> Users <i data-feather="chevron-down" class="top-menu__sub-icon"></i> </div>
+                            </a>
+                            <ul class="">
+                                <li>
+                                    <a href="top-menu-users-layout-1.html" class="top-menu">
+                                        <div class="top-menu__icon"> <i data-feather="zap"></i> </div>
+                                        <div class="top-menu__title">Layout 1</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="top-menu-users-layout-2.html" class="top-menu">
+                                        <div class="top-menu__icon"> <i data-feather="zap"></i> </div>
+                                        <div class="top-menu__title">Layout 2</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="top-menu-users-layout-3.html" class="top-menu">
+                                        <div class="top-menu__icon"> <i data-feather="zap"></i> </div>
+                                        <div class="top-menu__title">Layout 3</div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript:;" class="top-menu">
+                                <div class="top-menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="top-menu__title"> Profile <i data-feather="chevron-down" class="top-menu__sub-icon"></i> </div>
+                            </a>
+                            <ul class="">
+                                <li>
+                                    <a href="top-menu-profile-overview-1.html" class="top-menu">
+                                        <div class="top-menu__icon"> <i data-feather="zap"></i> </div>
+                                        <div class="top-menu__title">Overview 1</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="top-menu-profile-overview-2.html" class="top-menu">
+                                        <div class="top-menu__icon"> <i data-feather="zap"></i> </div>
+                                        <div class="top-menu__title">Overview 2</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="top-menu-profile-overview-3.html" class="top-menu">
+                                        <div class="top-menu__icon"> <i data-feather="zap"></i> </div>
+                                        <div class="top-menu__title">Overview 3</div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="top-menu-inbox.html" class="top-menu">
+                                <div class="top-menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="top-menu__title"> Inbox </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="top-menu-file-manager.html" class="top-menu">
+                                <div class="top-menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="top-menu__title"> File Manager </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="top-menu-point-of-sale.html" class="top-menu">
+                                <div class="top-menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="top-menu__title"> Point of Sale </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="top-menu-chat.html" class="top-menu">
+                                <div class="top-menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="top-menu__title"> Chat </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="top-menu-post.html" class="top-menu">
+                                <div class="top-menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="top-menu__title"> Post </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;" class="top-menu">
+                                <div class="top-menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="top-menu__title"> Crud <i data-feather="chevron-down" class="top-menu__sub-icon"></i> </div>
+                            </a>
+                            <ul class="">
+                                <li>
+                                    <a href="side-menu-crud-data-list.html" class="top-menu">
+                                        <div class="top-menu__icon"> <i data-feather="zap"></i> </div>
+                                        <div class="top-menu__title">Data List</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="side-menu-crud-form.html" class="top-menu">
+                                        <div class="top-menu__icon"> <i data-feather="zap"></i> </div>
+                                        <div class="top-menu__title">Form</div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript:;" class="top-menu">
+                        <div class="top-menu__icon"> <i data-feather="layout"></i> </div>
+                        <div class="top-menu__title"> Pages <i data-feather="chevron-down" class="top-menu__sub-icon"></i> </div>
+                    </a>
+                    <ul class="">
+                        <li>
+                            <a href="javascript:;" class="top-menu">
+                                <div class="top-menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="top-menu__title"> Wizards <i data-feather="chevron-down" class="top-menu__sub-icon"></i> </div>
+                            </a>
+                            <ul class="">
+                                <li>
+                                    <a href="top-menu-wizard-layout-1.html" class="top-menu">
+                                        <div class="top-menu__icon"> <i data-feather="zap"></i> </div>
+                                        <div class="top-menu__title">Layout 1</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="top-menu-wizard-layout-2.html" class="top-menu">
+                                        <div class="top-menu__icon"> <i data-feather="zap"></i> </div>
+                                        <div class="top-menu__title">Layout 2</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="top-menu-wizard-layout-3.html" class="top-menu">
+                                        <div class="top-menu__icon"> <i data-feather="zap"></i> </div>
+                                        <div class="top-menu__title">Layout 3</div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript:;" class="top-menu">
+                                <div class="top-menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="top-menu__title"> Blog <i data-feather="chevron-down" class="top-menu__sub-icon"></i> </div>
+                            </a>
+                            <ul class="">
+                                <li>
+                                    <a href="top-menu-blog-layout-1.html" class="top-menu">
+                                        <div class="top-menu__icon"> <i data-feather="zap"></i> </div>
+                                        <div class="top-menu__title">Layout 1</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="top-menu-blog-layout-2.html" class="top-menu">
+                                        <div class="top-menu__icon"> <i data-feather="zap"></i> </div>
+                                        <div class="top-menu__title">Layout 2</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="top-menu-blog-layout-3.html" class="top-menu">
+                                        <div class="top-menu__icon"> <i data-feather="zap"></i> </div>
+                                        <div class="top-menu__title">Layout 3</div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript:;" class="top-menu">
+                                <div class="top-menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="top-menu__title"> Pricing <i data-feather="chevron-down" class="top-menu__sub-icon"></i> </div>
+                            </a>
+                            <ul class="">
+                                <li>
+                                    <a href="top-menu-pricing-layout-1.html" class="top-menu">
+                                        <div class="top-menu__icon"> <i data-feather="zap"></i> </div>
+                                        <div class="top-menu__title">Layout 1</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="top-menu-pricing-layout-2.html" class="top-menu">
+                                        <div class="top-menu__icon"> <i data-feather="zap"></i> </div>
+                                        <div class="top-menu__title">Layout 2</div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript:;" class="top-menu">
+                                <div class="top-menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="top-menu__title"> Invoice <i data-feather="chevron-down" class="top-menu__sub-icon"></i> </div>
+                            </a>
+                            <ul class="">
+                                <li>
+                                    <a href="top-menu-invoice-layout-1.html" class="top-menu">
+                                        <div class="top-menu__icon"> <i data-feather="zap"></i> </div>
+                                        <div class="top-menu__title">Layout 1</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="top-menu-invoice-layout-2.html" class="top-menu">
+                                        <div class="top-menu__icon"> <i data-feather="zap"></i> </div>
+                                        <div class="top-menu__title">Layout 2</div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript:;" class="top-menu">
+                                <div class="top-menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="top-menu__title"> FAQ <i data-feather="chevron-down" class="top-menu__sub-icon"></i> </div>
+                            </a>
+                            <ul class="">
+                                <li>
+                                    <a href="top-menu-faq-layout-1.html" class="top-menu">
+                                        <div class="top-menu__icon"> <i data-feather="zap"></i> </div>
+                                        <div class="top-menu__title">Layout 1</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="top-menu-faq-layout-2.html" class="top-menu">
+                                        <div class="top-menu__icon"> <i data-feather="zap"></i> </div>
+                                        <div class="top-menu__title">Layout 2</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="top-menu-faq-layout-3.html" class="top-menu">
+                                        <div class="top-menu__icon"> <i data-feather="zap"></i> </div>
+                                        <div class="top-menu__title">Layout 3</div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="login-login.html" class="top-menu">
+                                <div class="top-menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="top-menu__title"> Login </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="login-register.html" class="top-menu">
+                                <div class="top-menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="top-menu__title"> Register </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="main-error-page.html" class="top-menu">
+                                <div class="top-menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="top-menu__title"> Error Page </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="top-menu-update-profile.html" class="top-menu">
+                                <div class="top-menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="top-menu__title"> Update profile </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="top-menu-change-password.html" class="top-menu">
+                                <div class="top-menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="top-menu__title"> Change Password </div>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript:;.html" class="top-menu top-menu--active">
+                        <div class="top-menu__icon"> <i data-feather="inbox"></i> </div>
+                        <div class="top-menu__title"> Components <i data-feather="chevron-down" class="top-menu__sub-icon"></i> </div>
+                    </a>
+                    <ul class="top-menu__sub-open">
+                        <li>
+                            <a href="javascript:;" class="top-menu">
+                                <div class="top-menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="top-menu__title"> Grid <i data-feather="chevron-down" class="top-menu__sub-icon"></i> </div>
+                            </a>
+                            <ul class="">
+                                <li>
+                                    <a href="top-menu-regular-table.html" class="top-menu">
+                                        <div class="top-menu__icon"> <i data-feather="zap"></i> </div>
+                                        <div class="top-menu__title">Regular Table</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="top-menu-datatable.html" class="top-menu">
+                                        <div class="top-menu__icon"> <i data-feather="zap"></i> </div>
+                                        <div class="top-menu__title">Datatable</div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="top-menu-accordion.html" class="top-menu">
+                                <div class="top-menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="top-menu__title"> Accordion </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="top-menu-button.html" class="top-menu">
+                                <div class="top-menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="top-menu__title"> Button </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="top-menu-modal.html" class="top-menu">
+                                <div class="top-menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="top-menu__title"> Modal </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="top-menu-alert.html" class="top-menu">
+                                <div class="top-menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="top-menu__title"> Alert </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="top-menu-progress-bar.html" class="top-menu">
+                                <div class="top-menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="top-menu__title"> Progress Bar </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="top-menu-tooltip.html" class="top-menu">
+                                <div class="top-menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="top-menu__title"> Tooltip </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="top-menu-dropdown.html" class="top-menu">
+                                <div class="top-menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="top-menu__title"> Dropdown </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="top-menu-toast.html" class="top-menu">
+                                <div class="top-menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="top-menu__title"> Toast </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="top-menu-typography.html" class="top-menu">
+                                <div class="top-menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="top-menu__title"> Typography </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="top-menu-icon.html" class="top-menu">
+                                <div class="top-menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="top-menu__title"> Icon </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="side-menu-loading-icon.html" class="top-menu">
+                                <div class="top-menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="top-menu__title"> Loading Icon </div>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript:;" class="top-menu">
+                        <div class="top-menu__icon"> <i data-feather="sidebar"></i> </div>
+                        <div class="top-menu__title"> Forms <i data-feather="chevron-down" class="top-menu__sub-icon"></i> </div>
+                    </a>
+                    <ul class="">
+                        <li>
+                            <a href="top-menu-regular-form.html" class="top-menu">
+                                <div class="top-menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="top-menu__title"> Regular Form </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="top-menu-datepicker.html" class="top-menu">
+                                <div class="top-menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="top-menu__title"> Datepicker </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="top-menu-select2.html" class="top-menu">
+                                <div class="top-menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="top-menu__title"> Select2 </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="top-menu-file-upload.html" class="top-menu">
+                                <div class="top-menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="top-menu__title"> File Upload </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="top-menu-wysiwyg-editor.html" class="top-menu">
+                                <div class="top-menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="top-menu__title"> Wysiwyg Editor </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="top-menu-validation.html" class="top-menu">
+                                <div class="top-menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="top-menu__title"> Validation </div>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript:;" class="top-menu">
+                        <div class="top-menu__icon"> <i data-feather="hard-drive"></i> </div>
+                        <div class="top-menu__title"> Widgets <i data-feather="chevron-down" class="top-menu__sub-icon"></i> </div>
+                    </a>
+                    <ul class="">
+                        <li>
+                            <a href="top-menu-chart.html" class="top-menu">
+                                <div class="top-menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="top-menu__title"> Chart </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="top-menu-slider.html" class="top-menu">
+                                <div class="top-menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="top-menu__title"> Slider </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="top-menu-image-zoom.html" class="top-menu">
+                                <div class="top-menu__icon"> <i data-feather="activity"></i> </div>
+                                <div class="top-menu__title"> Image Zoom </div>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <!-- END: Top Menu -->
+        <!-- BEGIN: Content -->
+        <div class="content">
+            <div class="intro-y flex items-center mt-8">
+                <h2 class="text-lg font-medium mr-auto">
+                    Modal
+                </h2>
+            </div>
+            <div class="grid grid-cols-12 gap-6 mt-5">
+                <div class="intro-y col-span-12 lg:col-span-6">
+                    <!-- BEGIN: Blank Modal -->
+                    <div class="intro-y box">
+                        <div class="flex flex-col sm:flex-row items-center p-5 border-b border-gray-200">
+                            <h2 class="font-medium text-base mr-auto">
+                                Blank Modal
+                            </h2>
+                            <div class="w-full sm:w-auto flex items-center sm:ml-auto mt-3 sm:mt-0">
+                                <div class="mr-3">Show code</div>
+                                <input data-target="#blank-modal" class="show-code input input--switch border" type="checkbox">
+                            </div>
+                        </div>
+                        <div class="p-5" id="blank-modal">
+                            <div class="preview">
+                                <div class="text-center"> <a href="javascript:;" data-toggle="modal" data-target="#basic-modal-preview" class="button inline-block bg-theme-1 text-white">Show Modal</a> </div>
+                                <div class="modal" id="basic-modal-preview">
+                                    <div class="modal__content p-10 text-center"> This is totally awesome blank modal! </div>
+                                </div>
+                            </div>
+                            <div class="source-code hidden">
+                                <button data-target="#copy-blank-modal" class="copy-code button button--sm border flex items-center text-gray-700"> <i data-feather="file" class="w-4 h-4 mr-2"></i> Copy code </button>
+                                <div class="overflow-y-auto h-64 mt-3">
+                                    <pre class="source-preview" id="copy-blank-modal"> <code class="text-xs p-0 rounded-md html pl-5 pt-8 pb-4 -mb-10 -mt-10"> HTMLOpenTagdiv class=&quot;text-center&quot;HTMLCloseTag HTMLOpenTaga href=&quot;javascript:;&quot; data-toggle=&quot;modal&quot; data-target=&quot;#basic-modal-preview&quot; class=&quot;button inline-block bg-theme-1 text-white&quot;HTMLCloseTagShow ModalHTMLOpenTag/aHTMLCloseTag HTMLOpenTag/divHTMLCloseTag HTMLOpenTagdiv class=&quot;modal&quot; id=&quot;basic-modal-preview&quot;HTMLCloseTag HTMLOpenTagdiv class=&quot;modal__content p-10 text-center&quot;HTMLCloseTag This is totally awesome blank modal! HTMLOpenTag/divHTMLCloseTag HTMLOpenTag/divHTMLCloseTag </code> </pre>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END: Blank Modal -->
+                    <!-- BEGIN: Modal Size -->
+                    <div class="intro-y box mt-5">
+                        <div class="flex flex-col sm:flex-row items-center p-5 border-b border-gray-200">
+                            <h2 class="font-medium text-base mr-auto">
+                                Modal Size
+                            </h2>
+                            <div class="w-full sm:w-auto flex items-center sm:ml-auto mt-3 sm:mt-0">
+                                <div class="mr-3">Show code</div>
+                                <input data-target="#modal-size" class="show-code input input--switch border" type="checkbox">
+                            </div>
+                        </div>
+                        <div class="p-5" id="modal-size">
+                            <div class="preview">
+                                <div class="text-center text-sm-left"> <a href="javascript:;" data-toggle="modal" data-target="#small-modal-size-preview" class="button mr-1 mb-2 inline-block bg-theme-1 text-white">Show Small Modal</a> <a href="javascript:;" data-toggle="modal" data-target="#medium-modal-size-preview" class="button mr-1 mb-2 inline-block bg-theme-1 text-white">Show Medium Modal</a> <a href="javascript:;" data-toggle="modal" data-target="#large-modal-size-preview" class="button mr-1 mb-2 inline-block bg-theme-1 text-white">Show Large Modal</a> <a href="javascript:;" data-toggle="modal" data-target="#superlarge-modal-size-preview" class="button mr-1 mb-2 inline-block bg-theme-1 text-white">Show Superlarge Modal</a> </div>
+                                <div class="modal" id="small-modal-size-preview">
+                                    <div class="modal__content modal__content--sm p-10 text-center"> This is totally awesome small modal! </div>
+                                </div>
+                                <div class="modal" id="medium-modal-size-preview">
+                                    <div class="modal__content p-10 text-center"> This is totally awesome medium modal! </div>
+                                </div>
+                                <div class="modal" id="large-modal-size-preview">
+                                    <div class="modal__content modal__content--lg p-10 text-center"> This is totally awesome large modal! </div>
+                                </div>
+                                <div class="modal" id="superlarge-modal-size-preview">
+                                    <div class="modal__content modal__content--xl p-10 text-center"> This is totally awesome superlarge modal! </div>
+                                </div>
+                            </div>
+                            <div class="source-code hidden">
+                                <button data-target="#copy-modal-size" class="copy-code button button--sm border flex items-center text-gray-700"> <i data-feather="file" class="w-4 h-4 mr-2"></i> Copy code </button>
+                                <div class="overflow-y-auto h-64 mt-3">
+                                    <pre class="source-preview" id="copy-modal-size"> <code class="text-xs p-0 rounded-md html pl-5 pt-8 pb-4 -mb-10 -mt-10"> HTMLOpenTagdiv class=&quot;text-center text-sm-left&quot;HTMLCloseTag HTMLOpenTaga href=&quot;javascript:;&quot; data-toggle=&quot;modal&quot; data-target=&quot;#small-modal-size-preview&quot; class=&quot;button mr-1 mb-2 inline-block bg-theme-1 text-white&quot;HTMLCloseTagShow Small ModalHTMLOpenTag/aHTMLCloseTag HTMLOpenTaga href=&quot;javascript:;&quot; data-toggle=&quot;modal&quot; data-target=&quot;#medium-modal-size-preview&quot; class=&quot;button mr-1 mb-2 inline-block bg-theme-1 text-white&quot;HTMLCloseTagShow Medium ModalHTMLOpenTag/aHTMLCloseTag HTMLOpenTaga href=&quot;javascript:;&quot; data-toggle=&quot;modal&quot; data-target=&quot;#large-modal-size-preview&quot; class=&quot;button mr-1 mb-2 inline-block bg-theme-1 text-white&quot;HTMLCloseTagShow Large ModalHTMLOpenTag/aHTMLCloseTag HTMLOpenTaga href=&quot;javascript:;&quot; data-toggle=&quot;modal&quot; data-target=&quot;#superlarge-modal-size-preview&quot; class=&quot;button mr-1 mb-2 inline-block bg-theme-1 text-white&quot;HTMLCloseTagShow Superlarge ModalHTMLOpenTag/aHTMLCloseTag HTMLOpenTag/divHTMLCloseTag HTMLOpenTagdiv class=&quot;modal&quot; id=&quot;small-modal-size-preview&quot;HTMLCloseTag HTMLOpenTagdiv class=&quot;modal__content modal__content--sm p-10 text-center&quot;HTMLCloseTag This is totally awesome small modal! HTMLOpenTag/divHTMLCloseTag HTMLOpenTag/divHTMLCloseTag HTMLOpenTagdiv class=&quot;modal&quot; id=&quot;medium-modal-size-preview&quot;HTMLCloseTag HTMLOpenTagdiv class=&quot;modal__content p-10 text-center&quot;HTMLCloseTag This is totally awesome medium modal! HTMLOpenTag/divHTMLCloseTag HTMLOpenTag/divHTMLCloseTag HTMLOpenTagdiv class=&quot;modal&quot; id=&quot;large-modal-size-preview&quot;HTMLCloseTag HTMLOpenTagdiv class=&quot;modal__content modal__content--lg p-10 text-center&quot;HTMLCloseTag This is totally awesome large modal! HTMLOpenTag/divHTMLCloseTag HTMLOpenTag/divHTMLCloseTag HTMLOpenTagdiv class=&quot;modal&quot; id=&quot;superlarge-modal-size-preview&quot;HTMLCloseTag HTMLOpenTagdiv class=&quot;modal__content modal__content--xl p-10 text-center&quot;HTMLCloseTag This is totally awesome superlarge modal! HTMLOpenTag/divHTMLCloseTag HTMLOpenTag/divHTMLCloseTag </code> </pre>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END: Modal Size -->
+                    <!-- BEGIN: Programmatically Show/Hide Modal -->
+                    <div class="intro-y box mt-5">
+                        <div class="flex flex-col sm:flex-row items-center p-5 border-b border-gray-200">
+                            <h2 class="font-medium text-base mr-auto">
+                                Programmatically Show/Hide Modal
+                            </h2>
+                            <div class="w-full sm:w-auto flex items-center sm:ml-auto mt-3 sm:mt-0">
+                                <div class="mr-3">Show code</div>
+                                <input data-target="#programmatically-show-hide-modal" class="show-code input input--switch border" type="checkbox">
+                            </div>
+                        </div>
+                        <div class="p-5" id="programmatically-show-hide-modal">
+                            <div class="preview">
+                                <div class="text-center text-sm-left"> <a href="javascript:;" class="button mr-1 mb-2 inline-block bg-theme-1 text-white" id="programmatically-show-modal">Show Modal</a> </div>
+                                <div class="modal" id="programmatically-modal">
+                                    <div class="modal__content p-10 text-center"> <a href="javascript:;" class="button mr-1 inline-block bg-theme-1 text-white" id="programmatically-hide-modal">Hide Modal</a> <a href="javascript:;" class="button mr-1 inline-block bg-theme-1 text-white" id="programmatically-toggle-modal">Toggle Modal</a> </div>
+                                </div>
+                            </div>
+                            <div class="source-code hidden">
+                                <button data-target="#copy-programmatically-show-hide-modal" class="copy-code button button--sm border flex items-center text-gray-700"> <i data-feather="file" class="w-4 h-4 mr-2"></i> Copy code </button>
+                                <div class="overflow-y-auto h-64 mt-3">
+                                    <pre class="source-preview" id="copy-programmatically-show-hide-modal"> <code class="javascript cursor-texttext-xs p-0 rounded-md html pl-5 pt-8 pb-4 -mb-10 -mt-10"> // Show modal $(&#039;#programmatically-show-modal&#039;).on(&#039;click&#039;, function() { $(&#039;#programmatically-modal&#039;).modal(&#039;show&#039;) }) // Hide modal $(&#039;#programmatically-hide-modal&#039;).on(&#039;click&#039;, function() { $(&#039;#programmatically-modal&#039;).modal(&#039;hide&#039;) }) // Toggle modal $(&#039;#programmatically-toggle-modal&#039;).on(&#039;click&#039;, function() { $(&#039;#programmatically-modal&#039;).modal(&#039;toggle&#039;) }) </code> </pre>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END: Programmatically Show/Hide Modal -->
+                    <!-- BEGIN: Warning Modal -->
+                    <div class="intro-y box mt-5">
+                        <div class="flex flex-col sm:flex-row items-center p-5 border-b border-gray-200">
+                            <h2 class="font-medium text-base mr-auto">
+                                Warning Modal
+                            </h2>
+                            <div class="w-full sm:w-auto flex items-center sm:ml-auto mt-3 sm:mt-0">
+                                <div class="mr-3">Show code</div>
+                                <input data-target="#warning-modal" class="show-code input input--switch border" type="checkbox">
+                            </div>
+                        </div>
+                        <div class="p-5" id="warning-modal">
+                            <div class="preview">
+                                <div class="text-center"> <a href="javascript:;" data-toggle="modal" data-target="#warning-modal-preview" class="button inline-block bg-theme-1 text-white">Show Modal</a> </div>
+                                <div class="modal" id="warning-modal-preview">
+                                    <div class="modal__content">
+                                        <div class="p-5 text-center">
+                                            <i data-feather="x-circle" class="w-16 h-16 text-theme-12 mx-auto mt-3"></i> 
+                                            <div class="text-3xl mt-5">Oops...</div>
+                                            <div class="text-gray-600 mt-2">Something went wrong!</div>
+                                        </div>
+                                        <div class="px-5 pb-8 text-center">
+                                            <button type="button" data-dismiss="modal" class="button w-24 bg-theme-1 text-white">Ok</button>
+                                        </div>
+                                        <div class="p-5 text-center border-t border-gray-200"> <a href="" class="text-theme-1">Why do I have this issue?</a> </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="source-code hidden">
+                                <button data-target="#copy-warning-modal" class="copy-code button button--sm border flex items-center text-gray-700"> <i data-feather="file" class="w-4 h-4 mr-2"></i> Copy code </button>
+                                <div class="overflow-y-auto h-64 mt-3">
+                                    <pre class="source-preview" id="copy-warning-modal"> <code class="text-xs p-0 rounded-md html pl-5 pt-8 pb-4 -mb-10 -mt-10"> HTMLOpenTagdiv class=&quot;text-center&quot;HTMLCloseTag HTMLOpenTaga href=&quot;javascript:;&quot; data-toggle=&quot;modal&quot; data-target=&quot;#warning-modal-preview&quot; class=&quot;button inline-block bg-theme-1 text-white&quot;HTMLCloseTagShow ModalHTMLOpenTag/aHTMLCloseTag HTMLOpenTag/divHTMLCloseTag HTMLOpenTagdiv class=&quot;modal&quot; id=&quot;warning-modal-preview&quot;HTMLCloseTag HTMLOpenTagdiv class=&quot;modal__content&quot;HTMLCloseTag HTMLOpenTagdiv class=&quot;p-5 text-center&quot;HTMLCloseTag HTMLOpenTagi data-feather=&quot;x-circle&quot; class=&quot;w-16 h-16 text-theme-6 mx-auto mt-3&quot;HTMLCloseTagHTMLOpenTag/iHTMLCloseTag HTMLOpenTagdiv class=&quot;text-3xl mt-5&quot;HTMLCloseTagOops...HTMLOpenTag/divHTMLCloseTag HTMLOpenTagdiv class=&quot;text-gray-600 mt-2&quot;HTMLCloseTagSomething went wrong!HTMLOpenTag/divHTMLCloseTag HTMLOpenTag/divHTMLCloseTag HTMLOpenTagdiv class=&quot;px-5 pb-8 text-center&quot;HTMLCloseTag HTMLOpenTagbutton type=&quot;button&quot; data-dismiss=&quot;modal&quot; class=&quot;button w-24 bg-theme-1 text-white&quot;HTMLCloseTagOkHTMLOpenTag/buttonHTMLCloseTag HTMLOpenTag/divHTMLCloseTag HTMLOpenTagdiv class=&quot;p-5 text-center border-t border-gray-200&quot;HTMLCloseTag HTMLOpenTaga href=&quot;&quot; class=&quot;text-theme-1&quot;HTMLCloseTagWhy do I have this issue?HTMLOpenTag/aHTMLCloseTag HTMLOpenTag/divHTMLCloseTag HTMLOpenTag/divHTMLCloseTag HTMLOpenTag/divHTMLCloseTag </code> </pre>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END: Warning Modal -->
+                    <!-- BEGIN: Modal With Close Button -->
+                    <div class="intro-y box mt-5">
+                        <div class="flex flex-col sm:flex-row items-center p-5 border-b border-gray-200">
+                            <h2 class="font-medium text-base mr-auto">
+                                Modal With Close Button
+                            </h2>
+                            <div class="w-full sm:w-auto flex items-center sm:ml-auto mt-3 sm:mt-0">
+                                <div class="mr-3">Show code</div>
+                                <input data-target="#button-modal" class="show-code input input--switch border" type="checkbox">
+                            </div>
+                        </div>
+                        <div class="p-5" id="button-modal">
+                            <div class="preview">
+                                <div class="text-center"> <a href="javascript:;" data-toggle="modal" data-target="#button-modal-preview" class="button inline-block bg-theme-1 text-white">Show Modal</a> </div>
+                                <div class="modal" id="button-modal-preview">
+                                    <div class="modal__content relative">
+                                        <a data-dismiss="modal" href="javascript:;" class="absolute right-0 top-0 mt-3 mr-3"> <i data-feather="x" class="w-8 h-8 text-gray-500"></i> </a>
+                                        <div class="p-5 text-center">
+                                            <i data-feather="check-circle" class="w-16 h-16 text-theme-9 mx-auto mt-3"></i> 
+                                            <div class="text-3xl mt-5">Modal Example</div>
+                                            <div class="text-gray-600 mt-2">Modal with close button</div>
+                                        </div>
+                                        <div class="px-5 pb-8 text-center">
+                                            <button type="button" data-dismiss="modal" class="button w-24 bg-theme-1 text-white">Ok</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="source-code hidden">
+                                <button data-target="#copy-button-modal" class="copy-code button button--sm border flex items-center text-gray-700"> <i data-feather="file" class="w-4 h-4 mr-2"></i> Copy code </button>
+                                <div class="overflow-y-auto h-64 mt-3">
+                                    <pre class="source-preview" id="copy-button-modal"> <code class="text-xs p-0 rounded-md html pl-5 pt-8 pb-4 -mb-10 -mt-10"> HTMLOpenTagdiv class=&quot;text-center&quot;HTMLCloseTag HTMLOpenTaga href=&quot;javascript:;&quot; data-toggle=&quot;modal&quot; data-target=&quot;#button-modal-preview&quot; class=&quot;button inline-block bg-theme-1 text-white&quot;HTMLCloseTagShow ModalHTMLOpenTag/aHTMLCloseTag HTMLOpenTag/divHTMLCloseTag HTMLOpenTagdiv class=&quot;modal&quot; id=&quot;button-modal-preview&quot;HTMLCloseTag HTMLOpenTagdiv class=&quot;modal__content relative&quot;HTMLCloseTag HTMLOpenTaga data-dismiss=&quot;modal&quot; href=&quot;javascript:;&quot; class=&quot;absolute right-0 top-0 mt-3 mr-3&quot;HTMLCloseTag HTMLOpenTagi data-feather=&quot;x&quot; class=&quot;w-8 h-8 text-gray-500&quot;HTMLCloseTagHTMLOpenTag/iHTMLCloseTag HTMLOpenTag/aHTMLCloseTag HTMLOpenTagdiv class=&quot;p-5 text-center&quot;HTMLCloseTag HTMLOpenTagi data-feather=&quot;check-circle&quot; class=&quot;w-16 h-16 text-theme-9 mx-auto mt-3&quot;HTMLCloseTagHTMLOpenTag/iHTMLCloseTag HTMLOpenTagdiv class=&quot;text-3xl mt-5&quot;HTMLCloseTagModal ExampleHTMLOpenTag/divHTMLCloseTag HTMLOpenTagdiv class=&quot;text-gray-600 mt-2&quot;HTMLCloseTagModal with close buttonHTMLOpenTag/divHTMLCloseTag HTMLOpenTag/divHTMLCloseTag HTMLOpenTagdiv class=&quot;px-5 pb-8 text-center&quot;HTMLCloseTag HTMLOpenTagbutton type=&quot;button&quot; data-dismiss=&quot;modal&quot; class=&quot;button w-24 bg-theme-1 text-white&quot;HTMLCloseTagOkHTMLOpenTag/buttonHTMLCloseTag HTMLOpenTag/divHTMLCloseTag HTMLOpenTag/divHTMLCloseTag HTMLOpenTag/divHTMLCloseTag </code> </pre>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END: Modal With Close Button -->
+                </div>
+                <div class="intro-y col-span-12 lg:col-span-6">
+                    <!-- BEGIN: Overlapping Modal -->
+                    <div class="intro-y box">
+                        <div class="flex flex-col sm:flex-row items-center p-5 border-b border-gray-200">
+                            <h2 class="font-medium text-base mr-auto">
+                                Overlapping Modal
+                            </h2>
+                            <div class="w-full sm:w-auto flex items-center sm:ml-auto mt-3 sm:mt-0">
+                                <div class="mr-3">Show code</div>
+                                <input data-target="#overlapping-modal" class="show-code input input--switch border" type="checkbox">
+                            </div>
+                        </div>
+                        <div class="p-5" id="overlapping-modal">
+                            <div class="preview">
+                                <div class="text-center"> <a href="javascript:;" data-toggle="modal" data-target="#overlapping-modal-preview" class="button inline-block bg-theme-1 text-white">Show Modal</a> </div>
+                                <div class="modal" id="overlapping-modal-preview">
+                                    <div class="modal__content px-5 py-10">
+                                        <div class="text-center">
+                                            <div class="mb-3">Click button bellow to show overlapping modal!</div>
+                                            <a href="javascript:;" data-toggle="modal" data-target="#next-overlapping-modal-preview" class="button inline-block bg-theme-1 text-white">Show overlapping modal</a> 
+                                        </div>
+                                        <div class="modal" id="next-overlapping-modal-preview">
+                                            <div class="modal__content p-10 text-center">
+                                                <div class="mb-2">This is totally awesome overlapping modal!</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="source-code hidden">
+                                <button data-target="#copy-overlapping-modal" class="copy-code button button--sm border flex items-center text-gray-700"> <i data-feather="file" class="w-4 h-4 mr-2"></i> Copy code </button>
+                                <div class="overflow-y-auto h-64 mt-3">
+                                    <pre class="source-preview" id="copy-overlapping-modal"> <code class="text-xs p-0 rounded-md html pl-5 pt-8 pb-4 -mb-10 -mt-10"> HTMLOpenTagdiv class=&quot;text-center&quot;HTMLCloseTag HTMLOpenTaga href=&quot;javascript:;&quot; data-toggle=&quot;modal&quot; data-target=&quot;#overlapping-modal-preview&quot; class=&quot;button inline-block bg-theme-1 text-white&quot;HTMLCloseTagShow ModalHTMLOpenTag/aHTMLCloseTag HTMLOpenTag/divHTMLCloseTag HTMLOpenTagdiv class=&quot;modal&quot; id=&quot;overlapping-modal-preview&quot;HTMLCloseTag HTMLOpenTagdiv class=&quot;modal__content px-5 py-10&quot;HTMLCloseTag HTMLOpenTagdiv class=&quot;text-center&quot;HTMLCloseTag HTMLOpenTagdiv class=&quot;mb-3&quot;HTMLCloseTagClick button bellow to show overlapping modal!HTMLOpenTag/divHTMLCloseTag HTMLOpenTaga href=&quot;javascript:;&quot; data-toggle=&quot;modal&quot; data-target=&quot;#next-overlapping-modal-preview&quot; class=&quot;button inline-block bg-theme-1 text-white&quot;HTMLCloseTagShow overlapping modalHTMLOpenTag/aHTMLCloseTag HTMLOpenTag/divHTMLCloseTag HTMLOpenTagdiv class=&quot;modal&quot; id=&quot;next-overlapping-modal-preview&quot;HTMLCloseTag HTMLOpenTagdiv class=&quot;modal__content p-10 text-center&quot;HTMLCloseTag HTMLOpenTagdiv class=&quot;mb-2&quot;HTMLCloseTagThis is totally awesome overlapping modal!HTMLOpenTag/divHTMLCloseTag HTMLOpenTag/divHTMLCloseTag HTMLOpenTag/divHTMLCloseTag HTMLOpenTag/divHTMLCloseTag HTMLOpenTag/divHTMLCloseTag </code> </pre>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END: Overlapping Modal -->
+                    <!-- BEGIN: Header & Footer Modal -->
+                    <div class="intro-y box mt-5">
+                        <div class="flex flex-col sm:flex-row items-center p-5 border-b border-gray-200">
+                            <h2 class="font-medium text-base mr-auto">
+                                Header & Footer Modal
+                            </h2>
+                            <div class="w-full sm:w-auto flex items-center sm:ml-auto mt-3 sm:mt-0">
+                                <div class="mr-3">Show code</div>
+                                <input data-target="#header-footer-modal" class="show-code input input--switch border" type="checkbox">
+                            </div>
+                        </div>
+                        <div class="p-5" id="header-footer-modal">
+                            <div class="preview">
+                                <div class="text-center"> <a href="javascript:;" data-toggle="modal" data-target="#header-footer-modal-preview" class="button inline-block bg-theme-1 text-white">Show Modal</a> </div>
+                                <div class="modal" id="header-footer-modal-preview">
+                                    <div class="modal__content">
+                                        <div class="flex items-center px-5 py-5 sm:py-3 border-b border-gray-200">
+                                            <h2 class="font-medium text-base mr-auto">
+                                                Broadcast Message
+                                            </h2>
+                                            <button class="button border items-center text-gray-700 hidden sm:flex"> <i data-feather="file" class="w-4 h-4 mr-2"></i> Download Docs </button>
+                                            <div class="dropdown relative sm:hidden">
+                                                <a class="dropdown-toggle w-5 h-5 block" href="javascript:;"> <i data-feather="more-horizontal" class="w-5 h-5 text-gray-700"></i> </a>
+                                                <div class="dropdown-box mt-5 absolute w-40 top-0 right-0 z-20">
+                                                    <div class="dropdown-box__content box p-2">
+                                                        <a href="javascript:;" class="flex items-center p-2 transition duration-300 ease-in-out bg-white hover:bg-gray-200 rounded-md"> <i data-feather="file" class="w-4 h-4 mr-2"></i> Download Docs </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="p-5 grid grid-cols-12 gap-4 row-gap-3">
+                                            <div class="col-span-12 sm:col-span-6">
+                                                <label>From</label>
+                                                <input type="text" class="input w-full border mt-2 flex-1" placeholder="example@gmail.com">
+                                            </div>
+                                            <div class="col-span-12 sm:col-span-6">
+                                                <label>To</label>
+                                                <input type="text" class="input w-full border mt-2 flex-1" placeholder="example@gmail.com">
+                                            </div>
+                                            <div class="col-span-12 sm:col-span-6">
+                                                <label>Subject</label>
+                                                <input type="text" class="input w-full border mt-2 flex-1" placeholder="Important Meeting">
+                                            </div>
+                                            <div class="col-span-12 sm:col-span-6">
+                                                <label>Has the Words</label>
+                                                <input type="text" class="input w-full border mt-2 flex-1" placeholder="Job, Work, Documentation">
+                                            </div>
+                                            <div class="col-span-12 sm:col-span-6">
+                                                <label>Doesn't Have</label>
+                                                <input type="text" class="input w-full border mt-2 flex-1" placeholder="Job, Work, Documentation">
+                                            </div>
+                                            <div class="col-span-12 sm:col-span-6">
+                                                <label>Size</label>
+                                                <select class="input w-full border mt-2 flex-1">
+                                                    <option>10</option>
+                                                    <option>25</option>
+                                                    <option>35</option>
+                                                    <option>50</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="px-5 py-3 text-right border-t border-gray-200">
+                                            <button type="button" data-dismiss="modal" class="button w-20 border text-gray-700 mr-1">Cancel</button>
+                                            <button type="button" class="button w-20 bg-theme-1 text-white">Send</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="source-code hidden">
+                                <button data-target="#copy-header-footer-modal" class="copy-code button button--sm border flex items-center text-gray-700"> <i data-feather="file" class="w-4 h-4 mr-2"></i> Copy code </button>
+                                <div class="overflow-y-auto h-64 mt-3">
+                                    <pre class="source-preview" id="copy-header-footer-modal"> <code class="text-xs p-0 rounded-md html pl-5 pt-8 pb-4 -mb-10 -mt-10"> HTMLOpenTagdiv class=&quot;text-center&quot;HTMLCloseTag HTMLOpenTaga href=&quot;javascript:;&quot; data-toggle=&quot;modal&quot; data-target=&quot;#header-footer-modal-preview&quot; class=&quot;button inline-block bg-theme-1 text-white&quot;HTMLCloseTagShow ModalHTMLOpenTag/aHTMLCloseTag HTMLOpenTag/divHTMLCloseTag HTMLOpenTagdiv class=&quot;modal&quot; id=&quot;header-footer-modal-preview&quot;HTMLCloseTag HTMLOpenTagdiv class=&quot;modal__content&quot;HTMLCloseTag HTMLOpenTagdiv class=&quot;flex items-center px-5 py-5 sm:py-3 border-b border-gray-200&quot;HTMLCloseTag HTMLOpenTagh2 class=&quot;font-medium text-base mr-auto&quot;HTMLCloseTagBroadcast MessageHTMLOpenTag/h2HTMLCloseTag HTMLOpenTagbutton class=&quot;button border items-center text-gray-700 hidden sm:flex&quot;HTMLCloseTag HTMLOpenTagi data-feather=&quot;file&quot; class=&quot;w-4 h-4 mr-2&quot;HTMLCloseTagHTMLOpenTag/iHTMLCloseTag Download Docs HTMLOpenTag/buttonHTMLCloseTag HTMLOpenTagdiv class=&quot;dropdown relative sm:hidden&quot;HTMLCloseTag HTMLOpenTaga class=&quot;dropdown-toggle w-5 h-5 block&quot; href=&quot;javascript:;&quot;HTMLCloseTag HTMLOpenTagi data-feather=&quot;more-horizontal&quot; class=&quot;w-5 h-5 text-gray-700&quot;HTMLCloseTagHTMLOpenTag/iHTMLCloseTag HTMLOpenTag/aHTMLCloseTag HTMLOpenTagdiv class=&quot;dropdown-box mt-5 absolute w-40 top-0 right-0 z-20&quot;HTMLCloseTag HTMLOpenTagdiv class=&quot;dropdown-box__content box p-2&quot;HTMLCloseTag HTMLOpenTaga href=&quot;javascript:;&quot; class=&quot;flex items-center p-2 transition duration-300 ease-in-out bg-white hover:bg-gray-200 rounded-md&quot;HTMLCloseTag HTMLOpenTagi data-feather=&quot;file&quot; class=&quot;w-4 h-4 mr-2&quot;HTMLCloseTagHTMLOpenTag/iHTMLCloseTag Download Docs HTMLOpenTag/aHTMLCloseTag HTMLOpenTag/divHTMLCloseTag HTMLOpenTag/divHTMLCloseTag HTMLOpenTag/divHTMLCloseTag HTMLOpenTag/divHTMLCloseTag HTMLOpenTagdiv class=&quot;p-5 grid grid-cols-12 gap-4 row-gap-3&quot;HTMLCloseTag HTMLOpenTagdiv class=&quot;col-span-12 sm:col-span-6&quot;HTMLCloseTag HTMLOpenTaglabelHTMLCloseTagFromHTMLOpenTag/labelHTMLCloseTag HTMLOpenTaginput type=&quot;text&quot; class=&quot;input w-full border mt-2 flex-1&quot; placeholder=&quot;example@gmail.com&quot;HTMLCloseTag HTMLOpenTag/divHTMLCloseTag HTMLOpenTagdiv class=&quot;col-span-12 sm:col-span-6&quot;HTMLCloseTag HTMLOpenTaglabelHTMLCloseTagToHTMLOpenTag/labelHTMLCloseTag HTMLOpenTaginput type=&quot;text&quot; class=&quot;input w-full border mt-2 flex-1&quot; placeholder=&quot;example@gmail.com&quot;HTMLCloseTag HTMLOpenTag/divHTMLCloseTag HTMLOpenTagdiv class=&quot;col-span-12 sm:col-span-6&quot;HTMLCloseTag HTMLOpenTaglabelHTMLCloseTagSubjectHTMLOpenTag/labelHTMLCloseTag HTMLOpenTaginput type=&quot;text&quot; class=&quot;input w-full border mt-2 flex-1&quot; placeholder=&quot;Important Meeting&quot;HTMLCloseTag HTMLOpenTag/divHTMLCloseTag HTMLOpenTagdiv class=&quot;col-span-12 sm:col-span-6&quot;HTMLCloseTag HTMLOpenTaglabelHTMLCloseTagHas the WordsHTMLOpenTag/labelHTMLCloseTag HTMLOpenTaginput type=&quot;text&quot; class=&quot;input w-full border mt-2 flex-1&quot; placeholder=&quot;Job, Work, Documentation&quot;HTMLCloseTag HTMLOpenTag/divHTMLCloseTag HTMLOpenTagdiv class=&quot;col-span-12 sm:col-span-6&quot;HTMLCloseTag HTMLOpenTaglabelHTMLCloseTagDoesn&#039;t HaveHTMLOpenTag/labelHTMLCloseTag HTMLOpenTaginput type=&quot;text&quot; class=&quot;input w-full border mt-2 flex-1&quot; placeholder=&quot;Job, Work, Documentation&quot;HTMLCloseTag HTMLOpenTag/divHTMLCloseTag HTMLOpenTagdiv class=&quot;col-span-12 sm:col-span-6&quot;HTMLCloseTag HTMLOpenTaglabelHTMLCloseTagSizeHTMLOpenTag/labelHTMLCloseTag HTMLOpenTagselect class=&quot;input w-full border mt-2 flex-1&quot;HTMLCloseTag HTMLOpenTagoptionHTMLCloseTag10HTMLOpenTag/optionHTMLCloseTag HTMLOpenTagoptionHTMLCloseTag25HTMLOpenTag/optionHTMLCloseTag HTMLOpenTagoptionHTMLCloseTag35HTMLOpenTag/optionHTMLCloseTag HTMLOpenTagoptionHTMLCloseTag50HTMLOpenTag/optionHTMLCloseTag HTMLOpenTag/selectHTMLCloseTag HTMLOpenTag/divHTMLCloseTag HTMLOpenTag/divHTMLCloseTag HTMLOpenTagdiv class=&quot;px-5 py-3 text-right border-t border-gray-200&quot;HTMLCloseTag HTMLOpenTagbutton type=&quot;button&quot; class=&quot;button w-20 border text-gray-700 mr-1&quot;HTMLCloseTagCancelHTMLOpenTag/buttonHTMLCloseTag HTMLOpenTagbutton type=&quot;button&quot; class=&quot;button w-20 bg-theme-1 text-white&quot;HTMLCloseTagSendHTMLOpenTag/buttonHTMLCloseTag HTMLOpenTag/divHTMLCloseTag HTMLOpenTag/divHTMLCloseTag HTMLOpenTag/divHTMLCloseTag </code> </pre>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END: Header & Footer Modal -->
+                    <!-- BEGIN: Delete Modal -->
+                    <div class="intro-y box mt-5">
+                        <div class="flex flex-col sm:flex-row items-center p-5 border-b border-gray-200">
+                            <h2 class="font-medium text-base mr-auto">
+                                Delete Modal
+                            </h2>
+                            <div class="w-full sm:w-auto flex items-center sm:ml-auto mt-3 sm:mt-0">
+                                <div class="mr-3">Show code</div>
+                                <input data-target="#delete-modal" class="show-code input input--switch border" type="checkbox">
+                            </div>
+                        </div>
+                        <div class="p-5" id="delete-modal">
+                            <div class="preview">
+                                <div class="text-center"> <a href="javascript:;" data-toggle="modal" data-target="#delete-modal-preview" class="button inline-block bg-theme-1 text-white">Show Modal</a> </div>
+                                <div class="modal" id="delete-modal-preview">
+                                    <div class="modal__content">
+                                        <div class="p-5 text-center">
+                                            <i data-feather="x-circle" class="w-16 h-16 text-theme-6 mx-auto mt-3"></i> 
+                                            <div class="text-3xl mt-5">Are you sure?</div>
+                                            <div class="text-gray-600 mt-2">Do you really want to delete these records? This process cannot be undone.</div>
+                                        </div>
+                                        <div class="px-5 pb-8 text-center">
+                                            <button type="button" data-dismiss="modal" class="button w-24 border text-gray-700 mr-1">Cancel</button>
+                                            <button type="button" class="button w-24 bg-theme-6 text-white">Delete</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="source-code hidden">
+                                <button data-target="#copy-delete-modal" class="copy-code button button--sm border flex items-center text-gray-700"> <i data-feather="file" class="w-4 h-4 mr-2"></i> Copy code </button>
+                                <div class="overflow-y-auto h-64 mt-3">
+                                    <pre class="source-preview" id="copy-delete-modal"> <code class="text-xs p-0 rounded-md html pl-5 pt-8 pb-4 -mb-10 -mt-10"> HTMLOpenTagdiv class=&quot;text-center&quot;HTMLCloseTag HTMLOpenTaga href=&quot;javascript:;&quot; data-toggle=&quot;modal&quot; data-target=&quot;#delete-modal-preview&quot; class=&quot;button inline-block bg-theme-1 text-white&quot;HTMLCloseTagShow ModalHTMLOpenTag/aHTMLCloseTag HTMLOpenTag/divHTMLCloseTag HTMLOpenTagdiv class=&quot;modal&quot; id=&quot;delete-modal-preview&quot;HTMLCloseTag HTMLOpenTagdiv class=&quot;modal__content&quot;HTMLCloseTag HTMLOpenTagdiv class=&quot;p-5 text-center&quot;HTMLCloseTag HTMLOpenTagi data-feather=&quot;x-circle&quot; class=&quot;w-16 h-16 text-theme-6 mx-auto mt-3&quot;HTMLCloseTagHTMLOpenTag/iHTMLCloseTag HTMLOpenTagdiv class=&quot;text-3xl mt-5&quot;HTMLCloseTagAre you sure?HTMLOpenTag/divHTMLCloseTag HTMLOpenTagdiv class=&quot;text-gray-600 mt-2&quot;HTMLCloseTagDo you really want to delete these records? This process cannot be undone.HTMLOpenTag/divHTMLCloseTag HTMLOpenTag/divHTMLCloseTag HTMLOpenTagdiv class=&quot;px-5 pb-8 text-center&quot;HTMLCloseTag HTMLOpenTagbutton type=&quot;button&quot; data-dismiss=&quot;modal&quot; class=&quot;button w-24 border text-gray-700 mr-1&quot;HTMLCloseTagCancelHTMLOpenTag/buttonHTMLCloseTag HTMLOpenTagbutton type=&quot;button&quot; class=&quot;button w-24 bg-theme-6 text-white&quot;HTMLCloseTagDeleteHTMLOpenTag/buttonHTMLCloseTag HTMLOpenTag/divHTMLCloseTag HTMLOpenTag/divHTMLCloseTag HTMLOpenTag/divHTMLCloseTag </code> </pre>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END: Delete Modal -->
+                    <!-- BEGIN: Success Modal -->
+                    <div class="intro-y box mt-5">
+                        <div class="flex flex-col sm:flex-row items-center p-5 border-b border-gray-200">
+                            <h2 class="font-medium text-base mr-auto">
+                                Success Modal
+                            </h2>
+                            <div class="w-full sm:w-auto flex items-center sm:ml-auto mt-3 sm:mt-0">
+                                <div class="mr-3">Show code</div>
+                                <input data-target="#success-modal" class="show-code input input--switch border" type="checkbox">
+                            </div>
+                        </div>
+                        <div class="p-5" id="success-modal">
+                            <div class="preview">
+                                <div class="text-center"> <a href="javascript:;" data-toggle="modal" data-target="#success-modal-preview" class="button inline-block bg-theme-1 text-white">Show Modal</a> </div>
+                                <div class="modal" id="success-modal-preview">
+                                    <div class="modal__content">
+                                        <div class="p-5 text-center">
+                                            <i data-feather="check-circle" class="w-16 h-16 text-theme-9 mx-auto mt-3"></i> 
+                                            <div class="text-3xl mt-5">Good job!</div>
+                                            <div class="text-gray-600 mt-2">You clicked the button!</div>
+                                        </div>
+                                        <div class="px-5 pb-8 text-center">
+                                            <button type="button" data-dismiss="modal" class="button w-24 bg-theme-1 text-white">Ok</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="source-code hidden">
+                                <button data-target="#copy-success-modal" class="copy-code button button--sm border flex items-center text-gray-700"> <i data-feather="file" class="w-4 h-4 mr-2"></i> Copy code </button>
+                                <div class="overflow-y-auto h-64 mt-3">
+                                    <pre class="source-preview" id="copy-success-modal"> <code class="text-xs p-0 rounded-md html pl-5 pt-8 pb-4 -mb-10 -mt-10"> HTMLOpenTagdiv class=&quot;text-center&quot;HTMLCloseTag HTMLOpenTaga href=&quot;javascript:;&quot; data-toggle=&quot;modal&quot; data-target=&quot;#success-modal-preview&quot; class=&quot;button inline-block bg-theme-1 text-white&quot;HTMLCloseTagShow ModalHTMLOpenTag/aHTMLCloseTag HTMLOpenTag/divHTMLCloseTag HTMLOpenTagdiv class=&quot;modal&quot; id=&quot;success-modal-preview&quot;HTMLCloseTag HTMLOpenTagdiv class=&quot;modal__content&quot;HTMLCloseTag HTMLOpenTagdiv class=&quot;p-5 text-center&quot;HTMLCloseTag HTMLOpenTagi data-feather=&quot;check-circle&quot; class=&quot;w-16 h-16 text-theme-9 mx-auto mt-3&quot;HTMLCloseTagHTMLOpenTag/iHTMLCloseTag HTMLOpenTagdiv class=&quot;text-3xl mt-5&quot;HTMLCloseTagGood job!HTMLOpenTag/divHTMLCloseTag HTMLOpenTagdiv class=&quot;text-gray-600 mt-2&quot;HTMLCloseTagYou clicked the button!HTMLOpenTag/divHTMLCloseTag HTMLOpenTag/divHTMLCloseTag HTMLOpenTagdiv class=&quot;px-5 pb-8 text-center&quot;HTMLCloseTag HTMLOpenTagbutton type=&quot;button&quot; data-dismiss=&quot;modal&quot; class=&quot;button w-24 bg-theme-1 text-white&quot;HTMLCloseTagOkHTMLOpenTag/buttonHTMLCloseTag HTMLOpenTag/divHTMLCloseTag HTMLOpenTag/divHTMLCloseTag HTMLOpenTag/divHTMLCloseTag </code> </pre>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END: Success Modal -->
+                    <!-- BEGIN: Slick Modal -->
+                    <div class="intro-y box mt-5">
+                        <div class="flex flex-col sm:flex-row items-center p-5 border-b border-gray-200">
+                            <h2 class="font-medium text-base mr-auto">
+                                Slick Modal
+                            </h2>
+                            <div class="w-full sm:w-auto flex items-center sm:ml-auto mt-3 sm:mt-0">
+                                <div class="mr-3">Show code</div>
+                                <input data-target="#slick-modal" class="show-code input input--switch border" type="checkbox">
+                            </div>
+                        </div>
+                        <div class="p-5" id="slick-modal">
+                            <div class="preview">
+                                <div class="text-center"> <a href="javascript:;" data-toggle="modal" data-target="#slick-modal-preview" class="button inline-block bg-theme-1 text-white">Show Modal</a> </div>
+                                <div class="modal" id="slick-modal-preview">
+                                    <div class="modal__content">
+                                        <div class="p-5">
+                                            <div class="slider mx-6 center-mode">
+                                                <div class="h-56 px-2">
+                                                    <div class="h-full image-fit rounded-md overflow-hidden">
+                                                        <img alt="Midone Tailwind HTML Admin Template" src="dist/images/preview-6.jpg" />
+                                                    </div>
+                                                </div>
+                                                <div class="h-56 px-2">
+                                                    <div class="h-full image-fit rounded-md overflow-hidden">
+                                                        <img alt="Midone Tailwind HTML Admin Template" src="dist/images/preview-9.jpg" />
+                                                    </div>
+                                                </div>
+                                                <div class="h-56 px-2">
+                                                    <div class="h-full image-fit rounded-md overflow-hidden">
+                                                        <img alt="Midone Tailwind HTML Admin Template" src="dist/images/preview-15.jpg" />
+                                                    </div>
+                                                </div>
+                                                <div class="h-56 px-2">
+                                                    <div class="h-full image-fit rounded-md overflow-hidden">
+                                                        <img alt="Midone Tailwind HTML Admin Template" src="dist/images/preview-11.jpg" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="source-code hidden">
+                                <button data-target="#copy-slick-modal" class="copy-code button button--sm border flex items-center text-gray-700"> <i data-feather="file" class="w-4 h-4 mr-2"></i> Copy code </button>
+                                <div class="overflow-y-auto h-64 mt-3">
+                                    <pre class="source-preview" id="copy-slick-modal"> <code class="text-xs p-0 rounded-md html pl-5 pt-8 pb-4 -mb-10 -mt-10"> HTMLOpenTagdiv class=&quot;text-center&quot;HTMLCloseTag HTMLOpenTaga href=&quot;javascript:;&quot; data-toggle=&quot;modal&quot; data-target=&quot;#slick-modal-preview&quot; class=&quot;button inline-block bg-theme-1 text-white&quot;HTMLCloseTagShow ModalHTMLOpenTag/aHTMLCloseTag HTMLOpenTag/divHTMLCloseTag HTMLOpenTagdiv class=&quot;modal&quot; id=&quot;slick-modal-preview&quot;HTMLCloseTag HTMLOpenTagdiv class=&quot;modal__content&quot;HTMLCloseTag HTMLOpenTagdiv class=&quot;p-5&quot;HTMLCloseTag HTMLOpenTagdiv class=&quot;slider mx-6 center-mode&quot;HTMLCloseTag HTMLOpenTagdiv class=&quot;h-56 px-2&quot;HTMLCloseTag HTMLOpenTagdiv class=&quot;h-full image-fit rounded-md overflow-hidden&quot;HTMLCloseTag HTMLOpenTagimg alt=&quot;Midone Tailwind HTML Admin Template&quot; src=&quot;dist/images/preview-6.jpg&quot; /HTMLCloseTag HTMLOpenTag/divHTMLCloseTag HTMLOpenTag/divHTMLCloseTag HTMLOpenTagdiv class=&quot;h-56 px-2&quot;HTMLCloseTag HTMLOpenTagdiv class=&quot;h-full image-fit rounded-md overflow-hidden&quot;HTMLCloseTag HTMLOpenTagimg alt=&quot;Midone Tailwind HTML Admin Template&quot; src=&quot;dist/images/preview-9.jpg&quot; /HTMLCloseTag HTMLOpenTag/divHTMLCloseTag HTMLOpenTag/divHTMLCloseTag HTMLOpenTagdiv class=&quot;h-56 px-2&quot;HTMLCloseTag HTMLOpenTagdiv class=&quot;h-full image-fit rounded-md overflow-hidden&quot;HTMLCloseTag HTMLOpenTagimg alt=&quot;Midone Tailwind HTML Admin Template&quot; src=&quot;dist/images/preview-15.jpg&quot; /HTMLCloseTag HTMLOpenTag/divHTMLCloseTag HTMLOpenTag/divHTMLCloseTag HTMLOpenTagdiv class=&quot;h-56 px-2&quot;HTMLCloseTag HTMLOpenTagdiv class=&quot;h-full image-fit rounded-md overflow-hidden&quot;HTMLCloseTag HTMLOpenTagimg alt=&quot;Midone Tailwind HTML Admin Template&quot; src=&quot;dist/images/preview-11.jpg&quot; /HTMLCloseTag HTMLOpenTag/divHTMLCloseTag HTMLOpenTag/divHTMLCloseTag HTMLOpenTag/divHTMLCloseTag HTMLOpenTag/divHTMLCloseTag HTMLOpenTag/divHTMLCloseTag HTMLOpenTag/divHTMLCloseTag </code> </pre>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END: Slick Modal -->
+                </div>
+            </div>
+        </div>
+        <!-- END: Content -->
+        <!-- BEGIN: JS Assets-->
+        <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=["your-google-map-api"]&libraries=places"></script>
+        <script src="dist/js/app.js"></script>
+        <!-- END: JS Assets-->
+    </body>
+</html>
